@@ -20,5 +20,4 @@ public class BikeOutDto {
     private LocalDate releaseDate;
     private LocalDate registrationDate;
     private long userId;
-    private String userEmail;
 }

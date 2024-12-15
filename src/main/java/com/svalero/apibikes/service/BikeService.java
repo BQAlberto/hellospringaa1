@@ -4,6 +4,7 @@ import com.svalero.apibikes.domain.Bike;
 import com.svalero.apibikes.domain.User;
 import com.svalero.apibikes.domain.dto.BikeInDto;
 import com.svalero.apibikes.domain.dto.BikeOutDto;
+import com.svalero.apibikes.domain.dto.BikeRegistrationDto;
 import com.svalero.apibikes.exception.BikeNotFoundException;
 import com.svalero.apibikes.exception.UserNotFoundException;
 import com.svalero.apibikes.repository.BikeRepository;
@@ -48,7 +49,7 @@ public class BikeService {
                 .orElseThrow(BikeNotFoundException::new);
     }
 
-    public BikeOutDto add(long userId, BikeInDto bikeInDto) throws UserNotFoundException {
+    public BikeOutDto add(long userId, BikeRegistrationDto bikeInDto) throws UserNotFoundException {
         User user = userRepository.findById(userId)
                 .orElseThrow(UserNotFoundException::new);
 

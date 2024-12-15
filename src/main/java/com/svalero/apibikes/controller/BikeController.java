@@ -3,6 +3,7 @@ package com.svalero.apibikes.controller;
 import com.svalero.apibikes.domain.Bike;
 import com.svalero.apibikes.domain.dto.BikeInDto;
 import com.svalero.apibikes.domain.dto.BikeOutDto;
+import com.svalero.apibikes.domain.dto.BikeRegistrationDto;
 import com.svalero.apibikes.domain.dto.ErrorResponse;
 import com.svalero.apibikes.exception.BikeNotFoundException;
 import com.svalero.apibikes.exception.UserNotFoundException;
@@ -32,26 +33,26 @@ public class BikeController {
         return new ResponseEntity<>(bikeService.getAll(brand, model), HttpStatus.OK);
     }
 
-    @GetMapping("/bikes/:bikeId")
-    public ResponseEntity<Bike> getBike(long bikeId) throws BikeNotFoundException {
+    @GetMapping("/bikes/{bikeId}")
+    public ResponseEntity<Bike> getBike(@PathVariable long bikeId) throws BikeNotFoundException {
         Bike bike = bikeService.get(bikeId);
         return new ResponseEntity<>(bike, HttpStatus.OK);
     }
 
-    @PostMapping("/users/:userId/bikes")
-    public ResponseEntity<BikeOutDto> addBike(long userId, @Valid @RequestBody BikeInDto bike) throws UserNotFoundException {
+    @PostMapping("/users/{userId}/bikes")
+    public ResponseEntity<BikeOutDto> addBike(@PathVariable long userId, @Valid @RequestBody BikeRegistrationDto bike) throws UserNotFoundException {
         BikeOutDto newBike = bikeService.add(userId, bike);
         return new ResponseEntity<>(newBike, HttpStatus.CREATED);
     }
 
-    @PutMapping("/bikes/:bikeId")
-    public ResponseEntity<BikeOutDto>modifyBike(long bikeId, @Valid @RequestBody BikeInDto bike) throws BikeNotFoundException {
+    @PutMapping("/bikes/{bikeId}")
+    public ResponseEntity<BikeOutDto>modifyBike(@PathVariable long bikeId, @Valid @RequestBody BikeInDto bike) throws BikeNotFoundException {
         BikeOutDto modifiedBike = bikeService.modify(bikeId, bike);
         return new ResponseEntity<>(modifiedBike, HttpStatus.OK);
     }
 
-    @DeleteMapping("/bikes/:bikeId")
-    public ResponseEntity<Void> removeBike(long bikeId) throws BikeNotFoundException{
+    @DeleteMapping("/bikes/{bikeId}")
+    public ResponseEntity<Void> removeBike(@PathVariable long bikeId) throws BikeNotFoundException{
         bikeService.remove(bikeId);
         return ResponseEntity.noContent().build();
     }
