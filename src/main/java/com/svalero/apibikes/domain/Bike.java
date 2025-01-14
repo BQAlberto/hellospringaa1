@@ -4,13 +4,15 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.annotations.ColumnDefault;
 
 import java.time.LocalDate;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity(name="bikes")
+@Entity(name="Bike")
+@Table(name = "bikes")
 public class Bike {
 
     @Id
@@ -26,6 +28,10 @@ public class Bike {
     private LocalDate registrationDate;
     @Column
     private String color;
+    @ColumnDefault("0")
+    private double latitude;
+    @ColumnDefault("0")
+    private double longitude;
 
     @ManyToOne
     @JoinColumn(name="user_id")

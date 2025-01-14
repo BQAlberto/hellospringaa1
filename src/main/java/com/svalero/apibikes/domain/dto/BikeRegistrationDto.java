@@ -18,5 +18,6 @@ public class BikeRegistrationDto {
     private String model;
     private LocalDate releaseDate;
     private String color;
-
+    private double latitude;
+    private double longitude;
 }

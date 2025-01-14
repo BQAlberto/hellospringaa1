@@ -17,7 +17,7 @@ public class BikeOutDto {
     private long id;
     private String brand;
     private String model;
-    private LocalDate releaseDate;
-    private LocalDate registrationDate;
     private long userId;
+    private double latitude;
+    private double longitude;
 }
