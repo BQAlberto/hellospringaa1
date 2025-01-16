@@ -8,6 +8,12 @@ tags:
     description: Operaciones con bicis
   - name: users
     description: Operaciones con usuarios
+  - name: workshops
+    description: Operaciones con talleres
+  - name: mechanics
+    description: Operaciones con mecánicos
+  - name: repair-orders
+    description: Operaciones con órdenes de reparación
 servers:
   - url: 'https://apibikes.com'
 paths:
@@ -224,6 +230,368 @@ paths:
           $ref: '#/components/responses/BadRequest'
         '500':
           $ref: '#/components/responses/InternalServerError'
+  /users/{userId}:
+    get:
+      tags:
+        - users
+      summary: Detalle de un usuario
+      description: Devuelve los detalles de un usuario específico.
+      parameters:
+        - name: userId
+          in: path
+          description: Identificador de usuario
+          required: true
+          schema:
+            type: number
+            format: int64
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UserOutDto'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+    delete:
+      tags:
+        - users
+      summary: Elimina un usuario
+      description: Da de baja un usuario cuyo id se para como parametro.
+      parameters:
+        - name: userId
+          in: path
+          description: Identificador de usuario
+          required: true
+          schema:
+            type: number
+            format: int64
+      responses:
+        '204':
+          description: No content
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+    put:
+      tags:
+        - users
+      summary: Modifica un usuario
+      description: Permite modificar detalles de un usuario
+      parameters:
+        - name: userId
+          in: path
+          description: Identificador de usuario
+          required: true
+          schema:
+            type: number
+            format: int64
+      requestBody:
+        description: Nuevos detalles del usuario
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserInDto'
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UserOutDto'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+  /workshops:
+    get:
+      tags:
+        - workshops
+      summary: Lista todos los talleres.
+      parameters:
+        - name: name
+          in: query
+          description: Filtro por nombre de taller
+          required: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/WorkShopOutDto'
+    post:
+      tags:
+        - workshops
+      summary: Añade un nuevo taller.
+      requestBody:
+        description: Datos del nuevo taller
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/WorkShopInDto'
+      responses:
+        '201':
+          description: Taller creado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/WorkShopOutDto'
+  /workshops/{workShopId}:
+    get:
+      tags:
+        - workshops
+      summary: Detalle de un taller.
+      parameters:
+        - name: workShopId
+          in: path
+          description: ID del taller
+          required: true
+          schema:
+            type: integer
+            format: int64
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/WorkShop'
+        '404':
+          $ref: '#/components/responses/NotFound'
+    put:
+      tags:
+        - workshops
+      summary: Modifica un taller.
+      parameters:
+        - name: workShopId
+          in: path
+          required: true
+          schema:
+            type: integer
+            format: int64
+      requestBody:
+        description: Datos actualizados del taller
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/WorkShopInDto'
+      responses:
+        '200':
+          description: Taller actualizado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/WorkShopOutDto'
+    delete:
+      tags:
+        - workshops
+      summary: Elimina un taller.
+      parameters:
+        - name: workShopId
+          in: path
+          required: true
+          schema:
+            type: integer
+            format: int64
+      responses:
+        '204':
+          description: Taller eliminado
+  /mechanics:
+    get:
+      tags:
+        - mechanics
+      summary: Lista todos los mecánicos.
+      parameters:
+        - name: name
+          in: query
+          description: Filtro por nombre
+          required: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/MechanicOutDto'
+    post:
+      tags:
+        - mechanics
+      summary: Añade un nuevo mecánico.
+      requestBody:
+        description: Datos del nuevo mecánico
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/MechanicInDto'
+      responses:
+        '201':
+          description: Mecánico creado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MechanicOutDto'
+  /mechanics/{mechanicId}:
+    get:
+      tags:
+        - mechanics
+      summary: Detalle de un mecánico.
+      parameters:
+        - name: mechanicId
+          in: path
+          required: true
+          schema:
+            type: integer
+            format: int64
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Mechanic'
+        '404':
+          $ref: '#/components/responses/NotFound'
+    put:
+      tags:
+        - mechanics
+      summary: Modifica un mecánico.
+      parameters:
+        - name: mechanicId
+          in: path
+          required: true
+          schema:
+            type: integer
+            format: int64
+      requestBody:
+        description: Datos actualizados del mecánico
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/MechanicInDto'
+      responses:
+        '200':
+          description: Mecánico actualizado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MechanicOutDto'
+    delete:
+      tags:
+        - mechanics
+      summary: Elimina un mecánico.
+      parameters:
+        - name: mechanicId
+          in: path
+          required: true
+          schema:
+            type: integer
+            format: int64
+      responses:
+        '204':
+          description: Mecánico eliminado
+  /repair-orders:
+    get:
+      tags:
+        - repair-orders
+      summary: Lista todas las órdenes de reparación.
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/RepairOrderOutDto'
+    post:
+      tags:
+        - repair-orders
+      summary: Añade una nueva orden de reparación.
+      requestBody:
+        description: Datos de la nueva orden
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RepairOrderInDto'
+      responses:
+        '201':
+          description: Orden creada
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RepairOrderOutDto'
+  /repair-orders/{repairOrderId}:
+    get:
+      tags:
+        - repair-orders
+      summary: Detalle de una orden de reparación.
+      parameters:
+        - name: repairOrderId
+          in: path
+          required: true
+          schema:
+            type: integer
+            format: int64
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RepairOrder'
+        '404':
+          $ref: '#/components/responses/NotFound'
+    put:
+      tags:
+        - repair-orders
+      summary: Modifica una orden de reparación.
+      parameters:
+        - name: repairOrderId
+          in: path
+          required: true
+          schema:
+            type: integer
+            format: int64
+      requestBody:
+        description: Datos actualizados de la orden
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RepairOrderInDto'
+      responses:
+        '200':
+          description: Orden actualizada
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RepairOrderOutDto'
+    delete:
+      tags:
+        - repair-orders
+      summary: Elimina una orden de reparación.
+      parameters:
+        - name: repairOrderId
+          in: path
+          required: true
+          schema:
+            type: integer
+            format: int64
+      responses:
+        '204':
+          description: Orden eliminada
 components:
   schemas:
     Bike:
@@ -305,6 +673,67 @@ components:
               format: int64
               description: Identificador del usuario
               example: 12
+    WorkShop:
+      type: object
+      properties:
+        name:
+          type: string
+          description: Nombre del taller
+        location:
+          type: string
+          description: Ubicación del taller
+      required:
+        - name
+        - location
+    WorkShopInDto:
+      allOf:
+        - $ref: '#/components/schemas/WorkShop'
+    WorkShopOutDto:
+      allOf:
+        - $ref: '#/components/schemas/WorkShop'
+        - type: object
+          properties:
+            id:
+              type: integer
+              description: Identificador del taller
+    Mechanic:
+      type: object
+      properties:
+        name:
+          type: string
+          description: Nombre del mecánico
+      required:
+        - name
+    MechanicInDto:
+      allOf:
+        - $ref: '#/components/schemas/Mechanic'
+    MechanicOutDto:
+      allOf:
+        - $ref: '#/components/schemas/Mechanic'
+        - type: object
+          properties:
+            id:
+              type: integer
+              description: Identificador del mecánico
+    RepairOrder:
+      type: object
+      properties:
+        description:
+          type: string
+          description: Descripción de la reparación
+      required:
+        - description
+    RepairOrderInDto:
+      allOf:
+        - $ref: '#/components/schemas/RepairOrder'
+    RepairOrderOutDto:
+      allOf:
+        - $ref: '#/components/schemas/RepairOrder'
+        - type: object
+          properties:
+            id:
+              type: integer
+              description: Identificador de la orden
     ErrorResponse:
       type: object
       properties:

@@ -10,9 +10,9 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity(name = "Mechanic")
-@Table(name = "mechanics")
-public class Mechanic {
+@Entity(name = "WorkShop")
+@Table(name = "workshops")
+public class WorkShop {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -20,17 +20,16 @@ public class Mechanic {
     @Column(nullable = false)
     private String name;
     @Column(nullable = false)
-    private String surname;
+    private String address;
     @Column
     private String phone;
     @Column
-    private String specialization;
-    @OneToMany(mappedBy = "mechanic")
+    private String email;
+    @OneToMany(mappedBy = "workShop")
     private List<RepairOrder> repairOrders;
 
     // Constructor adicional para aceptar solo el ID
-    public Mechanic(long id) {
+    public WorkShop(long id) {
         this.id = id;
     }
 }
-

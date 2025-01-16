@@ -36,4 +36,9 @@ public class Bike {
     @ManyToOne
     @JoinColumn(name="user_id")
     private User user;
+
+    // Constructor adicional para aceptar solo el ID
+    public Bike(long id) {
+        this.id = id;
+    }
 }
