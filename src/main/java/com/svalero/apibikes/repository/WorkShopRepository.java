@@ -11,7 +11,7 @@ import java.util.List;
 public interface WorkShopRepository extends CrudRepository<WorkShop, Long> {
 
     List<WorkShop> findAll();
-    List<WorkShop> findByName(String name);
+    List<WorkShop> findByNameContainingAndAddressContainingAndEmailContaining(String name, String address, String email);
 
     // Ejemplo JPQL
     @Query(value = "SELECT w FROM WorkShop w WHERE w.address LIKE %:address%")

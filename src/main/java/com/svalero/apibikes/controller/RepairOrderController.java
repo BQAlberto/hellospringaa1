@@ -29,11 +29,15 @@ public class RepairOrderController {
     private final Logger logger = LoggerFactory.getLogger(RepairOrderController.class);
 
     @GetMapping("/repair-orders")
-    public ResponseEntity<List<RepairOrderOutDto>> getAll() {
-        logger.info("BEGIN getAll");
-        List<RepairOrderOutDto> repairOrders = repairOrderService.getAll();
-        logger.info("END getAll");
-        return new ResponseEntity<>(repairOrders, HttpStatus.OK);
+    public List<RepairOrderOutDto> filterRepairOrders(
+            @RequestParam(required = false) Long bikeId,
+            @RequestParam(required = false) Long mechanicId,
+            @RequestParam(required = false) Long workShopId) {
+
+        logger.info("Filtrando órdenes de reparación con parámetros: bikeId={}, mechanicId={}, workShopId={}",
+                bikeId, mechanicId, workShopId);
+
+        return repairOrderService.filterRepairOrders(bikeId, mechanicId, workShopId);
     }
 
     @GetMapping("/repair-orders/{repairOrderId}")

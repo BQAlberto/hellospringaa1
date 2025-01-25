@@ -1,5 +1,6 @@
 package com.svalero.apibikes.service;
 
+import com.svalero.apibikes.domain.Bike;
 import com.svalero.apibikes.domain.User;
 import com.svalero.apibikes.domain.dto.*;
 import com.svalero.apibikes.exception.UserNotFoundException;
@@ -19,20 +20,13 @@ public class UserService {
     @Autowired
     private ModelMapper modelMapper;
 
-    public List<UserOutDto> getAll(String name, String surname) {
-        List<User> userList;
+    public List<UserOutDto> filterUsers(String name, String surname, String email) {
 
-        if (name.isEmpty() && surname.isEmpty()) {
-            userList = userRepository.findAll();
-        } else if (name.isEmpty()) {
-            userList = userRepository.findBySurname(surname);
-        } else if (surname.isEmpty()) {
-            userList = userRepository.findByName(name);
-        } else {
-            userList = userRepository.findByNameAndSurname(name, surname);
-        }
+        List<User> users = userRepository
+                .findByNameContainingAndSurnameContainingAndEmailContaining(
+                        name, surname, email);
 
-        return modelMapper.map(userList, new TypeToken<List<UserOutDto>>() {}.getType());
+        return modelMapper.map(users, new TypeToken<List<UserOutDto>>() {}.getType());
     }
 
     public User get(long id) throws UserNotFoundException {

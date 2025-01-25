@@ -1,0 +1,966 @@
+2025-01-22 01:17:10,508 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-6] BEGIN getAll
+2025-01-22 01:17:11,671 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-6] END getAll
+2025-01-22 04:59:56,831 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-9] BEGIN getAll
+2025-01-22 04:59:58,199 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-9] END getAll
+2025-01-22 05:01:09,724 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-1] BEGIN getAll
+2025-01-22 05:01:09,768 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-1] END getAll
+2025-01-22 05:11:54,657 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-2] BEGIN getAll
+2025-01-22 05:11:54,976 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-2] END getAll
+2025-01-22 12:18:03,612 INFO o.h.v.i.u.Version {<clinit>} [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2025-01-22 12:18:03,745 INFO o.s.b.StartupInfoLogger {logStarting} [main] Starting HellospringApplication using Java 21 with PID 9128 (C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring\target\classes started by 34618 in C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring)
+2025-01-22 12:18:03,751 INFO o.s.b.SpringApplication {logStartupProfileInfo} [main] No active profile set, falling back to 1 default profile: "default"
+2025-01-22 12:18:04,972 INFO o.s.d.r.c.RepositoryConfigurationDelegate {registerRepositoriesIn} [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-22 12:18:05,160 INFO o.s.d.r.c.RepositoryConfigurationDelegate {registerRepositoriesIn} [main] Finished Spring Data repository scanning in 145 ms. Found 5 JPA repository interfaces.
+2025-01-22 12:18:06,113 INFO o.s.b.w.e.t.TomcatWebServer {initialize} [main] Tomcat initialized with port 8080 (http)
+2025-01-22 12:18:06,129 INFO o.a.j.l.DirectJDKLog {log} [main] Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-22 12:18:06,144 INFO o.a.j.l.DirectJDKLog {log} [main] Starting service [Tomcat]
+2025-01-22 12:18:06,144 INFO o.a.j.l.DirectJDKLog {log} [main] Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-01-22 12:18:06,254 INFO o.a.j.l.DirectJDKLog {log} [main] Initializing Spring embedded WebApplicationContext
+2025-01-22 12:18:06,269 INFO o.s.b.w.s.c.ServletWebServerApplicationContext {prepareWebApplicationContext} [main] Root WebApplicationContext: initialization completed in 2400 ms
+2025-01-22 12:18:06,316 INFO c.z.h.HikariDataSource {getConnection} [main] HikariPool-1 - Starting...
+2025-01-22 12:18:07,035 INFO c.z.h.p.HikariPool {checkFailFast} [main] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:C:/Users/34618/bikes.db user=SA
+2025-01-22 12:18:07,035 INFO c.z.h.HikariDataSource {getConnection} [main] HikariPool-1 - Start completed.
+2025-01-22 12:18:07,051 INFO o.s.b.a.h.H2ConsoleAutoConfiguration {logDataSources} [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:C:/Users/34618/bikes.db'
+2025-01-22 12:18:07,289 INFO o.h.j.i.u.LogHelper {logPersistenceUnitInformation} [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-22 12:18:07,416 INFO o.h.Version {logVersion} [main] HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-01-22 12:18:07,494 INFO o.h.c.i.RegionFactoryInitiator {initiateService} [main] HHH000026: Second-level cache disabled
+2025-01-22 12:18:08,072 INFO o.s.o.j.p.SpringPersistenceUnitInfo {addTransformer} [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-22 12:18:08,165 WARN o.h.e.j.d.i.DialectFactoryImpl {constructDialect} [main] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-22 12:18:09,859 INFO o.h.e.t.j.p.i.JtaPlatformInitiator {initiateService} [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-22 12:18:09,984 INFO o.s.o.j.AbstractEntityManagerFactoryBean {buildNativeEntityManagerFactory} [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-22 12:18:11,346 INFO o.s.d.j.r.q.QueryEnhancerFactory {<clinit>} [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-01-22 12:18:12,791 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration {openEntityManagerInViewInterceptor} [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-22 12:18:13,561 INFO o.a.j.l.DirectJDKLog {log} [main] Starting ProtocolHandler ["http-nio-8080"]
+2025-01-22 12:18:13,592 INFO o.s.b.w.e.t.TomcatWebServer {start} [main] Tomcat started on port 8080 (http) with context path '/'
+2025-01-22 12:18:13,608 INFO o.s.b.StartupInfoLogger {logStarted} [main] Started HellospringApplication in 10.936 seconds (process running for 11.639)
+2025-01-22 13:33:11,034 INFO o.a.j.l.DirectJDKLog {log} [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-22 13:33:11,073 INFO o.s.w.s.FrameworkServlet {initServletBean} [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-01-22 13:33:11,228 INFO o.s.w.s.FrameworkServlet {initServletBean} [http-nio-8080-exec-1] Completed initialization in 137 ms
+2025-01-22 13:33:12,050 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-1] BEGIN getAll
+2025-01-22 13:33:12,913 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-1] END getAll
+2025-01-22 13:35:29,861 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-4] BEGIN getAll
+2025-01-22 13:35:29,877 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-4] END getAll
+2025-01-22 13:35:30,171 INFO c.s.a.c.BikeController {addBike} [http-nio-8080-exec-3] BEGIN addBike
+2025-01-22 13:35:30,471 INFO c.s.a.c.BikeController {addBike} [http-nio-8080-exec-3] END addBike
+2025-01-22 13:36:01,093 INFO c.s.a.c.BikeController {addBike} [http-nio-8080-exec-5] BEGIN addBike
+2025-01-22 13:36:01,105 INFO c.s.a.c.BikeController {addBike} [http-nio-8080-exec-5] END addBike
+2025-01-22 13:36:01,365 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-6] BEGIN getAll
+2025-01-22 13:36:01,396 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-6] END getAll
+2025-01-22 13:36:06,967 INFO c.s.a.c.BikeController {removeBike} [http-nio-8080-exec-7] BEGIN removeBike
+2025-01-22 13:36:07,011 INFO c.s.a.c.BikeController {removeBike} [http-nio-8080-exec-7] END removeBike
+2025-01-22 13:36:07,056 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-8] BEGIN getAll
+2025-01-22 13:36:07,066 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-8] END getAll
+2025-01-22 13:36:26,827 INFO c.s.a.c.BikeController {addBike} [http-nio-8080-exec-9] BEGIN addBike
+2025-01-22 13:36:26,833 INFO c.s.a.c.BikeController {addBike} [http-nio-8080-exec-9] END addBike
+2025-01-22 13:36:26,953 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-10] BEGIN getAll
+2025-01-22 13:36:26,964 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-10] END getAll
+2025-01-22 13:36:32,232 INFO c.s.a.c.BikeController {removeBike} [http-nio-8080-exec-4] BEGIN removeBike
+2025-01-22 13:36:32,236 INFO c.s.a.c.BikeController {removeBike} [http-nio-8080-exec-4] END removeBike
+2025-01-22 13:36:32,274 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-3] BEGIN getAll
+2025-01-22 13:36:32,286 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-3] END getAll
+2025-01-22 13:36:36,602 INFO c.s.a.c.BikeController {removeBike} [http-nio-8080-exec-5] BEGIN removeBike
+2025-01-22 13:36:36,607 INFO c.s.a.c.BikeController {removeBike} [http-nio-8080-exec-5] END removeBike
+2025-01-22 13:36:36,644 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-6] BEGIN getAll
+2025-01-22 13:36:36,655 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-6] END getAll
+2025-01-22 13:36:41,632 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-7] BEGIN getAll
+2025-01-22 13:36:41,648 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-7] END getAll
+2025-01-22 13:37:04,107 INFO c.s.a.c.MechanicController {modifyMechanic} [http-nio-8080-exec-10] BEGIN modifyMechanic
+2025-01-22 13:37:04,158 INFO c.s.a.c.MechanicController {modifyMechanic} [http-nio-8080-exec-10] END modifyMechanic
+2025-01-22 13:37:04,259 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-1] BEGIN getAll
+2025-01-22 13:37:04,266 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-1] END getAll
+2025-01-22 13:37:31,482 INFO c.s.a.c.MechanicController {addMechanic} [http-nio-8080-exec-6] BEGIN addMechanic
+2025-01-22 13:37:31,486 INFO c.s.a.c.MechanicController {addMechanic} [http-nio-8080-exec-6] END addMechanic
+2025-01-22 13:37:31,643 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-7] BEGIN getAll
+2025-01-22 13:37:31,648 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-7] END getAll
+2025-01-22 13:37:40,023 INFO c.s.a.c.MechanicController {removeMechanic} [http-nio-8080-exec-4] BEGIN removeMechanic
+2025-01-22 13:37:40,036 INFO c.s.a.c.MechanicController {removeMechanic} [http-nio-8080-exec-4] END removeMechanic
+2025-01-22 13:37:40,071 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-2] BEGIN getAll
+2025-01-22 13:37:40,074 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-2] END getAll
+2025-01-22 13:38:26,536 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-1] BEGIN getAll
+2025-01-22 13:38:26,548 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-1] END getAll
+2025-01-22 13:46:57,401 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-2] BEGIN getAll
+2025-01-22 13:46:57,923 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-2] END getAll
+2025-01-22 13:48:10,490 INFO c.s.a.c.BikeController {addBike} [http-nio-8080-exec-5] BEGIN addBike
+2025-01-22 13:48:10,522 INFO c.s.a.c.BikeController {addBike} [http-nio-8080-exec-5] END addBike
+2025-01-22 13:48:10,572 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-6] BEGIN getAll
+2025-01-22 13:48:10,579 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-6] END getAll
+2025-01-22 13:49:02,039 INFO c.s.a.c.BikeController {removeBike} [http-nio-8080-exec-7] BEGIN removeBike
+2025-01-22 13:49:02,050 INFO c.s.a.c.BikeController {removeBike} [http-nio-8080-exec-7] END removeBike
+2025-01-22 13:49:02,166 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-8] BEGIN getAll
+2025-01-22 13:49:02,178 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-8] END getAll
+2025-01-22 13:49:22,384 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-1] BEGIN getAll
+2025-01-22 13:49:22,392 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-1] END getAll
+2025-01-22 13:49:35,212 INFO c.s.a.c.MechanicController {addMechanic} [http-nio-8080-exec-4] BEGIN addMechanic
+2025-01-22 13:49:35,217 INFO c.s.a.c.MechanicController {addMechanic} [http-nio-8080-exec-4] END addMechanic
+2025-01-22 13:49:35,357 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-2] BEGIN getAll
+2025-01-22 13:49:35,361 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-2] END getAll
+2025-01-22 13:49:45,474 INFO c.s.a.c.MechanicController {modifyMechanic} [http-nio-8080-exec-3] BEGIN modifyMechanic
+2025-01-22 13:49:45,481 INFO c.s.a.c.MechanicController {modifyMechanic} [http-nio-8080-exec-3] END modifyMechanic
+2025-01-22 13:49:45,590 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-5] BEGIN getAll
+2025-01-22 13:49:45,596 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-5] END getAll
+2025-01-22 13:49:50,102 INFO c.s.a.c.MechanicController {removeMechanic} [http-nio-8080-exec-6] BEGIN removeMechanic
+2025-01-22 13:49:50,156 INFO c.s.a.c.MechanicController {removeMechanic} [http-nio-8080-exec-6] END removeMechanic
+2025-01-22 13:49:50,347 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-7] BEGIN getAll
+2025-01-22 13:49:50,354 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-7] END getAll
+2025-01-22 14:05:08,750 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-7] BEGIN getAll
+2025-01-22 14:05:09,018 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-7] END getAll
+2025-01-22 14:06:10,604 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-9] BEGIN getAll
+2025-01-22 14:06:10,733 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-9] END getAll
+2025-01-22 14:09:07,542 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-1] BEGIN getAll
+2025-01-22 14:09:07,591 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-1] END getAll
+2025-01-22 14:13:27,884 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-3] BEGIN getAll
+2025-01-22 14:13:28,095 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-3] END getAll
+2025-01-22 14:13:47,763 INFO c.s.a.c.BikeController {removeBike} [http-nio-8080-exec-2] BEGIN removeBike
+2025-01-22 14:13:47,844 INFO c.s.a.c.BikeController {removeBike} [http-nio-8080-exec-2] END removeBike
+2025-01-22 14:13:47,908 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-5] BEGIN getAll
+2025-01-22 14:13:47,917 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-5] END getAll
+2025-01-22 14:14:20,541 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-6] BEGIN getAll
+2025-01-22 14:14:20,555 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-6] END getAll
+2025-01-22 14:14:40,871 INFO c.s.a.c.BikeController {addBike} [http-nio-8080-exec-8] BEGIN addBike
+2025-01-22 14:14:40,907 INFO c.s.a.c.BikeController {addBike} [http-nio-8080-exec-8] END addBike
+2025-01-22 14:14:41,051 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-9] BEGIN getAll
+2025-01-22 14:14:41,065 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-9] END getAll
+2025-01-22 14:14:51,143 INFO c.s.a.c.BikeController {removeBike} [http-nio-8080-exec-4] BEGIN removeBike
+2025-01-22 14:14:51,149 INFO c.s.a.c.BikeController {removeBike} [http-nio-8080-exec-4] END removeBike
+2025-01-22 14:14:51,197 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-3] BEGIN getAll
+2025-01-22 14:14:51,208 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-3] END getAll
+2025-01-22 14:14:57,564 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-2] BEGIN getAll
+2025-01-22 14:14:57,567 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-2] END getAll
+2025-01-22 14:15:15,279 INFO c.s.a.c.MechanicController {addMechanic} [http-nio-8080-exec-5] BEGIN addMechanic
+2025-01-22 14:15:15,284 INFO c.s.a.c.MechanicController {addMechanic} [http-nio-8080-exec-5] END addMechanic
+2025-01-22 14:15:15,473 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-6] BEGIN getAll
+2025-01-22 14:15:15,481 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-6] END getAll
+2025-01-22 14:15:24,975 INFO c.s.a.c.MechanicController {modifyMechanic} [http-nio-8080-exec-8] BEGIN modifyMechanic
+2025-01-22 14:15:24,995 INFO c.s.a.c.MechanicController {modifyMechanic} [http-nio-8080-exec-8] END modifyMechanic
+2025-01-22 14:15:25,242 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-9] BEGIN getAll
+2025-01-22 14:15:25,257 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-9] END getAll
+2025-01-22 14:15:29,719 INFO c.s.a.c.MechanicController {removeMechanic} [http-nio-8080-exec-10] BEGIN removeMechanic
+2025-01-22 14:15:29,724 INFO c.s.a.c.MechanicController {removeMechanic} [http-nio-8080-exec-10] END removeMechanic
+2025-01-22 14:15:29,781 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-1] BEGIN getAll
+2025-01-22 14:15:29,786 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-1] END getAll
+2025-01-22 15:47:28,704 WARN c.z.h.p.HikariPool$HouseKeeper {run} [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=29m18s728ms542µs800ns).
+2025-01-22 16:11:19,720 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-2] BEGIN getAll
+2025-01-22 16:11:20,479 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-2] END getAll
+2025-01-22 16:15:06,211 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-5] BEGIN getAll
+2025-01-22 16:15:06,275 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-5] END getAll
+2025-01-22 16:25:50,262 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-9] BEGIN getAll
+2025-01-22 16:25:50,488 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-9] END getAll
+2025-01-22 16:25:50,896 INFO c.s.a.c.BikeController {addBike} [http-nio-8080-exec-8] BEGIN addBike
+2025-01-22 16:25:51,450 INFO c.s.a.c.BikeController {addBike} [http-nio-8080-exec-8] END addBike
+2025-01-22 16:26:28,850 INFO c.s.a.c.BikeController {addBike} [http-nio-8080-exec-7] BEGIN addBike
+2025-01-22 16:26:28,858 INFO c.s.a.c.BikeController {addBike} [http-nio-8080-exec-7] END addBike
+2025-01-22 16:26:29,226 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-10] BEGIN getAll
+2025-01-22 16:26:29,246 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-10] END getAll
+2025-01-22 16:29:45,655 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-5] BEGIN getAll
+2025-01-22 16:29:45,671 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-5] END getAll
+2025-01-22 16:31:10,849 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-8] BEGIN getAll
+2025-01-22 16:31:10,864 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-8] END getAll
+2025-01-22 16:32:05,071 INFO c.s.a.c.BikeController {removeBike} [http-nio-8080-exec-7] BEGIN removeBike
+2025-01-22 16:32:05,138 INFO c.s.a.c.BikeController {removeBike} [http-nio-8080-exec-7] END removeBike
+2025-01-22 16:32:05,309 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-10] BEGIN getAll
+2025-01-22 16:32:05,324 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-10] END getAll
+2025-01-22 16:32:06,885 INFO c.s.a.c.BikeController {removeBike} [http-nio-8080-exec-1] BEGIN removeBike
+2025-01-22 16:32:06,891 INFO c.s.a.c.BikeController {removeBike} [http-nio-8080-exec-1] END removeBike
+2025-01-22 16:32:06,963 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-4] BEGIN getAll
+2025-01-22 16:32:06,970 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-4] END getAll
+2025-01-22 16:32:45,584 INFO c.s.a.c.BikeController {addBike} [http-nio-8080-exec-2] BEGIN addBike
+2025-01-22 16:32:45,634 INFO c.s.a.c.BikeController {addBike} [http-nio-8080-exec-2] END addBike
+2025-01-22 16:32:45,815 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-5] BEGIN getAll
+2025-01-22 16:32:45,828 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-5] END getAll
+2025-01-22 16:33:32,106 INFO c.s.a.c.BikeController {removeBike} [http-nio-8080-exec-10] BEGIN removeBike
+2025-01-22 16:33:32,109 INFO c.s.a.c.BikeController {removeBike} [http-nio-8080-exec-10] END removeBike
+2025-01-22 16:33:32,437 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-1] BEGIN getAll
+2025-01-22 16:33:32,458 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-1] END getAll
+2025-01-22 16:33:44,372 INFO c.s.a.c.BikeController {removeBike} [http-nio-8080-exec-4] BEGIN removeBike
+2025-01-22 16:33:44,377 INFO c.s.a.c.BikeController {removeBike} [http-nio-8080-exec-4] END removeBike
+2025-01-22 16:33:44,428 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-3] BEGIN getAll
+2025-01-22 16:33:44,438 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-3] END getAll
+2025-01-22 16:33:57,900 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-9] BEGIN getAll
+2025-01-22 16:33:57,905 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-9] END getAll
+2025-01-22 16:34:06,522 INFO c.s.a.c.BikeController {removeBike} [http-nio-8080-exec-8] BEGIN removeBike
+2025-01-22 16:34:06,828 WARN o.h.e.j.s.SqlExceptionHelper {logExceptions} [http-nio-8080-exec-8] SQL Error: 23503, SQLState: 23503
+2025-01-22 16:34:06,851 ERROR o.h.e.j.s.SqlExceptionHelper {logExceptions} [http-nio-8080-exec-8] Violación de una restricción de Integridad Referencial: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"
+Referential integrity constraint violation: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"; SQL statement:
+delete from bikes where id=? [23503-224]
+2025-01-22 16:34:07,328 ERROR c.s.a.c.BikeController {handleException} [http-nio-8080-exec-8] could not execute statement [Violación de una restricción de Integridad Referencial: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"
+Referential integrity constraint violation: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"; SQL statement:
+delete from bikes where id=? [23503-224]] [delete from bikes where id=?]; SQL [delete from bikes where id=?]; constraint [FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT)); SQL statement:
+delete from bikes where id=? [23503-224]]
+org.springframework.dao.DataIntegrityViolationException: could not execute statement [Violación de una restricción de Integridad Referencial: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"
+Referential integrity constraint violation: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"; SQL statement:
+delete from bikes where id=? [23503-224]] [delete from bikes where id=?]; SQL [delete from bikes where id=?]; constraint [FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT)); SQL statement:
+delete from bikes where id=? [23503-224]]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:290)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:241)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:566)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:795)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:758)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:663)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:413)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy130.deleteById(Unknown Source)
+	at com.svalero.apibikes.service.BikeService.remove(BikeService.java:77)
+	at com.svalero.apibikes.controller.BikeController.removeBike(BikeController.java:69)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:596)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement [Violación de una restricción de Integridad Referencial: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"
+Referential integrity constraint violation: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"; SQL statement:
+delete from bikes where id=? [23503-224]] [delete from bikes where id=?]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:62)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:134)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:55)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55)
+	at org.hibernate.persister.entity.mutation.AbstractDeleteCoordinator.doStaticDelete(AbstractDeleteCoordinator.java:279)
+	at org.hibernate.persister.entity.mutation.AbstractDeleteCoordinator.delete(AbstractDeleteCoordinator.java:87)
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:131)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:633)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:500)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:385)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:41)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1425)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:487)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2324)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1981)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:169)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:267)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	... 64 common frames omitted
+Caused by: org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de una restricción de Integridad Referencial: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"
+Referential integrity constraint violation: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"; SQL statement:
+delete from bikes where id=? [23503-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:520)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.constraint.ConstraintReferential.checkRow(ConstraintReferential.java:365)
+	at org.h2.constraint.ConstraintReferential.checkRowRefTable(ConstraintReferential.java:382)
+	at org.h2.constraint.ConstraintReferential.checkRow(ConstraintReferential.java:256)
+	at org.h2.table.Table.fireConstraints(Table.java:1200)
+	at org.h2.table.Table.fireAfterRow(Table.java:1218)
+	at org.h2.command.dml.Delete.update(Delete.java:92)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:174)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194)
+	... 84 common frames omitted
+2025-01-22 16:34:09,593 INFO c.s.a.c.BikeController {removeBike} [http-nio-8080-exec-10] BEGIN removeBike
+2025-01-22 16:34:11,359 INFO c.s.a.c.BikeController {removeBike} [http-nio-8080-exec-1] BEGIN removeBike
+2025-01-22 16:34:12,218 INFO c.s.a.c.BikeController {removeBike} [http-nio-8080-exec-4] BEGIN removeBike
+2025-01-22 16:34:13,266 INFO c.s.a.c.BikeController {removeBike} [http-nio-8080-exec-3] BEGIN removeBike
+2025-01-22 16:34:13,477 INFO c.s.a.c.BikeController {removeBike} [http-nio-8080-exec-3] END removeBike
+2025-01-22 16:34:13,477 INFO c.s.a.c.BikeController {removeBike} [http-nio-8080-exec-1] END removeBike
+2025-01-22 16:34:13,484 WARN o.h.e.j.s.SqlExceptionHelper {logExceptions} [http-nio-8080-exec-10] SQL Error: 23503, SQLState: 23503
+2025-01-22 16:34:13,484 ERROR o.h.e.j.s.SqlExceptionHelper {logExceptions} [http-nio-8080-exec-10] Violación de una restricción de Integridad Referencial: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"
+Referential integrity constraint violation: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"; SQL statement:
+delete from bikes where id=? [23503-224]
+2025-01-22 16:34:13,488 ERROR c.s.a.c.BikeController {handleException} [http-nio-8080-exec-10] could not execute statement [Violación de una restricción de Integridad Referencial: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"
+Referential integrity constraint violation: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"; SQL statement:
+delete from bikes where id=? [23503-224]] [delete from bikes where id=?]; SQL [delete from bikes where id=?]; constraint [FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT)); SQL statement:
+delete from bikes where id=? [23503-224]]
+org.springframework.dao.DataIntegrityViolationException: could not execute statement [Violación de una restricción de Integridad Referencial: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"
+Referential integrity constraint violation: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"; SQL statement:
+delete from bikes where id=? [23503-224]] [delete from bikes where id=?]; SQL [delete from bikes where id=?]; constraint [FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT)); SQL statement:
+delete from bikes where id=? [23503-224]]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:290)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:241)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:566)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:795)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:758)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:663)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:413)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy130.deleteById(Unknown Source)
+	at com.svalero.apibikes.service.BikeService.remove(BikeService.java:77)
+	at com.svalero.apibikes.controller.BikeController.removeBike(BikeController.java:69)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:596)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement [Violación de una restricción de Integridad Referencial: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"
+Referential integrity constraint violation: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"; SQL statement:
+delete from bikes where id=? [23503-224]] [delete from bikes where id=?]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:62)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:134)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:55)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55)
+	at org.hibernate.persister.entity.mutation.AbstractDeleteCoordinator.doStaticDelete(AbstractDeleteCoordinator.java:279)
+	at org.hibernate.persister.entity.mutation.AbstractDeleteCoordinator.delete(AbstractDeleteCoordinator.java:87)
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:131)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:633)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:500)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:385)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:41)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1425)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:487)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2324)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1981)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:169)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:267)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	... 64 common frames omitted
+Caused by: org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de una restricción de Integridad Referencial: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"
+Referential integrity constraint violation: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"; SQL statement:
+delete from bikes where id=? [23503-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:520)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.constraint.ConstraintReferential.checkRow(ConstraintReferential.java:365)
+	at org.h2.constraint.ConstraintReferential.checkRowRefTable(ConstraintReferential.java:382)
+	at org.h2.constraint.ConstraintReferential.checkRow(ConstraintReferential.java:256)
+	at org.h2.table.Table.fireConstraints(Table.java:1200)
+	at org.h2.table.Table.fireAfterRow(Table.java:1218)
+	at org.h2.command.dml.Delete.update(Delete.java:92)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:174)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194)
+	... 84 common frames omitted
+2025-01-22 16:34:13,543 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-2] BEGIN getAll
+2025-01-22 16:34:13,546 ERROR c.s.a.c.BikeController {handleException} [http-nio-8080-exec-4] Row was updated or deleted by another transaction (or unsaved-value mapping was incorrect) : [com.svalero.apibikes.domain.Bike#44]
+org.springframework.orm.ObjectOptimisticLockingFailureException: Row was updated or deleted by another transaction (or unsaved-value mapping was incorrect) : [com.svalero.apibikes.domain.Bike#44]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:325)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:244)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:566)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:795)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:758)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:663)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:413)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy130.deleteById(Unknown Source)
+	at com.svalero.apibikes.service.BikeService.remove(BikeService.java:77)
+	at com.svalero.apibikes.controller.BikeController.removeBike(BikeController.java:69)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:596)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.hibernate.StaleObjectStateException: Row was updated or deleted by another transaction (or unsaved-value mapping was incorrect) : [com.svalero.apibikes.domain.Bike#44]
+	at org.hibernate.engine.jdbc.mutation.internal.ModelMutationHelper.identifiedResultsCheck(ModelMutationHelper.java:75)
+	at org.hibernate.persister.entity.mutation.AbstractDeleteCoordinator.lambda$doStaticDelete$2(AbstractDeleteCoordinator.java:283)
+	at org.hibernate.engine.jdbc.mutation.internal.ModelMutationHelper.checkResults(ModelMutationHelper.java:50)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:141)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:55)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55)
+	at org.hibernate.persister.entity.mutation.AbstractDeleteCoordinator.doStaticDelete(AbstractDeleteCoordinator.java:279)
+	at org.hibernate.persister.entity.mutation.AbstractDeleteCoordinator.delete(AbstractDeleteCoordinator.java:87)
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:131)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:633)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:500)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:385)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:41)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1425)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:487)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2324)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1981)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:169)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:267)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	... 64 common frames omitted
+2025-01-22 16:34:13,578 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-5] BEGIN getAll
+2025-01-22 16:34:14,393 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-2] END getAll
+2025-01-22 16:34:15,084 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-5] END getAll
+2025-01-22 16:34:34,369 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-7] BEGIN getAll
+2025-01-22 16:34:34,390 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-7] END getAll
+2025-01-22 16:34:45,985 INFO c.s.a.c.BikeController {removeBike} [http-nio-8080-exec-4] BEGIN removeBike
+2025-01-22 16:34:45,989 INFO c.s.a.c.BikeController {removeBike} [http-nio-8080-exec-4] END removeBike
+2025-01-22 16:34:46,057 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-2] BEGIN getAll
+2025-01-22 16:34:46,063 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-2] END getAll
+2025-01-22 16:34:49,329 INFO c.s.a.c.BikeController {removeBike} [http-nio-8080-exec-5] BEGIN removeBike
+2025-01-22 16:34:49,334 WARN o.h.e.j.s.SqlExceptionHelper {logExceptions} [http-nio-8080-exec-5] SQL Error: 23503, SQLState: 23503
+2025-01-22 16:34:49,334 ERROR o.h.e.j.s.SqlExceptionHelper {logExceptions} [http-nio-8080-exec-5] Violación de una restricción de Integridad Referencial: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"
+Referential integrity constraint violation: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"; SQL statement:
+delete from bikes where id=? [23503-224]
+2025-01-22 16:34:49,336 ERROR c.s.a.c.BikeController {handleException} [http-nio-8080-exec-5] could not execute statement [Violación de una restricción de Integridad Referencial: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"
+Referential integrity constraint violation: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"; SQL statement:
+delete from bikes where id=? [23503-224]] [delete from bikes where id=?]; SQL [delete from bikes where id=?]; constraint [FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT)); SQL statement:
+delete from bikes where id=? [23503-224]]
+org.springframework.dao.DataIntegrityViolationException: could not execute statement [Violación de una restricción de Integridad Referencial: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"
+Referential integrity constraint violation: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"; SQL statement:
+delete from bikes where id=? [23503-224]] [delete from bikes where id=?]; SQL [delete from bikes where id=?]; constraint [FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT)); SQL statement:
+delete from bikes where id=? [23503-224]]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:290)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:241)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:566)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:795)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:758)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:663)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:413)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy130.deleteById(Unknown Source)
+	at com.svalero.apibikes.service.BikeService.remove(BikeService.java:77)
+	at com.svalero.apibikes.controller.BikeController.removeBike(BikeController.java:69)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:596)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement [Violación de una restricción de Integridad Referencial: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"
+Referential integrity constraint violation: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"; SQL statement:
+delete from bikes where id=? [23503-224]] [delete from bikes where id=?]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:62)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:134)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:55)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55)
+	at org.hibernate.persister.entity.mutation.AbstractDeleteCoordinator.doStaticDelete(AbstractDeleteCoordinator.java:279)
+	at org.hibernate.persister.entity.mutation.AbstractDeleteCoordinator.delete(AbstractDeleteCoordinator.java:87)
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:131)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:633)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:500)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:385)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:41)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1425)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:487)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2324)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1981)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:169)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:267)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	... 64 common frames omitted
+Caused by: org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de una restricción de Integridad Referencial: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"
+Referential integrity constraint violation: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"; SQL statement:
+delete from bikes where id=? [23503-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:520)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.constraint.ConstraintReferential.checkRow(ConstraintReferential.java:365)
+	at org.h2.constraint.ConstraintReferential.checkRowRefTable(ConstraintReferential.java:382)
+	at org.h2.constraint.ConstraintReferential.checkRow(ConstraintReferential.java:256)
+	at org.h2.table.Table.fireConstraints(Table.java:1200)
+	at org.h2.table.Table.fireAfterRow(Table.java:1218)
+	at org.h2.command.dml.Delete.update(Delete.java:92)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:174)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194)
+	... 84 common frames omitted
+2025-01-22 16:34:53,538 INFO c.s.a.c.BikeController {removeBike} [http-nio-8080-exec-9] BEGIN removeBike
+2025-01-22 16:34:53,542 WARN o.h.e.j.s.SqlExceptionHelper {logExceptions} [http-nio-8080-exec-9] SQL Error: 23503, SQLState: 23503
+2025-01-22 16:34:53,542 ERROR o.h.e.j.s.SqlExceptionHelper {logExceptions} [http-nio-8080-exec-9] Violación de una restricción de Integridad Referencial: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"
+Referential integrity constraint violation: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"; SQL statement:
+delete from bikes where id=? [23503-224]
+2025-01-22 16:34:53,543 ERROR c.s.a.c.BikeController {handleException} [http-nio-8080-exec-9] could not execute statement [Violación de una restricción de Integridad Referencial: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"
+Referential integrity constraint violation: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"; SQL statement:
+delete from bikes where id=? [23503-224]] [delete from bikes where id=?]; SQL [delete from bikes where id=?]; constraint [FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT)); SQL statement:
+delete from bikes where id=? [23503-224]]
+org.springframework.dao.DataIntegrityViolationException: could not execute statement [Violación de una restricción de Integridad Referencial: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"
+Referential integrity constraint violation: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"; SQL statement:
+delete from bikes where id=? [23503-224]] [delete from bikes where id=?]; SQL [delete from bikes where id=?]; constraint [FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT)); SQL statement:
+delete from bikes where id=? [23503-224]]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:290)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:241)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:566)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:795)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:758)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:663)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:413)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy130.deleteById(Unknown Source)
+	at com.svalero.apibikes.service.BikeService.remove(BikeService.java:77)
+	at com.svalero.apibikes.controller.BikeController.removeBike(BikeController.java:69)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:596)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement [Violación de una restricción de Integridad Referencial: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"
+Referential integrity constraint violation: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"; SQL statement:
+delete from bikes where id=? [23503-224]] [delete from bikes where id=?]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:62)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:134)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:55)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55)
+	at org.hibernate.persister.entity.mutation.AbstractDeleteCoordinator.doStaticDelete(AbstractDeleteCoordinator.java:279)
+	at org.hibernate.persister.entity.mutation.AbstractDeleteCoordinator.delete(AbstractDeleteCoordinator.java:87)
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:131)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:633)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:500)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:385)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:41)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1425)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:487)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2324)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1981)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:169)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:267)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	... 64 common frames omitted
+Caused by: org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de una restricción de Integridad Referencial: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"
+Referential integrity constraint violation: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"; SQL statement:
+delete from bikes where id=? [23503-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:520)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.constraint.ConstraintReferential.checkRow(ConstraintReferential.java:365)
+	at org.h2.constraint.ConstraintReferential.checkRowRefTable(ConstraintReferential.java:382)
+	at org.h2.constraint.ConstraintReferential.checkRow(ConstraintReferential.java:256)
+	at org.h2.table.Table.fireConstraints(Table.java:1200)
+	at org.h2.table.Table.fireAfterRow(Table.java:1218)
+	at org.h2.command.dml.Delete.update(Delete.java:92)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:174)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194)
+	... 84 common frames omitted
+2025-01-22 16:34:55,283 INFO c.s.a.c.BikeController {removeBike} [http-nio-8080-exec-6] BEGIN removeBike
+2025-01-22 16:34:55,290 WARN o.h.e.j.s.SqlExceptionHelper {logExceptions} [http-nio-8080-exec-6] SQL Error: 23503, SQLState: 23503
+2025-01-22 16:34:55,290 ERROR o.h.e.j.s.SqlExceptionHelper {logExceptions} [http-nio-8080-exec-6] Violación de una restricción de Integridad Referencial: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"
+Referential integrity constraint violation: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"; SQL statement:
+delete from bikes where id=? [23503-224]
+2025-01-22 16:34:55,293 ERROR c.s.a.c.BikeController {handleException} [http-nio-8080-exec-6] could not execute statement [Violación de una restricción de Integridad Referencial: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"
+Referential integrity constraint violation: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"; SQL statement:
+delete from bikes where id=? [23503-224]] [delete from bikes where id=?]; SQL [delete from bikes where id=?]; constraint [FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT)); SQL statement:
+delete from bikes where id=? [23503-224]]
+org.springframework.dao.DataIntegrityViolationException: could not execute statement [Violación de una restricción de Integridad Referencial: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"
+Referential integrity constraint violation: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"; SQL statement:
+delete from bikes where id=? [23503-224]] [delete from bikes where id=?]; SQL [delete from bikes where id=?]; constraint [FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT)); SQL statement:
+delete from bikes where id=? [23503-224]]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:290)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:241)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:566)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:795)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:758)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:663)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:413)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy130.deleteById(Unknown Source)
+	at com.svalero.apibikes.service.BikeService.remove(BikeService.java:77)
+	at com.svalero.apibikes.controller.BikeController.removeBike(BikeController.java:69)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:596)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement [Violación de una restricción de Integridad Referencial: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"
+Referential integrity constraint violation: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"; SQL statement:
+delete from bikes where id=? [23503-224]] [delete from bikes where id=?]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:62)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:134)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:55)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55)
+	at org.hibernate.persister.entity.mutation.AbstractDeleteCoordinator.doStaticDelete(AbstractDeleteCoordinator.java:279)
+	at org.hibernate.persister.entity.mutation.AbstractDeleteCoordinator.delete(AbstractDeleteCoordinator.java:87)
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:131)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:633)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:500)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:385)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:41)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1425)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:487)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2324)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1981)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:169)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:267)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	... 64 common frames omitted
+Caused by: org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de una restricción de Integridad Referencial: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"
+Referential integrity constraint violation: "FKR4AL73VXF4JSMQHTG9AMVHU90: PUBLIC.REPAIR_ORDERS FOREIGN KEY(BIKE_ID) REFERENCES PUBLIC.BIKES(ID) (CAST(43 AS BIGINT))"; SQL statement:
+delete from bikes where id=? [23503-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:520)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.constraint.ConstraintReferential.checkRow(ConstraintReferential.java:365)
+	at org.h2.constraint.ConstraintReferential.checkRowRefTable(ConstraintReferential.java:382)
+	at org.h2.constraint.ConstraintReferential.checkRow(ConstraintReferential.java:256)
+	at org.h2.table.Table.fireConstraints(Table.java:1200)
+	at org.h2.table.Table.fireAfterRow(Table.java:1218)
+	at org.h2.command.dml.Delete.update(Delete.java:92)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:174)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194)
+	... 84 common frames omitted
+2025-01-22 16:34:58,856 INFO c.s.a.c.BikeController {removeBike} [http-nio-8080-exec-7] BEGIN removeBike
+2025-01-22 16:34:58,868 INFO c.s.a.c.BikeController {removeBike} [http-nio-8080-exec-7] END removeBike
+2025-01-22 16:34:59,071 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-3] BEGIN getAll
+2025-01-22 16:34:59,081 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-3] END getAll
+2025-01-22 16:35:35,520 INFO c.s.a.c.BikeController {addBike} [http-nio-8080-exec-2] BEGIN addBike
+2025-01-22 16:35:35,612 INFO c.s.a.c.BikeController {addBike} [http-nio-8080-exec-2] END addBike
+2025-01-22 16:35:35,655 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-5] BEGIN getAll
+2025-01-22 16:35:35,669 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-5] END getAll
+2025-01-22 16:36:47,385 INFO c.s.a.c.BikeController {addBike} [http-nio-8080-exec-10] BEGIN addBike
+2025-01-22 16:36:47,393 INFO c.s.a.c.BikeController {addBike} [http-nio-8080-exec-10] END addBike
+2025-01-22 16:36:47,520 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-4] BEGIN getAll
+2025-01-22 16:36:47,526 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-4] END getAll
+2025-01-22 16:37:50,018 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-9] BEGIN getAll
+2025-01-22 16:37:50,028 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-9] END getAll
+2025-01-22 16:38:07,863 INFO c.s.a.c.MechanicController {addMechanic} [http-nio-8080-exec-6] BEGIN addMechanic
+2025-01-22 16:38:07,889 INFO c.s.a.c.MechanicController {addMechanic} [http-nio-8080-exec-6] END addMechanic
+2025-01-22 16:38:08,023 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-7] BEGIN getAll
+2025-01-22 16:38:08,028 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-7] END getAll
+2025-01-22 16:38:17,706 INFO c.s.a.c.MechanicController {modifyMechanic} [http-nio-8080-exec-3] BEGIN modifyMechanic
+2025-01-22 16:38:17,722 INFO c.s.a.c.MechanicController {modifyMechanic} [http-nio-8080-exec-3] END modifyMechanic
+2025-01-22 16:38:17,958 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-1] BEGIN getAll
+2025-01-22 16:38:17,965 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-1] END getAll
+2025-01-22 16:38:22,495 INFO c.s.a.c.MechanicController {removeMechanic} [http-nio-8080-exec-8] BEGIN removeMechanic
+2025-01-22 16:38:22,503 INFO c.s.a.c.MechanicController {removeMechanic} [http-nio-8080-exec-8] END removeMechanic
+2025-01-22 16:38:22,658 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-10] BEGIN getAll
+2025-01-22 16:38:22,665 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-10] END getAll
+2025-01-22 16:49:20,331 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-1] BEGIN getAll
+2025-01-22 16:49:20,773 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-1] END getAll

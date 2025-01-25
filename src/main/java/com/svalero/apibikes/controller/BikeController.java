@@ -31,12 +31,18 @@ public class BikeController {
     private final Logger logger = LoggerFactory.getLogger(BikeController.class);
 
     @GetMapping("/bikes")
-    public ResponseEntity<List<BikeOutDto>> getAll(@RequestParam(value = "brand", defaultValue = "") String brand,
-                                                    @RequestParam(value = "model", defaultValue = "") String model) {
-        logger.info("BEGIN getAll");
-        List<BikeOutDto> bikes = bikeService.getAll(brand, model);
-        logger.info("END getAll");
-        return new ResponseEntity<>(bikes, HttpStatus.OK);
+    public List<BikeOutDto> filterBikes(
+            @RequestParam(required = false, defaultValue = "") String brand,
+            @RequestParam(required = false, defaultValue = "") String model,
+            @RequestParam(required = false, defaultValue = "") String color) {
+
+        logger.info("Filtrando bicicletas con parámetros: brand={}, model={}, color={}", brand, model, color);
+
+        List<BikeOutDto> filteredBikes = bikeService.filterBikes(brand, model, color);
+
+        logger.info("Operación completada: Se obtuvieron {} bicicletas filtradas", filteredBikes.size());
+
+        return filteredBikes;
     }
 
     @GetMapping("/bikes/{bikeId}")

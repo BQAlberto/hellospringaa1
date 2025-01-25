@@ -1,0 +1,917 @@
+2025-01-18 01:06:29,787 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-7] BEGIN getAll
+2025-01-18 01:06:30,573 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-7] END getAll
+2025-01-18 01:06:37,538 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-10] BEGIN getAll
+2025-01-18 01:06:37,645 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-10] END getAll
+2025-01-18 01:28:34,202 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-3] BEGIN getAll
+2025-01-18 01:28:35,566 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-3] END getAll
+2025-01-18 01:37:34,984 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-5] BEGIN getAll
+2025-01-18 01:37:35,117 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-5] END getAll
+2025-01-18 01:40:52,360 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-7] BEGIN getAll
+2025-01-18 01:40:52,375 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-7] END getAll
+2025-01-18 01:41:30,619 INFO c.s.a.c.BikeController {addBike} [http-nio-8080-exec-8] BEGIN addBike
+2025-01-18 01:41:30,972 INFO c.s.a.c.BikeController {addBike} [http-nio-8080-exec-8] END addBike
+2025-01-18 01:41:49,032 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-10] BEGIN getAll
+2025-01-18 01:41:49,042 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-10] END getAll
+2025-01-18 01:43:06,819 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-3] BEGIN getAll
+2025-01-18 01:43:06,833 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-3] END getAll
+2025-01-18 01:52:00,118 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-5] BEGIN getAll
+2025-01-18 01:52:00,301 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-5] END getAll
+2025-01-18 02:19:01,794 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-7] BEGIN getAll
+2025-01-18 02:19:02,032 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-7] END getAll
+2025-01-18 02:19:13,193 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-10] BEGIN getAll
+2025-01-18 02:19:13,335 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-10] END getAll
+2025-01-18 02:29:32,283 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-1] BEGIN getAll
+2025-01-18 02:29:32,657 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-1] END getAll
+2025-01-18 02:30:53,227 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-3] BEGIN getAll
+2025-01-18 02:30:53,241 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-3] END getAll
+2025-01-18 02:37:45,535 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-5] BEGIN getAll
+2025-01-18 02:37:46,000 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-5] END getAll
+2025-01-18 05:40:54,917 WARN c.z.h.p.HikariPool$HouseKeeper {run} [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h25s947ms712µs700ns).
+2025-01-18 11:40:33,586 WARN c.z.h.p.HikariPool$HouseKeeper {run} [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5h59m48s33ms983µs400ns).
+2025-01-18 11:57:21,173 INFO o.h.v.i.u.Version {<clinit>} [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2025-01-18 11:57:21,332 INFO o.s.b.StartupInfoLogger {logStarting} [main] Starting HellospringApplication using Java 21 with PID 8116 (C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring\target\classes started by 34618 in C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring)
+2025-01-18 11:57:21,347 INFO o.s.b.SpringApplication {logStartupProfileInfo} [main] No active profile set, falling back to 1 default profile: "default"
+2025-01-18 11:57:22,976 INFO o.s.d.r.c.RepositoryConfigurationDelegate {registerRepositoriesIn} [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-18 11:57:23,132 INFO o.s.d.r.c.RepositoryConfigurationDelegate {registerRepositoriesIn} [main] Finished Spring Data repository scanning in 141 ms. Found 5 JPA repository interfaces.
+2025-01-18 11:57:24,393 INFO o.s.b.w.e.t.TomcatWebServer {initialize} [main] Tomcat initialized with port 8080 (http)
+2025-01-18 11:57:24,424 INFO o.a.j.l.DirectJDKLog {log} [main] Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-18 11:57:24,440 INFO o.a.j.l.DirectJDKLog {log} [main] Starting service [Tomcat]
+2025-01-18 11:57:24,440 INFO o.a.j.l.DirectJDKLog {log} [main] Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-01-18 11:57:24,596 INFO o.a.j.l.DirectJDKLog {log} [main] Initializing Spring embedded WebApplicationContext
+2025-01-18 11:57:24,596 INFO o.s.b.w.s.c.ServletWebServerApplicationContext {prepareWebApplicationContext} [main] Root WebApplicationContext: initialization completed in 3137 ms
+2025-01-18 11:57:24,674 INFO c.z.h.HikariDataSource {getConnection} [main] HikariPool-1 - Starting...
+2025-01-18 11:57:25,252 INFO c.z.h.p.HikariPool {checkFailFast} [main] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:C:/Users/34618/bikes.db user=SA
+2025-01-18 11:57:25,252 INFO c.z.h.HikariDataSource {getConnection} [main] HikariPool-1 - Start completed.
+2025-01-18 11:57:25,283 INFO o.s.b.a.h.H2ConsoleAutoConfiguration {logDataSources} [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:C:/Users/34618/bikes.db'
+2025-01-18 11:57:25,620 INFO o.h.j.i.u.LogHelper {logPersistenceUnitInformation} [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-18 11:57:25,781 INFO o.h.Version {logVersion} [main] HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-01-18 11:57:25,890 INFO o.h.c.i.RegionFactoryInitiator {initiateService} [main] HHH000026: Second-level cache disabled
+2025-01-18 11:57:26,640 INFO o.s.o.j.p.SpringPersistenceUnitInfo {addTransformer} [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-18 11:57:26,765 WARN o.h.e.j.d.i.DialectFactoryImpl {constructDialect} [main] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-18 11:57:29,015 INFO o.h.e.t.j.p.i.JtaPlatformInitiator {initiateService} [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-18 11:57:29,140 INFO o.s.o.j.AbstractEntityManagerFactoryBean {buildNativeEntityManagerFactory} [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-18 11:57:29,843 INFO o.s.d.j.r.q.QueryEnhancerFactory {<clinit>} [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-01-18 11:57:31,030 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration {openEntityManagerInViewInterceptor} [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-18 11:57:31,717 INFO o.a.j.l.DirectJDKLog {log} [main] Starting ProtocolHandler ["http-nio-8080"]
+2025-01-18 11:57:31,780 INFO o.s.b.w.e.t.TomcatWebServer {start} [main] Tomcat started on port 8080 (http) with context path '/'
+2025-01-18 11:57:31,795 INFO o.s.b.StartupInfoLogger {logStarted} [main] Started HellospringApplication in 11.731 seconds (process running for 12.61)
+2025-01-18 12:07:51,913 INFO o.a.j.l.DirectJDKLog {log} [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-18 12:07:51,916 INFO o.s.w.s.FrameworkServlet {initServletBean} [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-01-18 12:07:51,921 INFO o.s.w.s.FrameworkServlet {initServletBean} [http-nio-8080-exec-1] Completed initialization in 5 ms
+2025-01-18 12:07:52,077 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-1] BEGIN getAll
+2025-01-18 12:07:52,592 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-1] END getAll
+2025-01-18 13:24:17,043 WARN c.z.h.p.HikariPool$HouseKeeper {run} [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m20s677ms800ns).
+2025-01-18 13:41:47,067 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-4] BEGIN getAll
+2025-01-18 13:41:48,629 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-4] END getAll
+2025-01-18 13:42:25,136 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-5] BEGIN getAll
+2025-01-18 13:42:25,232 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-5] END getAll
+2025-01-18 13:43:26,424 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-8] BEGIN getAll
+2025-01-18 13:43:26,459 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-8] END getAll
+2025-01-18 13:44:59,591 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-10] BEGIN getAll
+2025-01-18 13:44:59,631 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-10] END getAll
+2025-01-18 13:45:48,348 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-2] BEGIN getAll
+2025-01-18 13:45:48,389 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-2] END getAll
+2025-01-18 14:11:26,586 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-4] BEGIN getAll
+2025-01-18 14:11:26,708 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-4] END getAll
+2025-01-18 14:31:10,548 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-6] BEGIN getAll
+2025-01-18 14:31:11,246 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-6] END getAll
+2025-01-18 14:31:52,349 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-7] BEGIN getAll
+2025-01-18 14:31:52,369 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-7] END getAll
+2025-01-18 14:46:14,911 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-10] BEGIN getAll
+2025-01-18 14:46:15,188 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-10] END getAll
+2025-01-18 14:46:37,615 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-1] BEGIN getAll
+2025-01-18 14:46:37,650 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-1] END getAll
+2025-01-18 14:46:41,931 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-2] BEGIN getAll
+2025-01-18 14:46:41,965 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-2] END getAll
+2025-01-18 14:46:54,121 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-3] BEGIN getAll
+2025-01-18 14:46:54,143 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-3] END getAll
+2025-01-18 14:48:17,065 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-8] BEGIN getAll
+2025-01-18 14:48:17,085 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-8] END getAll
+2025-01-18 15:10:00,002 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-10] BEGIN getAll
+2025-01-18 15:10:00,500 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-10] END getAll
+2025-01-18 15:19:57,101 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-2] BEGIN getAll
+2025-01-18 15:19:57,285 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-2] END getAll
+2025-01-18 15:23:55,801 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-4] BEGIN getAll
+2025-01-18 15:23:55,966 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-4] END getAll
+2025-01-18 15:25:31,410 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-6] BEGIN getAll
+2025-01-18 15:25:31,457 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-6] END getAll
+2025-01-18 15:28:26,794 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-8] BEGIN getAll
+2025-01-18 15:28:26,805 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-8] END getAll
+2025-01-18 15:28:31,355 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-9] BEGIN getAll
+2025-01-18 15:28:31,372 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-9] END getAll
+2025-01-18 15:30:47,701 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-2] BEGIN getAll
+2025-01-18 15:30:47,713 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-2] END getAll
+2025-01-18 16:15:50,654 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-4] BEGIN getAll
+2025-01-18 16:15:51,143 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-4] END getAll
+2025-01-18 16:15:59,372 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-5] BEGIN getAll
+2025-01-18 16:15:59,603 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-5] END getAll
+2025-01-18 16:16:31,136 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-6] BEGIN getAll
+2025-01-18 16:16:31,146 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-6] END getAll
+2025-01-18 16:16:36,547 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-5] BEGIN getAll
+2025-01-18 16:16:36,556 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-5] END getAll
+2025-01-18 16:16:37,772 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-6] BEGIN getAll
+2025-01-18 16:16:37,776 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-6] END getAll
+2025-01-18 16:19:05,158 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-1] BEGIN getAll
+2025-01-18 16:19:05,175 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-1] END getAll
+2025-01-18 16:19:10,541 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-2] BEGIN getAll
+2025-01-18 16:19:10,544 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-2] END getAll
+2025-01-18 16:19:11,954 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-3] BEGIN getAll
+2025-01-18 16:19:11,959 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-3] END getAll
+2025-01-18 16:19:12,650 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-4] BEGIN getAll
+2025-01-18 16:19:12,653 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-4] END getAll
+2025-01-18 16:19:13,141 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-5] BEGIN getAll
+2025-01-18 16:19:13,145 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-5] END getAll
+2025-01-18 16:21:18,095 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-8] BEGIN getAll
+2025-01-18 16:21:18,104 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-8] END getAll
+2025-01-18 16:21:30,912 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-9] BEGIN getAll
+2025-01-18 16:21:30,924 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-9] END getAll
+2025-01-18 16:22:47,616 INFO c.s.a.c.BikeController {addBike} [http-nio-8080-exec-2] BEGIN addBike
+2025-01-18 16:22:47,943 INFO c.s.a.c.BikeController {addBike} [http-nio-8080-exec-2] END addBike
+2025-01-18 16:23:35,169 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-3] BEGIN getAll
+2025-01-18 16:23:35,184 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-3] END getAll
+2025-01-18 16:23:43,465 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-4] BEGIN getAll
+2025-01-18 16:23:43,483 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-4] END getAll
+2025-01-18 16:35:51,728 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-9] BEGIN getAll
+2025-01-18 16:35:51,810 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-9] END getAll
+2025-01-18 16:36:16,675 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-10] BEGIN getAll
+2025-01-18 16:36:16,681 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-10] END getAll
+2025-01-18 20:46:07,805 INFO o.h.v.i.u.Version {<clinit>} [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2025-01-18 20:46:07,924 INFO o.s.b.StartupInfoLogger {logStarting} [main] Starting HellospringApplication using Java 21 with PID 6380 (C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring\target\classes started by 34618 in C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring)
+2025-01-18 20:46:07,927 INFO o.s.b.SpringApplication {logStartupProfileInfo} [main] No active profile set, falling back to 1 default profile: "default"
+2025-01-18 20:46:09,027 INFO o.s.d.r.c.RepositoryConfigurationDelegate {registerRepositoriesIn} [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-18 20:46:09,133 INFO o.s.d.r.c.RepositoryConfigurationDelegate {registerRepositoriesIn} [main] Finished Spring Data repository scanning in 88 ms. Found 5 JPA repository interfaces.
+2025-01-18 20:46:09,958 INFO o.s.b.w.e.t.TomcatWebServer {initialize} [main] Tomcat initialized with port 8080 (http)
+2025-01-18 20:46:09,976 INFO o.a.j.l.DirectJDKLog {log} [main] Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-18 20:46:09,984 INFO o.a.j.l.DirectJDKLog {log} [main] Starting service [Tomcat]
+2025-01-18 20:46:09,984 INFO o.a.j.l.DirectJDKLog {log} [main] Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-01-18 20:46:10,090 INFO o.a.j.l.DirectJDKLog {log} [main] Initializing Spring embedded WebApplicationContext
+2025-01-18 20:46:10,092 INFO o.s.b.w.s.c.ServletWebServerApplicationContext {prepareWebApplicationContext} [main] Root WebApplicationContext: initialization completed in 2083 ms
+2025-01-18 20:46:10,147 INFO c.z.h.HikariDataSource {getConnection} [main] HikariPool-1 - Starting...
+2025-01-18 20:46:10,508 INFO c.z.h.p.HikariPool {checkFailFast} [main] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:C:/Users/34618/bikes.db user=SA
+2025-01-18 20:46:10,508 INFO c.z.h.HikariDataSource {getConnection} [main] HikariPool-1 - Start completed.
+2025-01-18 20:46:10,525 INFO o.s.b.a.h.H2ConsoleAutoConfiguration {logDataSources} [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:C:/Users/34618/bikes.db'
+2025-01-18 20:46:10,750 INFO o.h.j.i.u.LogHelper {logPersistenceUnitInformation} [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-18 20:46:10,893 INFO o.h.Version {logVersion} [main] HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-01-18 20:46:10,975 INFO o.h.c.i.RegionFactoryInitiator {initiateService} [main] HHH000026: Second-level cache disabled
+2025-01-18 20:46:11,511 INFO o.s.o.j.p.SpringPersistenceUnitInfo {addTransformer} [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-18 20:46:11,601 WARN o.h.e.j.d.i.DialectFactoryImpl {constructDialect} [main] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-18 20:46:14,067 INFO o.h.e.t.j.p.i.JtaPlatformInitiator {initiateService} [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-18 20:46:14,215 INFO o.s.o.j.AbstractEntityManagerFactoryBean {buildNativeEntityManagerFactory} [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-18 20:46:15,456 INFO o.s.d.j.r.q.QueryEnhancerFactory {<clinit>} [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-01-18 20:46:17,726 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration {openEntityManagerInViewInterceptor} [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-18 20:46:18,542 INFO o.a.j.l.DirectJDKLog {log} [main] Starting ProtocolHandler ["http-nio-8080"]
+2025-01-18 20:46:18,621 INFO o.s.b.w.e.t.TomcatWebServer {start} [main] Tomcat started on port 8080 (http) with context path '/'
+2025-01-18 20:46:18,638 INFO o.s.b.StartupInfoLogger {logStarted} [main] Started HellospringApplication in 11.743 seconds (process running for 12.559)
+2025-01-18 20:46:18,775 INFO o.a.j.l.DirectJDKLog {log} [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-18 20:46:18,775 INFO o.s.w.s.FrameworkServlet {initServletBean} [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-01-18 20:46:18,779 INFO o.s.w.s.FrameworkServlet {initServletBean} [http-nio-8080-exec-1] Completed initialization in 4 ms
+2025-01-18 20:46:18,875 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-1] BEGIN getAll
+2025-01-18 20:46:19,168 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-1] END getAll
+2025-01-18 20:46:25,835 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-5] BEGIN getAll
+2025-01-18 20:46:25,852 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-5] END getAll
+2025-01-18 20:48:43,451 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-9] BEGIN getAll
+2025-01-18 20:48:44,099 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-9] END getAll
+2025-01-18 20:49:00,826 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-8] BEGIN getAll
+2025-01-18 20:49:00,883 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-8] END getAll
+2025-01-18 20:49:04,623 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-10] BEGIN getAll
+2025-01-18 20:49:04,662 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-10] END getAll
+2025-01-18 20:49:57,024 INFO c.s.a.c.MechanicController {addMechanic} [http-nio-8080-exec-2] BEGIN addMechanic
+2025-01-18 20:49:57,985 INFO c.s.a.c.MechanicController {addMechanic} [http-nio-8080-exec-4] BEGIN addMechanic
+2025-01-18 20:49:58,272 WARN o.h.e.j.s.SqlExceptionHelper {logExceptions} [http-nio-8080-exec-4] SQL Error: 23502, SQLState: 23502
+2025-01-18 20:49:58,295 ERROR o.h.e.j.s.SqlExceptionHelper {logExceptions} [http-nio-8080-exec-4] La columna "SURNAME" no permite valores nulos (NULL)
+NULL not allowed for column "SURNAME"; SQL statement:
+insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default) [23502-224]
+2025-01-18 20:49:58,272 WARN o.h.e.j.s.SqlExceptionHelper {logExceptions} [http-nio-8080-exec-2] SQL Error: 23502, SQLState: 23502
+2025-01-18 20:49:58,311 ERROR o.h.e.j.s.SqlExceptionHelper {logExceptions} [http-nio-8080-exec-2] La columna "SURNAME" no permite valores nulos (NULL)
+NULL not allowed for column "SURNAME"; SQL statement:
+insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default) [23502-224]
+2025-01-18 20:49:58,704 ERROR c.s.a.c.MechanicController {handleException} [http-nio-8080-exec-4] could not execute statement [La columna "SURNAME" no permite valores nulos (NULL)
+NULL not allowed for column "SURNAME"; SQL statement:
+insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default) [23502-224]] [insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default)]; SQL [insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default)]; constraint [null]
+org.springframework.dao.DataIntegrityViolationException: could not execute statement [La columna "SURNAME" no permite valores nulos (NULL)
+NULL not allowed for column "SURNAME"; SQL statement:
+insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default) [23502-224]] [insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default)]; SQL [insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default)]; constraint [null]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:290)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:241)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:550)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:335)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:160)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy133.save(Unknown Source)
+	at com.svalero.apibikes.service.MechanicService.add(MechanicService.java:42)
+	at com.svalero.apibikes.controller.MechanicController.addMechanic(MechanicController.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement [La columna "SURNAME" no permite valores nulos (NULL)
+NULL not allowed for column "SURNAME"; SQL statement:
+insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default) [23502-224]] [insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default)]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:62)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performMutation(GetGeneratedKeysDelegate.java:116)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:47)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:194)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:132)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:95)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:85)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:671)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:292)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:273)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:323)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:391)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:305)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:224)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:137)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:175)
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:93)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:77)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:54)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:757)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:741)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:364)
+	at jdk.proxy2/jdk.proxy2.$Proxy126.persist(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:319)
+	at jdk.proxy2/jdk.proxy2.$Proxy126.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:628)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:355)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:173)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:148)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:379)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138)
+	... 57 common frames omitted
+Caused by: org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: La columna "SURNAME" no permite valores nulos (NULL)
+NULL not allowed for column "SURNAME"; SQL statement:
+insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default) [23502-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:520)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.table.Column.validateConvertUpdateSequence(Column.java:365)
+	at org.h2.table.Table.convertInsertRow(Table.java:936)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:167)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.CommandContainer.executeUpdateWithGeneratedKeys(CommandContainer.java:242)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:163)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:174)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194)
+	... 107 common frames omitted
+2025-01-18 20:49:58,703 ERROR c.s.a.c.MechanicController {handleException} [http-nio-8080-exec-2] could not execute statement [La columna "SURNAME" no permite valores nulos (NULL)
+NULL not allowed for column "SURNAME"; SQL statement:
+insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default) [23502-224]] [insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default)]; SQL [insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default)]; constraint [null]
+org.springframework.dao.DataIntegrityViolationException: could not execute statement [La columna "SURNAME" no permite valores nulos (NULL)
+NULL not allowed for column "SURNAME"; SQL statement:
+insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default) [23502-224]] [insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default)]; SQL [insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default)]; constraint [null]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:290)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:241)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:550)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:335)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:160)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy133.save(Unknown Source)
+	at com.svalero.apibikes.service.MechanicService.add(MechanicService.java:42)
+	at com.svalero.apibikes.controller.MechanicController.addMechanic(MechanicController.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement [La columna "SURNAME" no permite valores nulos (NULL)
+NULL not allowed for column "SURNAME"; SQL statement:
+insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default) [23502-224]] [insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default)]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:62)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performMutation(GetGeneratedKeysDelegate.java:116)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:47)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:194)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:132)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:95)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:85)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:671)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:292)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:273)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:323)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:391)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:305)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:224)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:137)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:175)
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:93)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:77)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:54)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:757)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:741)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:364)
+	at jdk.proxy2/jdk.proxy2.$Proxy126.persist(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:319)
+	at jdk.proxy2/jdk.proxy2.$Proxy126.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:628)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:355)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:173)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:148)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:379)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138)
+	... 57 common frames omitted
+Caused by: org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: La columna "SURNAME" no permite valores nulos (NULL)
+NULL not allowed for column "SURNAME"; SQL statement:
+insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default) [23502-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:520)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.table.Column.validateConvertUpdateSequence(Column.java:365)
+	at org.h2.table.Table.convertInsertRow(Table.java:936)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:167)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.CommandContainer.executeUpdateWithGeneratedKeys(CommandContainer.java:242)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:163)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:174)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194)
+	... 107 common frames omitted
+2025-01-18 20:49:58,983 INFO c.s.a.c.MechanicController {addMechanic} [http-nio-8080-exec-3] BEGIN addMechanic
+2025-01-18 20:49:59,373 WARN o.h.e.j.s.SqlExceptionHelper {logExceptions} [http-nio-8080-exec-3] SQL Error: 23502, SQLState: 23502
+2025-01-18 20:49:59,376 ERROR o.h.e.j.s.SqlExceptionHelper {logExceptions} [http-nio-8080-exec-3] La columna "SURNAME" no permite valores nulos (NULL)
+NULL not allowed for column "SURNAME"; SQL statement:
+insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default) [23502-224]
+2025-01-18 20:49:59,380 ERROR c.s.a.c.MechanicController {handleException} [http-nio-8080-exec-3] could not execute statement [La columna "SURNAME" no permite valores nulos (NULL)
+NULL not allowed for column "SURNAME"; SQL statement:
+insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default) [23502-224]] [insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default)]; SQL [insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default)]; constraint [null]
+org.springframework.dao.DataIntegrityViolationException: could not execute statement [La columna "SURNAME" no permite valores nulos (NULL)
+NULL not allowed for column "SURNAME"; SQL statement:
+insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default) [23502-224]] [insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default)]; SQL [insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default)]; constraint [null]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:290)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:241)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:550)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:335)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:160)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy133.save(Unknown Source)
+	at com.svalero.apibikes.service.MechanicService.add(MechanicService.java:42)
+	at com.svalero.apibikes.controller.MechanicController.addMechanic(MechanicController.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement [La columna "SURNAME" no permite valores nulos (NULL)
+NULL not allowed for column "SURNAME"; SQL statement:
+insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default) [23502-224]] [insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default)]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:62)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performMutation(GetGeneratedKeysDelegate.java:116)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:47)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:194)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:132)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:95)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:85)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:671)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:292)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:273)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:323)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:391)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:305)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:224)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:137)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:175)
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:93)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:77)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:54)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:757)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:741)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:364)
+	at jdk.proxy2/jdk.proxy2.$Proxy126.persist(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:319)
+	at jdk.proxy2/jdk.proxy2.$Proxy126.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:628)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:355)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:173)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:148)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:379)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138)
+	... 57 common frames omitted
+Caused by: org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: La columna "SURNAME" no permite valores nulos (NULL)
+NULL not allowed for column "SURNAME"; SQL statement:
+insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default) [23502-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:520)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.table.Column.validateConvertUpdateSequence(Column.java:365)
+	at org.h2.table.Table.convertInsertRow(Table.java:936)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:167)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.CommandContainer.executeUpdateWithGeneratedKeys(CommandContainer.java:242)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:163)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:174)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194)
+	... 107 common frames omitted
+2025-01-18 20:50:11,060 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-7] BEGIN getAll
+2025-01-18 20:50:11,073 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-7] END getAll
+2025-01-18 20:50:20,108 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-10] BEGIN getAll
+2025-01-18 20:50:20,116 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-10] END getAll
+2025-01-18 20:50:27,158 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-1] BEGIN getAll
+2025-01-18 20:50:27,189 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-1] END getAll
+2025-01-18 20:50:30,015 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-3] BEGIN getAll
+2025-01-18 20:50:30,024 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-3] END getAll
+2025-01-18 20:51:17,643 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-5] BEGIN getAll
+2025-01-18 20:51:17,671 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-5] END getAll
+2025-01-18 20:51:29,869 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-7] BEGIN getAll
+2025-01-18 20:51:29,900 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-7] END getAll
+2025-01-18 20:51:35,428 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-8] BEGIN getAll
+2025-01-18 20:51:35,450 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-8] END getAll
+2025-01-18 20:58:44,760 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-2] BEGIN getAll
+2025-01-18 20:58:45,148 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-2] END getAll
+2025-01-18 20:58:50,565 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-3] BEGIN getAll
+2025-01-18 20:58:50,591 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-3] END getAll
+2025-01-18 20:59:16,693 INFO c.s.a.c.MechanicController {addMechanic} [http-nio-8080-exec-5] BEGIN addMechanic
+2025-01-18 20:59:16,742 WARN o.h.e.j.s.SqlExceptionHelper {logExceptions} [http-nio-8080-exec-5] SQL Error: 23502, SQLState: 23502
+2025-01-18 20:59:16,758 ERROR o.h.e.j.s.SqlExceptionHelper {logExceptions} [http-nio-8080-exec-5] La columna "SURNAME" no permite valores nulos (NULL)
+NULL not allowed for column "SURNAME"; SQL statement:
+insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default) [23502-224]
+2025-01-18 20:59:16,774 ERROR c.s.a.c.MechanicController {handleException} [http-nio-8080-exec-5] could not execute statement [La columna "SURNAME" no permite valores nulos (NULL)
+NULL not allowed for column "SURNAME"; SQL statement:
+insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default) [23502-224]] [insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default)]; SQL [insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default)]; constraint [null]
+org.springframework.dao.DataIntegrityViolationException: could not execute statement [La columna "SURNAME" no permite valores nulos (NULL)
+NULL not allowed for column "SURNAME"; SQL statement:
+insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default) [23502-224]] [insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default)]; SQL [insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default)]; constraint [null]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:290)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:241)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:550)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:335)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:160)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy133.save(Unknown Source)
+	at com.svalero.apibikes.service.MechanicService.add(MechanicService.java:42)
+	at com.svalero.apibikes.controller.MechanicController.addMechanic(MechanicController.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement [La columna "SURNAME" no permite valores nulos (NULL)
+NULL not allowed for column "SURNAME"; SQL statement:
+insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default) [23502-224]] [insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default)]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:62)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performMutation(GetGeneratedKeysDelegate.java:116)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:47)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:194)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:132)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:95)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:85)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:671)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:292)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:273)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:323)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:391)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:305)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:224)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:137)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:175)
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:93)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:77)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:54)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:757)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:741)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:364)
+	at jdk.proxy2/jdk.proxy2.$Proxy126.persist(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:319)
+	at jdk.proxy2/jdk.proxy2.$Proxy126.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:628)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:355)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:173)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:148)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:379)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138)
+	... 57 common frames omitted
+Caused by: org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: La columna "SURNAME" no permite valores nulos (NULL)
+NULL not allowed for column "SURNAME"; SQL statement:
+insert into mechanics (name,phone,specialization,surname,id) values (?,?,?,?,default) [23502-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:520)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.table.Column.validateConvertUpdateSequence(Column.java:365)
+	at org.h2.table.Table.convertInsertRow(Table.java:936)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:167)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.CommandContainer.executeUpdateWithGeneratedKeys(CommandContainer.java:242)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:163)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:174)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194)
+	... 107 common frames omitted
+2025-01-18 20:59:26,711 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-6] BEGIN getAll
+2025-01-18 20:59:26,723 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-6] END getAll
+2025-01-18 20:59:27,939 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-7] BEGIN getAll
+2025-01-18 20:59:27,944 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-7] END getAll
+2025-01-18 20:59:28,528 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-9] BEGIN getAll
+2025-01-18 20:59:28,535 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-9] END getAll
+2025-01-18 20:59:29,065 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-8] BEGIN getAll
+2025-01-18 20:59:29,072 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-8] END getAll
+2025-01-18 20:59:29,750 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-10] BEGIN getAll
+2025-01-18 20:59:29,755 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-10] END getAll
+2025-01-18 20:59:30,580 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-1] BEGIN getAll
+2025-01-18 20:59:30,586 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-1] END getAll
+2025-01-18 20:59:46,449 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-5] BEGIN getAll
+2025-01-18 20:59:46,456 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-5] END getAll
+2025-01-18 20:59:47,151 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-6] BEGIN getAll
+2025-01-18 20:59:47,158 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-6] END getAll
+2025-01-18 21:39:11,781 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-2] BEGIN getAll
+2025-01-18 21:39:12,921 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-2] END getAll
+2025-01-18 21:39:16,393 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-4] BEGIN getAll
+2025-01-18 21:39:16,461 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-4] END getAll
+2025-01-18 21:40:00,396 INFO c.s.a.c.MechanicController {addMechanic} [http-nio-8080-exec-3] BEGIN addMechanic
+2025-01-18 21:40:01,349 INFO c.s.a.c.MechanicController {addMechanic} [http-nio-8080-exec-3] END addMechanic
+2025-01-18 21:40:11,770 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-5] BEGIN getAll
+2025-01-18 21:40:11,778 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-5] END getAll
+2025-01-18 22:20:37,525 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-10] BEGIN getAll
+2025-01-18 22:20:38,750 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-10] END getAll
+2025-01-18 22:21:02,624 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-4] BEGIN getAll
+2025-01-18 22:21:02,729 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-4] END getAll
+2025-01-18 22:21:13,515 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-3] BEGIN getAll
+2025-01-18 22:21:13,538 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-3] END getAll
+2025-01-18 22:21:18,293 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-5] BEGIN getAll
+2025-01-18 22:21:18,318 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-5] END getAll
+2025-01-18 22:21:58,627 INFO c.s.a.c.MechanicController {addMechanic} [http-nio-8080-exec-6] BEGIN addMechanic
+2025-01-18 22:21:58,670 INFO c.s.a.c.MechanicController {addMechanic} [http-nio-8080-exec-6] END addMechanic
+2025-01-18 22:22:21,558 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-10] BEGIN getAll
+2025-01-18 22:22:21,576 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-10] END getAll
+2025-01-18 22:22:24,750 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-2] BEGIN getAll
+2025-01-18 22:22:24,760 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-2] END getAll
+2025-01-18 22:22:45,562 INFO c.s.a.c.MechanicController {addMechanic} [http-nio-8080-exec-4] BEGIN addMechanic
+2025-01-18 22:22:45,567 INFO c.s.a.c.MechanicController {addMechanic} [http-nio-8080-exec-4] END addMechanic
+2025-01-18 22:23:41,020 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-6] BEGIN getAll
+2025-01-18 22:23:41,024 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-6] END getAll
+2025-01-18 22:23:49,069 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-1] BEGIN getAll
+2025-01-18 22:23:49,080 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-1] END getAll
+2025-01-18 22:23:51,472 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-10] BEGIN getAll
+2025-01-18 22:23:51,481 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-10] END getAll
+2025-01-18 22:34:58,101 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-3] BEGIN getAll
+2025-01-18 22:34:59,647 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-3] END getAll
+2025-01-18 22:35:03,111 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-5] BEGIN getAll
+2025-01-18 22:35:03,127 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-5] END getAll
+2025-01-18 22:35:24,167 INFO c.s.a.c.MechanicController {addMechanic} [http-nio-8080-exec-6] BEGIN addMechanic
+2025-01-18 22:35:24,290 INFO c.s.a.c.MechanicController {addMechanic} [http-nio-8080-exec-6] END addMechanic
+2025-01-18 22:36:48,999 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-1] BEGIN getAll
+2025-01-18 22:36:49,032 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-1] END getAll
+2025-01-18 22:36:51,630 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-10] BEGIN getAll
+2025-01-18 22:36:51,636 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-10] END getAll
+2025-01-18 22:45:14,318 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-3] BEGIN getAll
+2025-01-18 22:45:15,360 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-3] END getAll
+2025-01-18 22:45:41,594 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-5] BEGIN getAll
+2025-01-18 22:45:41,604 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-5] END getAll
+2025-01-18 22:46:04,431 INFO c.s.a.c.MechanicController {addMechanic} [http-nio-8080-exec-6] BEGIN addMechanic
+2025-01-18 22:46:04,453 INFO c.s.a.c.MechanicController {addMechanic} [http-nio-8080-exec-6] END addMechanic
+2025-01-18 22:48:12,359 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-1] BEGIN getAll
+2025-01-18 22:48:12,380 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-1] END getAll
+2025-01-18 22:48:15,245 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-10] BEGIN getAll
+2025-01-18 22:48:15,325 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-10] END getAll
+2025-01-18 22:48:40,192 INFO c.s.a.c.MechanicController {addMechanic} [http-nio-8080-exec-2] BEGIN addMechanic
+2025-01-18 22:48:40,197 INFO c.s.a.c.MechanicController {addMechanic} [http-nio-8080-exec-2] END addMechanic
+2025-01-18 22:56:38,534 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-6] BEGIN getAll
+2025-01-18 22:56:38,663 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-6] END getAll
+2025-01-18 22:56:42,300 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-9] BEGIN getAll
+2025-01-18 22:56:42,349 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-9] END getAll
+2025-01-18 22:56:49,323 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-1] BEGIN getAll
+2025-01-18 22:56:49,336 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-1] END getAll
+2025-01-18 22:56:52,869 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-10] BEGIN getAll
+2025-01-18 22:56:52,879 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-10] END getAll
+2025-01-18 22:57:03,124 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-3] BEGIN getAll
+2025-01-18 22:57:03,140 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-3] END getAll
+2025-01-18 22:57:14,569 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-5] BEGIN getAll
+2025-01-18 22:57:14,574 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-5] END getAll
+2025-01-18 23:09:56,353 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-7] BEGIN getAll
+2025-01-18 23:09:56,544 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-7] END getAll
+2025-01-18 23:10:06,212 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-8] BEGIN getAll
+2025-01-18 23:10:06,223 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-8] END getAll
+2025-01-18 23:10:24,368 INFO c.s.a.c.MechanicController {addMechanic} [http-nio-8080-exec-1] BEGIN addMechanic
+2025-01-18 23:10:24,471 INFO c.s.a.c.MechanicController {addMechanic} [http-nio-8080-exec-1] END addMechanic
+2025-01-18 23:10:24,586 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-10] BEGIN getAll
+2025-01-18 23:10:24,593 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-10] END getAll
+2025-01-18 23:11:22,542 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-3] BEGIN getAll
+2025-01-18 23:11:22,550 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-3] END getAll
+2025-01-18 23:11:25,853 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-9] BEGIN getAll
+2025-01-18 23:11:25,885 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-9] END getAll
+2025-01-18 23:16:40,852 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-1] BEGIN getAll
+2025-01-18 23:16:40,968 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-1] END getAll
+2025-01-18 23:16:54,726 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-4] BEGIN getAll
+2025-01-18 23:16:54,742 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-4] END getAll
+2025-01-18 23:17:06,478 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-3] BEGIN getAll
+2025-01-18 23:17:06,485 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-3] END getAll
+2025-01-18 23:22:52,655 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-9] BEGIN getAll
+2025-01-18 23:22:52,687 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-9] END getAll
+2025-01-18 23:22:58,154 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-7] BEGIN getAll
+2025-01-18 23:22:58,159 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-7] END getAll
+2025-01-18 23:24:43,344 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-10] BEGIN getAll
+2025-01-18 23:24:43,361 INFO c.s.a.c.BikeController {getAll} [http-nio-8080-exec-10] END getAll
+2025-01-18 23:24:46,551 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-2] BEGIN getAll
+2025-01-18 23:24:46,558 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-2] END getAll
+2025-01-18 23:24:52,450 INFO c.s.a.c.MechanicController {removeMechanic} [http-nio-8080-exec-4] BEGIN removeMechanic
+2025-01-18 23:24:54,067 INFO c.s.a.c.MechanicController {removeMechanic} [http-nio-8080-exec-4] END removeMechanic
+2025-01-18 23:24:56,451 INFO c.s.a.c.MechanicController {removeMechanic} [http-nio-8080-exec-3] BEGIN removeMechanic
+2025-01-18 23:24:56,462 INFO c.s.a.c.MechanicController {removeMechanic} [http-nio-8080-exec-3] END removeMechanic
+2025-01-18 23:24:58,762 INFO c.s.a.c.MechanicController {removeMechanic} [http-nio-8080-exec-5] BEGIN removeMechanic
+2025-01-18 23:24:58,769 INFO c.s.a.c.MechanicController {removeMechanic} [http-nio-8080-exec-5] END removeMechanic
+2025-01-18 23:25:15,028 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-6] BEGIN getAll
+2025-01-18 23:25:15,051 INFO c.s.a.c.MechanicController {getAll} [http-nio-8080-exec-6] END getAll

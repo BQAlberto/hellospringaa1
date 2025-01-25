@@ -2,6 +2,7 @@ package com.svalero.apibikes.controller;
 
 import com.svalero.apibikes.domain.WorkShop;
 import com.svalero.apibikes.domain.dto.ErrorResponse;
+import com.svalero.apibikes.domain.dto.UserOutDto;
 import com.svalero.apibikes.domain.dto.WorkShopInDto;
 import com.svalero.apibikes.domain.dto.WorkShopOutDto;
 import com.svalero.apibikes.exception.WorkShopNotFoundException;
@@ -28,11 +29,18 @@ public class WorkShopController {
     private final Logger logger = LoggerFactory.getLogger(WorkShopController.class);
 
     @GetMapping("/workshops")
-    public ResponseEntity<List<WorkShopOutDto>> getAll(@RequestParam(value = "name", defaultValue = "") String name) {
+    public List<WorkShopOutDto> filterworkshops(
+            @RequestParam(required = false, defaultValue = "") String name,
+            @RequestParam(required = false, defaultValue = "") String address,
+            @RequestParam(required = false, defaultValue = "") String email) {
+
         logger.info("BEGIN getAll");
-        List<WorkShopOutDto> workShops = workShopService.getAll(name);
+
+        List<WorkShopOutDto> filteredWorkshops = workShopService.filterWorkshops(name, address, email);
+
         logger.info("END getAll");
-        return new ResponseEntity<>(workShops, HttpStatus.OK);
+
+        return filteredWorkshops;
     }
 
     @GetMapping("/workshops/{workShopId}")

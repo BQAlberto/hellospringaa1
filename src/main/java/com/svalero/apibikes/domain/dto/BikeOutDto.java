@@ -20,4 +20,5 @@ public class BikeOutDto {
     private long userId;
     private double latitude;
     private double longitude;
+    private String color;
 }

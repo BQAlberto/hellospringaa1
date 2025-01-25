@@ -26,12 +26,18 @@ public class UserController {
     private final Logger logger = LoggerFactory.getLogger(UserController.class);
 
     @GetMapping("/users")
-    public ResponseEntity<List<UserOutDto>> getAll(@RequestParam(value = "name", defaultValue = "") String name,
-                                                   @RequestParam(value = "surname", defaultValue = "") String surname) {
+    public List<UserOutDto> filterusers(
+            @RequestParam(required = false, defaultValue = "") String name,
+            @RequestParam(required = false, defaultValue = "") String surname,
+            @RequestParam(required = false, defaultValue = "") String email) {
+
         logger.info("BEGIN getAll");
-        List<UserOutDto> users = userService.getAll(name, surname);
+
+        List<UserOutDto> filteredUsers = userService.filterUsers(name, surname, email);
+
         logger.info("END getAll");
-        return new ResponseEntity<>(users, HttpStatus.OK);
+
+        return filteredUsers;
     }
 
     @GetMapping("/users/{userId}")

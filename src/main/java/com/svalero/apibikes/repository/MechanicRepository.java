@@ -11,8 +11,7 @@ import java.util.List;
 public interface MechanicRepository extends CrudRepository<Mechanic, Long> {
 
     List<Mechanic> findAll();
-    List<Mechanic> findByName(String name);
-    List<Mechanic> findBySurname(String surname);
+    List<Mechanic> findByNameContainingAndSurnameContainingAndSpecializationContaining(String brand, String model, String specialization);
 
     // Ejemplo JPQL
     @Query(value = "SELECT m FROM Mechanic m WHERE m.specialization = :specialization")

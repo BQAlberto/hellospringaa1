@@ -28,20 +28,13 @@ public class BikeService {
     @Autowired
     private ModelMapper modelMapper;
 
-    public List<BikeOutDto> getAll(String brand, String model) {
-        List<Bike> bikeList;
+    public List<BikeOutDto> filterBikes(String brand, String model, String color) {
 
-        if (brand.isEmpty() && model.isEmpty()) {
-            bikeList = bikeRepository.findAll();
-        } else if (brand.isEmpty()) {
-            bikeList = bikeRepository.findByModel(model);
-        } else if (model.isEmpty()) {
-            bikeList = bikeRepository.findByBrand(brand);
-        } else {
-            bikeList = bikeRepository.findByBrandAndModel(brand, model);
-        }
+        List<Bike> bikes = bikeRepository
+                .findByBrandContainingAndModelContainingAndColorContaining(
+                        brand, model, color);
 
-        return modelMapper.map(bikeList, new TypeToken<List<BikeOutDto>>() {}.getType());
+        return modelMapper.map(bikes, new TypeToken<List<BikeOutDto>>() {}.getType());
     }
 
     public Bike get(long id) throws BikeNotFoundException {

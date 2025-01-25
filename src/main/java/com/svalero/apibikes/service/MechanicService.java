@@ -1,8 +1,10 @@
 package com.svalero.apibikes.service;
 
 import com.svalero.apibikes.domain.Mechanic;
+import com.svalero.apibikes.domain.User;
 import com.svalero.apibikes.domain.dto.MechanicInDto;
 import com.svalero.apibikes.domain.dto.MechanicOutDto;
+import com.svalero.apibikes.domain.dto.UserOutDto;
 import com.svalero.apibikes.exception.MechanicNotFoundException;
 import com.svalero.apibikes.repository.MechanicRepository;
 import org.modelmapper.ModelMapper;
@@ -20,16 +22,13 @@ public class MechanicService {
     @Autowired
     private ModelMapper modelMapper;
 
-    public List<MechanicOutDto> getAll(String name) {
-        List<Mechanic> mechanicList;
+    public List<MechanicOutDto> filterMechanics(String name, String surname, String specialization) {
 
-        if (name.isEmpty()) {
-            mechanicList = mechanicRepository.findAll();
-        } else {
-            mechanicList = mechanicRepository.findByName(name);
-        }
+        List<Mechanic> mechanics = mechanicRepository
+                .findByNameContainingAndSurnameContainingAndSpecializationContaining(
+                        name, surname, specialization);
 
-        return modelMapper.map(mechanicList, new TypeToken<List<MechanicOutDto>>() {}.getType());
+        return modelMapper.map(mechanics, new TypeToken<List<MechanicOutDto>>() {}.getType());
     }
 
     public Mechanic get(long id) throws MechanicNotFoundException {

@@ -1,11 +1,9 @@
 package com.svalero.apibikes.service;
 
-import com.svalero.apibikes.domain.Bike;
-import com.svalero.apibikes.domain.Mechanic;
-import com.svalero.apibikes.domain.RepairOrder;
-import com.svalero.apibikes.domain.WorkShop;
+import com.svalero.apibikes.domain.*;
 import com.svalero.apibikes.domain.dto.RepairOrderInDto;
 import com.svalero.apibikes.domain.dto.RepairOrderOutDto;
+import com.svalero.apibikes.domain.dto.UserOutDto;
 import com.svalero.apibikes.exception.RepairOrderNotFoundException;
 import com.svalero.apibikes.repository.RepairOrderRepository;
 import org.modelmapper.ModelMapper;
@@ -23,9 +21,18 @@ public class RepairOrderService {
     @Autowired
     private ModelMapper modelMapper;
 
-    public List<RepairOrderOutDto> getAll() {
-        List<RepairOrder> repairOrderList = repairOrderRepository.findAll();
-        return modelMapper.map(repairOrderList, new TypeToken<List<RepairOrderOutDto>>() {}.getType());
+    public List<RepairOrderOutDto> filterRepairOrders(Long bikeId, Long mechanicId, Long workShopId) {
+        List<RepairOrder> repairOrders;
+
+        if (bikeId == null && mechanicId == null && workShopId == null) {
+            // Sin filtros: devolver todas las órdenes
+            repairOrders = repairOrderRepository.findAll();
+        } else {
+            // Filtrar con los valores proporcionados
+            repairOrders = repairOrderRepository.findWithFilters(bikeId, mechanicId, workShopId);
+        }
+
+        return modelMapper.map(repairOrders, new TypeToken<List<RepairOrderOutDto>>() {}.getType());
     }
 
     public RepairOrder get(long id) throws RepairOrderNotFoundException {
@@ -38,9 +45,9 @@ public class RepairOrderService {
         RepairOrder repairOrder = new RepairOrder();
 
         // Asignar entidades a partir de los IDs
-        repairOrder.setBike(new Bike(repairOrderInDto.getBikeId())); // Solo asigna el ID
-        repairOrder.setMechanic(new Mechanic(repairOrderInDto.getMechanicId())); // Solo asigna el ID
-        repairOrder.setWorkShop(new WorkShop(repairOrderInDto.getWorkShopId())); // Solo asigna el ID
+        repairOrder.setBike(new Bike(repairOrderInDto.getBikeId()));
+        repairOrder.setMechanic(new Mechanic(repairOrderInDto.getMechanicId()));
+        repairOrder.setWorkShop(new WorkShop(repairOrderInDto.getWorkShopId()));
 
         // Asignar otros campos
         repairOrder.setRepairDate(repairOrderInDto.getRepairDate());

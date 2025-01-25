@@ -12,11 +12,9 @@ import java.util.List;
 public interface BikeRepository extends CrudRepository<Bike, Long> {
 
     List<Bike> findAll();
-    List<Bike> findByBrand(String brand);
-    List<Bike> findByModel(String model);
-    List<Bike> findByBrandAndModel(String brand, String model);
 
-    List<Bike> findByUser(User user);
+    List<Bike> findByBrandContainingAndModelContainingAndColorContaining(
+            String brand, String model, String color);
 
     //Ejemplo JPQL
     @Query(value = "SELECT b FROM Bike b WHERE b.user.email = :email")
@@ -25,4 +23,6 @@ public interface BikeRepository extends CrudRepository<Bike, Long> {
     //Ejemplo SQL nativo
     @Query(value = "SELECT b.* FROM bikes b, users u WHERE b.id_user = u.id", nativeQuery = true)
     List<Bike> getBikesByUserEmail(String email);
+
+    List<Bike> id(long id);
 }

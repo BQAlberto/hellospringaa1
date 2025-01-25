@@ -4,6 +4,7 @@ import com.svalero.apibikes.domain.Mechanic;
 import com.svalero.apibikes.domain.dto.ErrorResponse;
 import com.svalero.apibikes.domain.dto.MechanicInDto;
 import com.svalero.apibikes.domain.dto.MechanicOutDto;
+import com.svalero.apibikes.domain.dto.UserOutDto;
 import com.svalero.apibikes.exception.MechanicNotFoundException;
 import com.svalero.apibikes.service.MechanicService;
 import jakarta.validation.Valid;
@@ -29,11 +30,18 @@ public class MechanicController {
     private final Logger logger = LoggerFactory.getLogger(MechanicController.class);
 
     @GetMapping("/mechanics")
-    public ResponseEntity<List<MechanicOutDto>> getAll(@RequestParam(value = "name", defaultValue = "") String name) {
+    public List<MechanicOutDto> filtermechanics(
+            @RequestParam(required = false, defaultValue = "") String name,
+            @RequestParam(required = false, defaultValue = "") String surname,
+            @RequestParam(required = false, defaultValue = "") String specialization) {
+
         logger.info("BEGIN getAll");
-        List<MechanicOutDto> mechanics = mechanicService.getAll(name);
+
+        List<MechanicOutDto> filteredMechanics = mechanicService.filterMechanics(name, surname, specialization);
+
         logger.info("END getAll");
-        return new ResponseEntity<>(mechanics, HttpStatus.OK);
+
+        return filteredMechanics;
     }
 
     @GetMapping("/mechanics/{mechanicId}")

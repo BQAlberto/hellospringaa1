@@ -30,13 +30,19 @@ paths:
       parameters:
         - name: brand
           in: query
-          description: Filtro por marca de bici
+          description: Filtro opcional por marca.
           required: false
           schema:
             type: string
         - name: model
           in: query
-          description: Filtro por modelo
+          description: Filtro opcional por modelo.
+          required: false
+          schema:
+            type: string
+        - name: color
+          in: query
+          description: Filtro opcional por color.
           required: false
           schema:
             type: string
@@ -167,8 +173,25 @@ paths:
       summary: Devuelve listado de usuarios.
       description: |
         Lista los usuarios registrados segun filtros aplicados
-        
-        patapimpatapam
+      parameters:
+        - name: name
+          in: query
+          description: Filtro opcional por nombre.
+          required: false
+          schema:
+            type: string
+        - name: surname
+          in: query
+          description: Filtro opcional por apellido.
+          required: false
+          schema:
+            type: string
+        - name: email
+          in: query
+          description: Filtro opcional por email.
+          required: false
+          schema:
+            type: string
       responses:
         '200':
           description: OK
@@ -315,7 +338,19 @@ paths:
       parameters:
         - name: name
           in: query
-          description: Filtro por nombre de taller
+          description: Filtro opcional por nombre.
+          required: false
+          schema:
+            type: string
+        - name: address
+          in: query
+          description: Filtro opcional por dirección.
+          required: false
+          schema:
+            type: string
+        - name: email
+          in: query
+          description: Filtro opcional por email.
           required: false
           schema:
             type: string
@@ -413,7 +448,19 @@ paths:
       parameters:
         - name: name
           in: query
-          description: Filtro por nombre
+          description: Filtro opcional por nombre.
+          required: false
+          schema:
+            type: string
+        - name: surname
+          in: query
+          description: Filtro opcional por apellido.
+          required: false
+          schema:
+            type: string
+        - name: specialization
+          in: query
+          description: Filtro opcional por especialización.
           required: false
           schema:
             type: string
@@ -507,6 +554,29 @@ paths:
       tags:
         - repair-orders
       summary: Lista todas las órdenes de reparación.
+      description: Lista las ordenes de reparación con filtros opcionales por identificadores.
+      parameters:
+        - name: bikeId
+          in: query
+          description: Filtro opcional por identificador de bicicleta.
+          required: false
+          schema:
+            type: integer
+            format: int64
+        - name: mechanicId
+          in: query
+          description: Filtro opcional por identificador de mecánico.
+          required: false
+          schema:
+            type: integer
+            format: int64
+        - name: workShopId
+          in: query
+          description: Filtro opcional por identificador de taller.
+          required: false
+          schema:
+            type: integer
+            format: int64
       responses:
         '200':
           description: OK

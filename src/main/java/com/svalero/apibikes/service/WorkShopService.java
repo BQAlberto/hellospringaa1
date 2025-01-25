@@ -1,6 +1,8 @@
 package com.svalero.apibikes.service;
 
+import com.svalero.apibikes.domain.User;
 import com.svalero.apibikes.domain.WorkShop;
+import com.svalero.apibikes.domain.dto.UserOutDto;
 import com.svalero.apibikes.domain.dto.WorkShopInDto;
 import com.svalero.apibikes.domain.dto.WorkShopOutDto;
 import com.svalero.apibikes.exception.WorkShopNotFoundException;
@@ -20,16 +22,13 @@ public class WorkShopService {
     @Autowired
     private ModelMapper modelMapper;
 
-    public List<WorkShopOutDto> getAll(String name) {
-        List<WorkShop> workShopList;
+    public List<WorkShopOutDto> filterWorkshops(String name, String address, String email) {
 
-        if (name.isEmpty()) {
-            workShopList = workShopRepository.findAll();
-        } else {
-            workShopList = workShopRepository.findByName(name);
-        }
+        List<WorkShop> workshops = workShopRepository
+                .findByNameContainingAndAddressContainingAndEmailContaining(
+                        name, address, email);
 
-        return modelMapper.map(workShopList, new TypeToken<List<WorkShopOutDto>>() {}.getType());
+        return modelMapper.map(workshops, new TypeToken<List<WorkShopOutDto>>() {}.getType());
     }
 
     public WorkShop get(long id) throws WorkShopNotFoundException {
