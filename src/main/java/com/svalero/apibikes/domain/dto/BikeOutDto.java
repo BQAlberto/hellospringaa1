@@ -1,7 +1,6 @@
 package com.svalero.apibikes.domain.dto;
 
 import com.svalero.apibikes.domain.User;
-import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

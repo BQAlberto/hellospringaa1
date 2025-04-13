@@ -4,7 +4,6 @@ import com.svalero.apibikes.domain.User;
 import com.svalero.apibikes.domain.dto.*;
 import com.svalero.apibikes.exception.UserNotFoundException;
 import com.svalero.apibikes.service.UserService;
-import jakarta.validation.Valid;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +13,7 @@ import org.springframework.validation.FieldError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -49,9 +49,9 @@ public class UserController {
     }
 
     @PostMapping("/users")
-    public ResponseEntity<User> addUser(@RequestBody User user) {
-        User newUser = userService.add(user);
-        return new ResponseEntity<>(newUser, HttpStatus.CREATED);
+    public ResponseEntity<UserOutDto> addUser(@RequestBody UserInDto userInDto) {
+        UserOutDto userOutDto = userService.add(userInDto);
+        return new ResponseEntity<>(userOutDto, HttpStatus.CREATED);
     }
 
     @PutMapping("/users/{userId}")

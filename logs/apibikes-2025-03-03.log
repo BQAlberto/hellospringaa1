@@ -1,0 +1,9 @@
+2025-03-03 20:46:13,557 INFO o.h.v.i.u.Version {<clinit>} [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2025-03-03 20:46:13,754 INFO o.s.b.StartupInfoLogger {logStarting} [main] Starting BikeControllerTests using Java 21 with PID 1412 (started by 34618 in C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring)
+2025-03-03 20:46:13,758 INFO o.s.b.SpringApplication {logStartupProfileInfo} [main] No active profile set, falling back to 1 default profile: "default"
+2025-03-03 20:46:22,120 INFO o.s.m.w.MockServletContext {log} [main] Initializing Spring TestDispatcherServlet ''
+2025-03-03 20:46:22,124 INFO o.s.w.s.FrameworkServlet {initServletBean} [main] Initializing Servlet ''
+2025-03-03 20:46:22,144 INFO o.s.w.s.FrameworkServlet {initServletBean} [main] Completed initialization in 8 ms
+2025-03-03 20:46:22,312 INFO o.s.b.StartupInfoLogger {logStarted} [main] Started BikeControllerTests in 10.164 seconds (process running for 13.817)
+2025-03-03 20:46:23,086 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=, model=, color=
+2025-03-03 20:46:23,103 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 3 bicicletas filtradas

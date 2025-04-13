@@ -1,0 +1,741 @@
+{
+	"info": {
+		"_postman_id": "19e902f3-de18-4f18-a96f-25955715fb85",
+		"name": "API Bikes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43801612"
+	},
+	"item": [
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "users",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/users?name&surname&email",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": null
+								},
+								{
+									"key": "surname",
+									"value": null
+								},
+								{
+									"key": "email",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "users/{userid}",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJzZWxmIiwic3ViIjoidXN1YXJpbzIiLCJleHAiOjE3NDQwNjcxNjAsImlhdCI6MTc0NDA2MzU2MCwic2NvcGUiOiIifQ.oc-R0ZXWqUUOGU0WrRfcrsZYBH6dpnalkd2VyWnJuh6mOu4Fqq0_Q5cjy41OKXV9RvKxNJ3ia9_2h98-g2ksB1gQytIE5henjXQsa31raOmkTtm4BTxcCrRwIufzVf6jqipieAqdBsoMR5uUIyR7ZMCMe1l1Fq_o28XSgIePt9_Ho9U6Z7YzH1HZAeiy7jgIs6xyoY01_DsuFpQ1pu3jKMmKDrU9Es_ZRt-8BqfM2npb3TR_sdp1FS6qU4jKiF7xNKx1o-CspaERExzuyquBzJOYttqShHpB1EOaiVyWjWaPS24YYmPcoWDL6zwfUWkP_H3ZD1dTfy3rAIczrW65QQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/users/130",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"130"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Register user",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"username\": \"usuario2\",\r\n  \"password\": \"1234\",\r\n  \"name\": \"Pedro\",\r\n  \"surname\": \"Gómez\",\r\n  \"email\": \"usuario2@example.com\"\r\n}\r\n\r\n\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Token",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"username\": \"usuario2\",\r\n  \"password\": \"1234\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/token",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"token"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/users/{userId}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"\",\r\n  \"surname\": \"\",\r\n  \"email\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/users/{userId}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"{userId}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/users/{userId}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/users/{userId}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"{userId}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Bikes",
+			"item": [
+				{
+					"name": "bikes",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJzZWxmIiwic3ViIjoidXN1YXJpbzIiLCJleHAiOjE3NDQyNDIyMTcsImlhdCI6MTc0NDIzODYxNywic2NvcGUiOiIifQ.hEBF2fIkcUGr6-RIn4xiMe6kHmqHLsVE-SYIMGHEJ97DmnY0mhxi7gnnlK46rv9uk23eX8uoNU2c0OC9ZFOhVdwMK6zk3uQOoDDoC5UQiGLAq5hsBjkYp-rDpBYdl5HlIQ6uOeBtDoE-bkxCDanPyJDyvJXNHci-1JVtnt2rod38pGnMXE6qJGVDYoczVuuKTRJj7j2MNFWzC0L2psQMPifmKOD1eBel5aAAlWh5jm46IZvr6qydo1jH1tW8BByDKYylMULPbI6S1Mnp-Ud5_loypi7v0opRTye-gtZHIvGlqGk5-aC7N-3-kIxo2aF3aVEBsz9MGWgccrniWQEqZQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/bikes?brand&model&color",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"bikes"
+							],
+							"query": [
+								{
+									"key": "brand",
+									"value": null
+								},
+								{
+									"key": "model",
+									"value": null
+								},
+								{
+									"key": "color",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/bikes/{bikeId}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/bikes/{bikeId}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"bikes",
+								"{bikeId}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/users/{userId}/bikes",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"brand\": \"CANYON\",\r\n  \"model\": \"ULTIMATE\",\r\n  \"releaseDate\": \"2024-05-11\",\r\n  \"color\": \"WHITE\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/users/1/bikes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"1",
+								"bikes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/bikes/{bikeId}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"brand\": \"RIDLEY\",\r\n  \"model\": \"PEL\",\r\n  \"color\": \"WHITE\",\r\n  \"registrationDate\": \"2024-02-03\",\r\n  \"releaseDate\": \"2024-01-20\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/bikes/{bikeId}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"bikes",
+								"{bikeId}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/bikes/{bikeId}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/bikes/{bikeId}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"bikes",
+								"{bikeId}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "WorkShop",
+			"item": [
+				{
+					"name": "workshops",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/workshops?name&address&email",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"workshops"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": null
+								},
+								{
+									"key": "address",
+									"value": null
+								},
+								{
+									"key": "email",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/workshops/{workShopId}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/workshops/{workShopId}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"workshops",
+								"{workShopId}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/workshops",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Taller Teruel\",\r\n  \"address\": \"Calle Mayor, 123, Montalbán\",\r\n  \"phone\": \"654321987\",\r\n  \"email\": \"contacto@tallerejemplo.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/workshops",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"workshops"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/workshops/{workShopId}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Taller Actualizado\",\r\n  \"address\": \"Avenida Principal, 456, Zaragoza\",\r\n  \"phone\": \"987654321\",\r\n  \"email\": \"actualizado@taller.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/workshops/{workShopId}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"workshops",
+								"{workShopId}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/workshops/{workShopId}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/workshops/{workShopId}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"workshops",
+								"{workShopId}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Mechanic",
+			"item": [
+				{
+					"name": "mechanics",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/mechanics?name&surname&specialization",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"mechanics"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": null
+								},
+								{
+									"key": "surname",
+									"value": null
+								},
+								{
+									"key": "specialization",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/mechanics/{mechanicId}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/mechanics/{mechanicId}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"mechanics",
+								"{mechanicId}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/mechanics",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Juan\",\r\n  \"surname\": \"García\",\r\n  \"phone\": \"654321987\",\r\n  \"specialization\": \"Bicicletas eléctricas\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/mechanics",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"mechanics"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/mechanics/{mechanicId}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Juan Actualizado\",\r\n  \"surname\": \"Garcia López\",\r\n  \"phone\": \"987654321\",\r\n  \"specialization\": \"Reparaciones avanzadas\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/mechanics/{mechanicId}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"mechanics",
+								"{mechanicId}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/mechanics/{mechanicId}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/mechanics/{mechanicId}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"mechanics",
+								"{mechanicId}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "RepairOrder",
+			"item": [
+				{
+					"name": "repair-orders",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/repair-orders?bikeId&mechanicId&workShopId",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"repair-orders"
+							],
+							"query": [
+								{
+									"key": "bikeId",
+									"value": null
+								},
+								{
+									"key": "mechanicId",
+									"value": null
+								},
+								{
+									"key": "workShopId",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/repair-orders/{repairOrderId}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/repair-orders/{repairOrderId}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"repair-orders",
+								"{repairOrderId}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "repair-orders",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"bikeId\": 43,\r\n  \"mechanicId\": 1,\r\n  \"workShopId\": 4,\r\n  \"repairDate\": \"2025-01-12\",\r\n  \"cost\": 150.75,\r\n  \"description\": \"Cambio de frenos y ajuste general\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/repair-orders",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"repair-orders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/repair-orders/{repairOrderId}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"bikeId\": 1,\r\n  \"mechanicId\": 1,\r\n  \"workShopId\": 4,\r\n  \"repairDate\": \"2025-01-15\",\r\n  \"cost\": 150.75,\r\n  \"description\": \"Cambio de manillar y revisión general\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/repair-orders/{repairOrderId}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"repair-orders",
+								"{repairOrderId}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/repair-orders/{repairOrderId}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/repair-orders/{repairOrderId}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"repair-orders",
+								"{repairOrderId}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

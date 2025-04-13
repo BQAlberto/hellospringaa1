@@ -1,0 +1,498 @@
+2025-04-09 00:16:42,052 INFO o.h.v.i.u.Version {<clinit>} [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2025-04-09 00:16:42,087 INFO o.s.b.StartupInfoLogger {logStarting} [main] Starting HellospringApplication using Java 21 on DESKTOP-A2Q7539 with PID 5220 (C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring\target\classes started by 34618 in C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring)
+2025-04-09 00:16:42,088 INFO o.s.b.SpringApplication {logStartupProfileInfo} [main] No active profile set, falling back to 1 default profile: "default"
+2025-04-09 00:16:43,218 INFO o.s.d.r.c.RepositoryConfigurationDelegate {registerRepositoriesIn} [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-09 00:16:43,430 INFO o.s.d.r.c.RepositoryConfigurationDelegate {registerRepositoriesIn} [main] Finished Spring Data repository scanning in 187 ms. Found 5 JPA repository interfaces.
+2025-04-09 00:16:47,935 INFO o.s.b.w.e.t.TomcatWebServer {initialize} [main] Tomcat initialized with port(s): 8080 (http)
+2025-04-09 00:16:47,955 INFO o.a.j.l.DirectJDKLog {log} [main] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-09 00:16:47,963 INFO o.a.j.l.DirectJDKLog {log} [main] Starting service [Tomcat]
+2025-04-09 00:16:47,964 INFO o.a.j.l.DirectJDKLog {log} [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-04-09 00:16:49,187 INFO o.a.j.l.DirectJDKLog {log} [main] Initializing Spring embedded WebApplicationContext
+2025-04-09 00:16:49,195 INFO o.s.b.w.s.c.ServletWebServerApplicationContext {prepareWebApplicationContext} [main] Root WebApplicationContext: initialization completed in 7028 ms
+2025-04-09 00:16:49,329 INFO c.z.h.HikariDataSource {getConnection} [main] HikariPool-1 - Starting...
+2025-04-09 00:16:51,768 INFO c.z.h.HikariDataSource {getConnection} [main] HikariPool-1 - Start completed.
+2025-04-09 00:16:51,935 INFO o.s.b.a.h.H2ConsoleAutoConfiguration {logDataSources} [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:C:/Users/34618/bikes.db'
+2025-04-09 00:16:52,720 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration {openEntityManagerInViewInterceptor} [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-09 00:16:53,426 INFO o.h.j.i.u.LogHelper {logPersistenceUnitInformation} [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-09 00:16:53,712 INFO o.h.Version {logVersion} [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-04-09 00:16:54,426 INFO o.h.a.c.r.j.JavaReflectionManager {<clinit>} [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-09 00:16:55,357 INFO o.h.d.Dialect {<init>} [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-04-09 00:16:57,963 INFO o.h.e.t.j.p.i.JtaPlatformInitiator {initiateService} [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-09 00:16:57,979 INFO o.s.o.j.AbstractEntityManagerFactoryBean {buildNativeEntityManagerFactory} [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09 00:17:00,428 INFO o.s.s.w.DefaultSecurityFilterChain {<init>} [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1e2bc241, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@543196f9, org.springframework.security.web.context.SecurityContextPersistenceFilter@24d097c8, org.springframework.security.web.header.HeaderWriterFilter@56ed2baf, org.springframework.web.filter.CorsFilter@4d7fba20, org.springframework.security.web.authentication.logout.LogoutFilter@6a30f6b1, com.svalero.apibikes.security.AuthTokenFilter@3702d0ed, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5bfdc92b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@15a6a91f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@112b3298, org.springframework.security.web.session.SessionManagementFilter@45e9db77, org.springframework.security.web.access.ExceptionTranslationFilter@2aa65672, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@20505460]
+2025-04-09 00:17:00,980 INFO o.a.j.l.DirectJDKLog {log} [main] Starting ProtocolHandler ["http-nio-8080"]
+2025-04-09 00:17:01,107 INFO o.s.b.w.e.t.TomcatWebServer {start} [main] Tomcat started on port(s): 8080 (http) with context path ''
+2025-04-09 00:17:01,137 INFO o.s.b.StartupInfoLogger {logStarted} [main] Started HellospringApplication in 20.203 seconds (JVM running for 21.19)
+2025-04-09 00:19:30,534 INFO o.a.j.l.DirectJDKLog {log} [http-nio-8080-exec-6] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-09 00:19:30,535 INFO o.s.w.s.FrameworkServlet {initServletBean} [http-nio-8080-exec-6] Initializing Servlet 'dispatcherServlet'
+2025-04-09 00:19:30,539 INFO o.s.w.s.FrameworkServlet {initServletBean} [http-nio-8080-exec-6] Completed initialization in 3 ms
+2025-04-09 00:19:30,543 ERROR c.s.a.s.AuthEntryPointJwt {commence} [http-nio-8080-exec-6] Unauthorized error: Full authentication is required to access this resource
+2025-04-09 00:19:39,852 ERROR c.s.a.s.AuthEntryPointJwt {commence} [http-nio-8080-exec-10] Unauthorized error: Full authentication is required to access this resource
+2025-04-09 00:24:22,038 INFO o.h.v.i.u.Version {<clinit>} [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2025-04-09 00:24:22,068 INFO o.s.b.StartupInfoLogger {logStarting} [main] Starting HellospringApplication using Java 21 on DESKTOP-A2Q7539 with PID 4084 (C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring\target\classes started by 34618 in C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring)
+2025-04-09 00:24:22,069 INFO o.s.b.SpringApplication {logStartupProfileInfo} [main] No active profile set, falling back to 1 default profile: "default"
+2025-04-09 00:24:23,789 INFO o.s.d.r.c.RepositoryConfigurationDelegate {registerRepositoriesIn} [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-09 00:24:23,976 INFO o.s.d.r.c.RepositoryConfigurationDelegate {registerRepositoriesIn} [main] Finished Spring Data repository scanning in 169 ms. Found 5 JPA repository interfaces.
+2025-04-09 00:24:25,439 INFO o.s.b.w.e.t.TomcatWebServer {initialize} [main] Tomcat initialized with port(s): 8080 (http)
+2025-04-09 00:24:25,461 INFO o.a.j.l.DirectJDKLog {log} [main] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-09 00:24:25,468 INFO o.a.j.l.DirectJDKLog {log} [main] Starting service [Tomcat]
+2025-04-09 00:24:25,470 INFO o.a.j.l.DirectJDKLog {log} [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-04-09 00:24:25,757 INFO o.a.j.l.DirectJDKLog {log} [main] Initializing Spring embedded WebApplicationContext
+2025-04-09 00:24:25,758 INFO o.s.b.w.s.c.ServletWebServerApplicationContext {prepareWebApplicationContext} [main] Root WebApplicationContext: initialization completed in 3610 ms
+2025-04-09 00:24:25,826 INFO c.z.h.HikariDataSource {getConnection} [main] HikariPool-1 - Starting...
+2025-04-09 00:24:26,140 INFO c.z.h.HikariDataSource {getConnection} [main] HikariPool-1 - Start completed.
+2025-04-09 00:24:26,152 INFO o.s.b.a.h.H2ConsoleAutoConfiguration {logDataSources} [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:C:/Users/34618/bikes.db'
+2025-04-09 00:24:26,221 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration {openEntityManagerInViewInterceptor} [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-09 00:24:26,304 INFO o.h.j.i.u.LogHelper {logPersistenceUnitInformation} [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-09 00:24:26,404 INFO o.h.Version {logVersion} [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-04-09 00:24:26,595 INFO o.h.a.c.r.j.JavaReflectionManager {<clinit>} [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-09 00:24:26,745 INFO o.h.d.Dialect {<init>} [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-04-09 00:24:27,588 INFO o.h.e.t.j.p.i.JtaPlatformInitiator {initiateService} [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-09 00:24:27,609 INFO o.s.o.j.AbstractEntityManagerFactoryBean {buildNativeEntityManagerFactory} [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09 00:24:29,263 INFO o.s.s.w.DefaultSecurityFilterChain {<init>} [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1e2bc241, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@543196f9, org.springframework.security.web.context.SecurityContextPersistenceFilter@7e69bf78, org.springframework.security.web.header.HeaderWriterFilter@2e96489b, org.springframework.web.filter.CorsFilter@4d7fba20, org.springframework.security.web.authentication.logout.LogoutFilter@7e27b77a, com.svalero.apibikes.security.AuthTokenFilter@3702d0ed, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2f69d246, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1c09bb7a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@112b3298, org.springframework.security.web.session.SessionManagementFilter@6e069ca9, org.springframework.security.web.access.ExceptionTranslationFilter@48a38a12, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@20505460]
+2025-04-09 00:24:29,714 INFO o.a.j.l.DirectJDKLog {log} [main] Starting ProtocolHandler ["http-nio-8080"]
+2025-04-09 00:24:29,773 INFO o.s.b.w.e.t.TomcatWebServer {start} [main] Tomcat started on port(s): 8080 (http) with context path ''
+2025-04-09 00:24:29,790 INFO o.s.b.StartupInfoLogger {logStarted} [main] Started HellospringApplication in 8.348 seconds (JVM running for 8.798)
+2025-04-09 00:25:01,477 INFO o.a.j.l.DirectJDKLog {log} [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-09 00:25:01,478 INFO o.s.w.s.FrameworkServlet {initServletBean} [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-04-09 00:25:01,479 INFO o.s.w.s.FrameworkServlet {initServletBean} [http-nio-8080-exec-1] Completed initialization in 1 ms
+2025-04-09 00:25:19,354 INFO c.s.a.c.UserController {getUser} [http-nio-8080-exec-4] BEGIN getUser
+2025-04-09 00:25:19,370 INFO c.s.a.c.UserController {getUser} [http-nio-8080-exec-4] END getUser
+2025-04-09 00:49:39,416 INFO o.h.v.i.u.Version {<clinit>} [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2025-04-09 00:49:39,462 INFO o.s.b.StartupInfoLogger {logStarting} [main] Starting HellospringApplication using Java 21 on DESKTOP-A2Q7539 with PID 13572 (C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring\target\classes started by 34618 in C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring)
+2025-04-09 00:49:39,463 INFO o.s.b.SpringApplication {logStartupProfileInfo} [main] No active profile set, falling back to 1 default profile: "default"
+2025-04-09 00:49:40,414 INFO o.s.d.r.c.RepositoryConfigurationDelegate {registerRepositoriesIn} [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-09 00:49:40,500 INFO o.s.d.r.c.RepositoryConfigurationDelegate {registerRepositoriesIn} [main] Finished Spring Data repository scanning in 74 ms. Found 5 JPA repository interfaces.
+2025-04-09 00:49:41,668 INFO o.s.b.w.e.t.TomcatWebServer {initialize} [main] Tomcat initialized with port(s): 8080 (http)
+2025-04-09 00:49:41,692 INFO o.a.j.l.DirectJDKLog {log} [main] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-09 00:49:41,701 INFO o.a.j.l.DirectJDKLog {log} [main] Starting service [Tomcat]
+2025-04-09 00:49:41,703 INFO o.a.j.l.DirectJDKLog {log} [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-04-09 00:49:41,993 INFO o.a.j.l.DirectJDKLog {log} [main] Initializing Spring embedded WebApplicationContext
+2025-04-09 00:49:41,994 INFO o.s.b.w.s.c.ServletWebServerApplicationContext {prepareWebApplicationContext} [main] Root WebApplicationContext: initialization completed in 2448 ms
+2025-04-09 00:49:42,064 INFO c.z.h.HikariDataSource {getConnection} [main] HikariPool-1 - Starting...
+2025-04-09 00:49:42,657 INFO c.z.h.HikariDataSource {getConnection} [main] HikariPool-1 - Start completed.
+2025-04-09 00:49:42,680 INFO o.s.b.a.h.H2ConsoleAutoConfiguration {logDataSources} [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:C:/Users/34618/bikes.db'
+2025-04-09 00:49:42,813 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration {openEntityManagerInViewInterceptor} [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-09 00:49:42,996 INFO o.h.j.i.u.LogHelper {logPersistenceUnitInformation} [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-09 00:49:43,150 INFO o.h.Version {logVersion} [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-04-09 00:49:43,541 INFO o.h.a.c.r.j.JavaReflectionManager {<clinit>} [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-09 00:49:43,829 INFO o.h.d.Dialect {<init>} [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-04-09 00:49:44,993 INFO o.h.e.t.j.p.i.JtaPlatformInitiator {initiateService} [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-09 00:49:45,004 INFO o.s.o.j.AbstractEntityManagerFactoryBean {buildNativeEntityManagerFactory} [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09 00:49:45,461 ERROR o.s.b.w.e.t.TomcatStarter {onStartup} [main] Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'appConfig': Unsatisfied dependency expressed through field 'bikesUserDetailsService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bikesUserDetailsService': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'modelMapper'; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'appConfig': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2025-04-09 00:49:45,495 INFO o.a.j.l.DirectJDKLog {log} [main] Stopping service [Tomcat]
+2025-04-09 00:49:45,498 WARN o.s.c.s.AbstractApplicationContext {refresh} [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2025-04-09 00:49:45,498 INFO o.s.o.j.AbstractEntityManagerFactoryBean {destroy} [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09 00:49:45,500 INFO c.z.h.HikariDataSource {close} [main] HikariPool-1 - Shutdown initiated...
+2025-04-09 00:49:45,601 INFO c.z.h.HikariDataSource {close} [main] HikariPool-1 - Shutdown completed.
+2025-04-09 00:49:45,610 INFO o.s.b.a.l.ConditionEvaluationReportLoggingListener {logMessage} [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-04-09 00:49:45,632 ERROR o.s.b.d.LoggingFailureAnalysisReporter {report} [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌─────┐
+|  appConfig (field private com.svalero.apibikes.security.BikesUserDetailsService com.svalero.apibikes.config.AppConfig.bikesUserDetailsService)
+↑     ↓
+|  bikesUserDetailsService (field private com.svalero.apibikes.service.UserService com.svalero.apibikes.security.BikesUserDetailsService.userService)
+↑     ↓
+|  userService (field private org.modelmapper.ModelMapper com.svalero.apibikes.service.UserService.modelMapper)
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2025-04-09 00:52:27,659 INFO o.h.v.i.u.Version {<clinit>} [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2025-04-09 00:52:27,707 INFO o.s.b.StartupInfoLogger {logStarting} [main] Starting HellospringApplication using Java 21 on DESKTOP-A2Q7539 with PID 12588 (C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring\target\classes started by 34618 in C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring)
+2025-04-09 00:52:27,709 INFO o.s.b.SpringApplication {logStartupProfileInfo} [main] No active profile set, falling back to 1 default profile: "default"
+2025-04-09 00:52:29,138 INFO o.s.d.r.c.RepositoryConfigurationDelegate {registerRepositoriesIn} [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-09 00:52:29,247 INFO o.s.d.r.c.RepositoryConfigurationDelegate {registerRepositoriesIn} [main] Finished Spring Data repository scanning in 96 ms. Found 5 JPA repository interfaces.
+2025-04-09 00:52:30,022 INFO o.s.b.w.e.t.TomcatWebServer {initialize} [main] Tomcat initialized with port(s): 8080 (http)
+2025-04-09 00:52:30,032 INFO o.a.j.l.DirectJDKLog {log} [main] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-09 00:52:30,036 INFO o.a.j.l.DirectJDKLog {log} [main] Starting service [Tomcat]
+2025-04-09 00:52:30,037 INFO o.a.j.l.DirectJDKLog {log} [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-04-09 00:52:30,177 INFO o.a.j.l.DirectJDKLog {log} [main] Initializing Spring embedded WebApplicationContext
+2025-04-09 00:52:30,177 INFO o.s.b.w.s.c.ServletWebServerApplicationContext {prepareWebApplicationContext} [main] Root WebApplicationContext: initialization completed in 2323 ms
+2025-04-09 00:52:30,213 INFO c.z.h.HikariDataSource {getConnection} [main] HikariPool-1 - Starting...
+2025-04-09 00:52:30,504 INFO c.z.h.HikariDataSource {getConnection} [main] HikariPool-1 - Start completed.
+2025-04-09 00:52:30,516 INFO o.s.b.a.h.H2ConsoleAutoConfiguration {logDataSources} [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:C:/Users/34618/bikes.db'
+2025-04-09 00:52:30,586 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration {openEntityManagerInViewInterceptor} [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-09 00:52:30,668 INFO o.h.j.i.u.LogHelper {logPersistenceUnitInformation} [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-09 00:52:30,734 INFO o.h.Version {logVersion} [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-04-09 00:52:30,905 INFO o.h.a.c.r.j.JavaReflectionManager {<clinit>} [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-09 00:52:31,040 INFO o.h.d.Dialect {<init>} [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-04-09 00:52:32,868 INFO o.h.e.t.j.p.i.JtaPlatformInitiator {initiateService} [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-09 00:52:32,911 INFO o.s.o.j.AbstractEntityManagerFactoryBean {buildNativeEntityManagerFactory} [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09 00:52:33,026 ERROR o.s.b.w.e.t.TomcatStarter {onStartup} [main] Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'appConfig': Unsatisfied dependency expressed through field 'bikesUserDetailsService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bikesUserDetailsService': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService' defined in file [C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring\target\classes\com\svalero\apibikes\service\UserService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'appConfig': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2025-04-09 00:52:33,087 INFO o.a.j.l.DirectJDKLog {log} [main] Stopping service [Tomcat]
+2025-04-09 00:52:33,097 WARN o.s.c.s.AbstractApplicationContext {refresh} [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2025-04-09 00:52:33,098 INFO o.s.o.j.AbstractEntityManagerFactoryBean {destroy} [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09 00:52:33,103 INFO c.z.h.HikariDataSource {close} [main] HikariPool-1 - Shutdown initiated...
+2025-04-09 00:52:33,199 INFO c.z.h.HikariDataSource {close} [main] HikariPool-1 - Shutdown completed.
+2025-04-09 00:52:33,217 INFO o.s.b.a.l.ConditionEvaluationReportLoggingListener {logMessage} [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-04-09 00:52:33,255 ERROR o.s.b.d.LoggingFailureAnalysisReporter {report} [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌─────┐
+|  appConfig (field private com.svalero.apibikes.security.BikesUserDetailsService com.svalero.apibikes.config.AppConfig.bikesUserDetailsService)
+↑     ↓
+|  bikesUserDetailsService (field private com.svalero.apibikes.service.UserService com.svalero.apibikes.security.BikesUserDetailsService.userService)
+↑     ↓
+|  userService defined in file [C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring\target\classes\com\svalero\apibikes\service\UserService.class]
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2025-04-09 01:08:40,515 INFO o.h.v.i.u.Version {<clinit>} [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2025-04-09 01:08:40,572 INFO o.s.b.StartupInfoLogger {logStarting} [main] Starting HellospringApplication using Java 21 on DESKTOP-A2Q7539 with PID 5944 (C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring\target\classes started by 34618 in C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring)
+2025-04-09 01:08:40,575 INFO o.s.b.SpringApplication {logStartupProfileInfo} [main] No active profile set, falling back to 1 default profile: "default"
+2025-04-09 01:08:41,360 WARN o.s.c.s.AbstractApplicationContext {refresh} [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'passwordEncoder' defined in class path resource [com/svalero/apibikes/config/AppConfig.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=appConfig; factoryMethodName=passwordEncoder; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/svalero/apibikes/config/AppConfig.class]] for bean 'passwordEncoder': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=appBeansConfig; factoryMethodName=passwordEncoder; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/svalero/apibikes/config/AppBeansConfig.class]] bound.
+2025-04-09 01:08:41,370 INFO o.s.b.a.l.ConditionEvaluationReportLoggingListener {logMessage} [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-04-09 01:08:41,397 ERROR o.s.b.d.LoggingFailureAnalysisReporter {report} [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'passwordEncoder', defined in class path resource [com/svalero/apibikes/config/AppConfig.class], could not be registered. A bean with that name has already been defined in class path resource [com/svalero/apibikes/config/AppBeansConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-04-09 01:18:06,551 INFO o.h.v.i.u.Version {<clinit>} [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2025-04-09 01:18:06,607 INFO o.s.b.StartupInfoLogger {logStarting} [main] Starting HellospringApplication using Java 21 on DESKTOP-A2Q7539 with PID 4260 (C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring\target\classes started by 34618 in C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring)
+2025-04-09 01:18:06,610 INFO o.s.b.SpringApplication {logStartupProfileInfo} [main] No active profile set, falling back to 1 default profile: "default"
+2025-04-09 01:18:08,331 INFO o.s.d.r.c.RepositoryConfigurationDelegate {registerRepositoriesIn} [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-09 01:18:08,429 INFO o.s.d.r.c.RepositoryConfigurationDelegate {registerRepositoriesIn} [main] Finished Spring Data repository scanning in 78 ms. Found 5 JPA repository interfaces.
+2025-04-09 01:18:09,267 INFO o.s.b.w.e.t.TomcatWebServer {initialize} [main] Tomcat initialized with port(s): 8080 (http)
+2025-04-09 01:18:09,277 INFO o.a.j.l.DirectJDKLog {log} [main] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-09 01:18:09,282 INFO o.a.j.l.DirectJDKLog {log} [main] Starting service [Tomcat]
+2025-04-09 01:18:09,284 INFO o.a.j.l.DirectJDKLog {log} [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-04-09 01:18:09,421 INFO o.a.j.l.DirectJDKLog {log} [main] Initializing Spring embedded WebApplicationContext
+2025-04-09 01:18:09,422 INFO o.s.b.w.s.c.ServletWebServerApplicationContext {prepareWebApplicationContext} [main] Root WebApplicationContext: initialization completed in 2658 ms
+2025-04-09 01:18:09,463 INFO c.z.h.HikariDataSource {getConnection} [main] HikariPool-1 - Starting...
+2025-04-09 01:18:09,795 INFO c.z.h.HikariDataSource {getConnection} [main] HikariPool-1 - Start completed.
+2025-04-09 01:18:09,806 INFO o.s.b.a.h.H2ConsoleAutoConfiguration {logDataSources} [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:C:/Users/34618/bikes.db'
+2025-04-09 01:18:09,875 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration {openEntityManagerInViewInterceptor} [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-09 01:18:09,970 INFO o.h.j.i.u.LogHelper {logPersistenceUnitInformation} [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-09 01:18:10,080 INFO o.h.Version {logVersion} [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-04-09 01:18:10,288 INFO o.h.a.c.r.j.JavaReflectionManager {<clinit>} [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-09 01:18:10,435 INFO o.h.d.Dialect {<init>} [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-04-09 01:18:11,365 INFO o.h.e.t.j.p.i.JtaPlatformInitiator {initiateService} [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-09 01:18:11,444 INFO o.s.o.j.AbstractEntityManagerFactoryBean {buildNativeEntityManagerFactory} [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09 01:18:11,501 ERROR o.s.b.w.e.t.TomcatStarter {onStartup} [main] Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'appConfig': Unsatisfied dependency expressed through field 'passwordEncoder'; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'appConfig': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2025-04-09 01:18:11,547 INFO o.a.j.l.DirectJDKLog {log} [main] Stopping service [Tomcat]
+2025-04-09 01:18:11,553 WARN o.s.c.s.AbstractApplicationContext {refresh} [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2025-04-09 01:18:11,553 INFO o.s.o.j.AbstractEntityManagerFactoryBean {destroy} [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09 01:18:11,557 INFO c.z.h.HikariDataSource {close} [main] HikariPool-1 - Shutdown initiated...
+2025-04-09 01:18:11,717 INFO c.z.h.HikariDataSource {close} [main] HikariPool-1 - Shutdown completed.
+2025-04-09 01:18:11,745 INFO o.s.b.a.l.ConditionEvaluationReportLoggingListener {logMessage} [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-04-09 01:18:11,808 ERROR o.s.b.d.LoggingFailureAnalysisReporter {report} [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌──->──┐
+|  appConfig (field private org.springframework.security.crypto.password.PasswordEncoder com.svalero.apibikes.config.AppConfig.passwordEncoder)
+└──<-──┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2025-04-09 01:21:08,265 INFO o.h.v.i.u.Version {<clinit>} [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2025-04-09 01:21:08,294 INFO o.s.b.StartupInfoLogger {logStarting} [main] Starting HellospringApplication using Java 21 on DESKTOP-A2Q7539 with PID 11388 (C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring\target\classes started by 34618 in C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring)
+2025-04-09 01:21:08,296 INFO o.s.b.SpringApplication {logStartupProfileInfo} [main] No active profile set, falling back to 1 default profile: "default"
+2025-04-09 01:21:09,157 INFO o.s.d.r.c.RepositoryConfigurationDelegate {registerRepositoriesIn} [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-09 01:21:09,239 INFO o.s.d.r.c.RepositoryConfigurationDelegate {registerRepositoriesIn} [main] Finished Spring Data repository scanning in 74 ms. Found 5 JPA repository interfaces.
+2025-04-09 01:21:10,111 INFO o.s.b.w.e.t.TomcatWebServer {initialize} [main] Tomcat initialized with port(s): 8080 (http)
+2025-04-09 01:21:10,132 INFO o.a.j.l.DirectJDKLog {log} [main] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-09 01:21:10,140 INFO o.a.j.l.DirectJDKLog {log} [main] Starting service [Tomcat]
+2025-04-09 01:21:10,143 INFO o.a.j.l.DirectJDKLog {log} [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-04-09 01:21:10,416 INFO o.a.j.l.DirectJDKLog {log} [main] Initializing Spring embedded WebApplicationContext
+2025-04-09 01:21:10,417 INFO o.s.b.w.s.c.ServletWebServerApplicationContext {prepareWebApplicationContext} [main] Root WebApplicationContext: initialization completed in 2045 ms
+2025-04-09 01:21:10,490 INFO c.z.h.HikariDataSource {getConnection} [main] HikariPool-1 - Starting...
+2025-04-09 01:21:11,020 INFO c.z.h.HikariDataSource {getConnection} [main] HikariPool-1 - Start completed.
+2025-04-09 01:21:11,043 INFO o.s.b.a.h.H2ConsoleAutoConfiguration {logDataSources} [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:C:/Users/34618/bikes.db'
+2025-04-09 01:21:11,174 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration {openEntityManagerInViewInterceptor} [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-09 01:21:11,344 INFO o.h.j.i.u.LogHelper {logPersistenceUnitInformation} [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-09 01:21:11,469 INFO o.h.Version {logVersion} [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-04-09 01:21:11,828 INFO o.h.a.c.r.j.JavaReflectionManager {<clinit>} [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-09 01:21:12,086 INFO o.h.d.Dialect {<init>} [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-04-09 01:21:12,894 INFO o.h.e.t.j.p.i.JtaPlatformInitiator {initiateService} [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-09 01:21:12,904 INFO o.s.o.j.AbstractEntityManagerFactoryBean {buildNativeEntityManagerFactory} [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09 01:21:13,334 ERROR o.s.b.w.e.t.TomcatStarter {onStartup} [main] Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'appConfig': Unsatisfied dependency expressed through field 'bikesUserDetailsService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bikesUserDetailsService' defined in file [C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring\target\classes\com\svalero\apibikes\security\BikesUserDetailsService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService' defined in file [C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring\target\classes\com\svalero\apibikes\service\UserService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'appConfig': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2025-04-09 01:21:13,358 INFO o.a.j.l.DirectJDKLog {log} [main] Stopping service [Tomcat]
+2025-04-09 01:21:13,363 WARN o.s.c.s.AbstractApplicationContext {refresh} [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2025-04-09 01:21:13,364 INFO o.s.o.j.AbstractEntityManagerFactoryBean {destroy} [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09 01:21:13,365 INFO c.z.h.HikariDataSource {close} [main] HikariPool-1 - Shutdown initiated...
+2025-04-09 01:21:13,462 INFO c.z.h.HikariDataSource {close} [main] HikariPool-1 - Shutdown completed.
+2025-04-09 01:21:13,479 INFO o.s.b.a.l.ConditionEvaluationReportLoggingListener {logMessage} [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-04-09 01:21:13,509 ERROR o.s.b.d.LoggingFailureAnalysisReporter {report} [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌─────┐
+|  appConfig (field private com.svalero.apibikes.security.BikesUserDetailsService com.svalero.apibikes.config.AppConfig.bikesUserDetailsService)
+↑     ↓
+|  bikesUserDetailsService defined in file [C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring\target\classes\com\svalero\apibikes\security\BikesUserDetailsService.class]
+↑     ↓
+|  userService defined in file [C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring\target\classes\com\svalero\apibikes\service\UserService.class]
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2025-04-09 01:36:05,968 INFO o.h.v.i.u.Version {<clinit>} [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2025-04-09 01:36:06,001 INFO o.s.b.StartupInfoLogger {logStarting} [main] Starting HellospringApplication using Java 21 on DESKTOP-A2Q7539 with PID 16856 (C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring\target\classes started by 34618 in C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring)
+2025-04-09 01:36:06,002 INFO o.s.b.SpringApplication {logStartupProfileInfo} [main] No active profile set, falling back to 1 default profile: "default"
+2025-04-09 01:36:06,834 INFO o.s.d.r.c.RepositoryConfigurationDelegate {registerRepositoriesIn} [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-09 01:36:06,909 INFO o.s.d.r.c.RepositoryConfigurationDelegate {registerRepositoriesIn} [main] Finished Spring Data repository scanning in 66 ms. Found 5 JPA repository interfaces.
+2025-04-09 01:36:07,624 INFO o.s.b.w.e.t.TomcatWebServer {initialize} [main] Tomcat initialized with port(s): 8080 (http)
+2025-04-09 01:36:07,633 INFO o.a.j.l.DirectJDKLog {log} [main] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-09 01:36:07,636 INFO o.a.j.l.DirectJDKLog {log} [main] Starting service [Tomcat]
+2025-04-09 01:36:07,637 INFO o.a.j.l.DirectJDKLog {log} [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-04-09 01:36:07,766 INFO o.a.j.l.DirectJDKLog {log} [main] Initializing Spring embedded WebApplicationContext
+2025-04-09 01:36:07,767 INFO o.s.b.w.s.c.ServletWebServerApplicationContext {prepareWebApplicationContext} [main] Root WebApplicationContext: initialization completed in 1687 ms
+2025-04-09 01:36:07,799 INFO c.z.h.HikariDataSource {getConnection} [main] HikariPool-1 - Starting...
+2025-04-09 01:36:08,058 INFO c.z.h.HikariDataSource {getConnection} [main] HikariPool-1 - Start completed.
+2025-04-09 01:36:08,072 INFO o.s.b.a.h.H2ConsoleAutoConfiguration {logDataSources} [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:C:/Users/34618/bikes.db'
+2025-04-09 01:36:08,199 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration {openEntityManagerInViewInterceptor} [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-09 01:36:08,386 INFO o.h.j.i.u.LogHelper {logPersistenceUnitInformation} [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-09 01:36:08,549 INFO o.h.Version {logVersion} [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-04-09 01:36:08,908 INFO o.h.a.c.r.j.JavaReflectionManager {<clinit>} [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-09 01:36:09,163 INFO o.h.d.Dialect {<init>} [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-04-09 01:36:10,600 INFO o.h.e.t.j.p.i.JtaPlatformInitiator {initiateService} [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-09 01:36:10,622 INFO o.s.o.j.AbstractEntityManagerFactoryBean {buildNativeEntityManagerFactory} [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09 01:36:10,997 ERROR o.s.b.w.e.t.TomcatStarter {onStartup} [main] Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'appConfig': Unsatisfied dependency expressed through method 'configure' parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bikesUserDetailsService' defined in file [C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring\target\classes\com\svalero\apibikes\security\BikesUserDetailsService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService' defined in file [C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring\target\classes\com\svalero\apibikes\service\UserService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'appConfig': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2025-04-09 01:36:11,022 INFO o.a.j.l.DirectJDKLog {log} [main] Stopping service [Tomcat]
+2025-04-09 01:36:11,025 WARN o.s.c.s.AbstractApplicationContext {refresh} [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2025-04-09 01:36:11,026 INFO o.s.o.j.AbstractEntityManagerFactoryBean {destroy} [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09 01:36:11,028 INFO c.z.h.HikariDataSource {close} [main] HikariPool-1 - Shutdown initiated...
+2025-04-09 01:36:11,103 INFO c.z.h.HikariDataSource {close} [main] HikariPool-1 - Shutdown completed.
+2025-04-09 01:36:11,113 INFO o.s.b.a.l.ConditionEvaluationReportLoggingListener {logMessage} [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-04-09 01:36:11,132 ERROR o.s.b.d.LoggingFailureAnalysisReporter {report} [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌─────┐
+|  appConfig
+↑     ↓
+|  bikesUserDetailsService defined in file [C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring\target\classes\com\svalero\apibikes\security\BikesUserDetailsService.class]
+↑     ↓
+|  userService defined in file [C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring\target\classes\com\svalero\apibikes\service\UserService.class]
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2025-04-09 01:44:44,035 INFO o.h.v.i.u.Version {<clinit>} [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2025-04-09 01:44:44,072 INFO o.s.b.StartupInfoLogger {logStarting} [main] Starting HellospringApplication using Java 21 on DESKTOP-A2Q7539 with PID 1608 (C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring\target\classes started by 34618 in C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring)
+2025-04-09 01:44:44,073 INFO o.s.b.SpringApplication {logStartupProfileInfo} [main] No active profile set, falling back to 1 default profile: "default"
+2025-04-09 01:44:44,688 WARN o.s.c.s.AbstractApplicationContext {refresh} [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'modelMapper' defined in class path resource [com/svalero/apibikes/config/AppConfig.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=appConfig; factoryMethodName=modelMapper; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/svalero/apibikes/config/AppConfig.class]] for bean 'modelMapper': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=appBeansConfig; factoryMethodName=modelMapper; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/svalero/apibikes/config/AppBeansConfig.class]] bound.
+2025-04-09 01:44:44,698 INFO o.s.b.a.l.ConditionEvaluationReportLoggingListener {logMessage} [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-04-09 01:44:44,722 ERROR o.s.b.d.LoggingFailureAnalysisReporter {report} [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'modelMapper', defined in class path resource [com/svalero/apibikes/config/AppConfig.class], could not be registered. A bean with that name has already been defined in class path resource [com/svalero/apibikes/config/AppBeansConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-04-09 01:46:22,119 INFO o.h.v.i.u.Version {<clinit>} [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2025-04-09 01:46:22,145 INFO o.s.b.StartupInfoLogger {logStarting} [main] Starting HellospringApplication using Java 21 on DESKTOP-A2Q7539 with PID 7680 (C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring\target\classes started by 34618 in C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring)
+2025-04-09 01:46:22,146 INFO o.s.b.SpringApplication {logStartupProfileInfo} [main] No active profile set, falling back to 1 default profile: "default"
+2025-04-09 01:46:22,996 INFO o.s.d.r.c.RepositoryConfigurationDelegate {registerRepositoriesIn} [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-09 01:46:23,071 INFO o.s.d.r.c.RepositoryConfigurationDelegate {registerRepositoriesIn} [main] Finished Spring Data repository scanning in 68 ms. Found 5 JPA repository interfaces.
+2025-04-09 01:46:23,783 INFO o.s.b.w.e.t.TomcatWebServer {initialize} [main] Tomcat initialized with port(s): 8080 (http)
+2025-04-09 01:46:23,792 INFO o.a.j.l.DirectJDKLog {log} [main] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-09 01:46:23,795 INFO o.a.j.l.DirectJDKLog {log} [main] Starting service [Tomcat]
+2025-04-09 01:46:23,796 INFO o.a.j.l.DirectJDKLog {log} [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-04-09 01:46:23,925 INFO o.a.j.l.DirectJDKLog {log} [main] Initializing Spring embedded WebApplicationContext
+2025-04-09 01:46:23,926 INFO o.s.b.w.s.c.ServletWebServerApplicationContext {prepareWebApplicationContext} [main] Root WebApplicationContext: initialization completed in 1704 ms
+2025-04-09 01:46:23,962 INFO c.z.h.HikariDataSource {getConnection} [main] HikariPool-1 - Starting...
+2025-04-09 01:46:24,289 INFO c.z.h.HikariDataSource {getConnection} [main] HikariPool-1 - Start completed.
+2025-04-09 01:46:24,301 INFO o.s.b.a.h.H2ConsoleAutoConfiguration {logDataSources} [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:C:/Users/34618/bikes.db'
+2025-04-09 01:46:24,399 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration {openEntityManagerInViewInterceptor} [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-09 01:46:24,553 INFO o.h.j.i.u.LogHelper {logPersistenceUnitInformation} [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-09 01:46:24,685 INFO o.h.Version {logVersion} [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-04-09 01:46:25,021 INFO o.h.a.c.r.j.JavaReflectionManager {<clinit>} [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-09 01:46:25,254 INFO o.h.d.Dialect {<init>} [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-04-09 01:46:26,940 INFO o.h.e.t.j.p.i.JtaPlatformInitiator {initiateService} [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-09 01:46:26,984 INFO o.s.o.j.AbstractEntityManagerFactoryBean {buildNativeEntityManagerFactory} [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09 01:46:27,755 ERROR o.s.b.w.e.t.TomcatStarter {onStartup} [main] Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'appConfig': Unsatisfied dependency expressed through method 'configure' parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bikesUserDetailsService' defined in file [C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring\target\classes\com\svalero\apibikes\security\BikesUserDetailsService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService' defined in file [C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring\target\classes\com\svalero\apibikes\service\UserService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'appConfig': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2025-04-09 01:46:27,784 INFO o.a.j.l.DirectJDKLog {log} [main] Stopping service [Tomcat]
+2025-04-09 01:46:27,787 WARN o.s.c.s.AbstractApplicationContext {refresh} [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2025-04-09 01:46:27,788 INFO o.s.o.j.AbstractEntityManagerFactoryBean {destroy} [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09 01:46:27,789 INFO c.z.h.HikariDataSource {close} [main] HikariPool-1 - Shutdown initiated...
+2025-04-09 01:46:27,865 INFO c.z.h.HikariDataSource {close} [main] HikariPool-1 - Shutdown completed.
+2025-04-09 01:46:27,874 INFO o.s.b.a.l.ConditionEvaluationReportLoggingListener {logMessage} [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-04-09 01:46:27,892 ERROR o.s.b.d.LoggingFailureAnalysisReporter {report} [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌─────┐
+|  appConfig
+↑     ↓
+|  bikesUserDetailsService defined in file [C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring\target\classes\com\svalero\apibikes\security\BikesUserDetailsService.class]
+↑     ↓
+|  userService defined in file [C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring\target\classes\com\svalero\apibikes\service\UserService.class]
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2025-04-09 02:11:54,441 INFO o.h.v.i.u.Version {<clinit>} [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2025-04-09 02:11:54,494 INFO o.s.b.StartupInfoLogger {logStarting} [main] Starting HellospringApplication using Java 21 on DESKTOP-A2Q7539 with PID 3056 (C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring\target\classes started by 34618 in C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring)
+2025-04-09 02:11:54,497 INFO o.s.b.SpringApplication {logStartupProfileInfo} [main] No active profile set, falling back to 1 default profile: "default"
+2025-04-09 02:11:56,167 INFO o.s.d.r.c.RepositoryConfigurationDelegate {registerRepositoriesIn} [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-09 02:11:56,311 INFO o.s.d.r.c.RepositoryConfigurationDelegate {registerRepositoriesIn} [main] Finished Spring Data repository scanning in 128 ms. Found 5 JPA repository interfaces.
+2025-04-09 02:11:57,035 INFO o.s.b.w.e.t.TomcatWebServer {initialize} [main] Tomcat initialized with port(s): 8080 (http)
+2025-04-09 02:11:57,044 INFO o.a.j.l.DirectJDKLog {log} [main] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-09 02:11:57,048 INFO o.a.j.l.DirectJDKLog {log} [main] Starting service [Tomcat]
+2025-04-09 02:11:57,048 INFO o.a.j.l.DirectJDKLog {log} [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-04-09 02:11:57,178 INFO o.a.j.l.DirectJDKLog {log} [main] Initializing Spring embedded WebApplicationContext
+2025-04-09 02:11:57,179 INFO o.s.b.w.s.c.ServletWebServerApplicationContext {prepareWebApplicationContext} [main] Root WebApplicationContext: initialization completed in 2549 ms
+2025-04-09 02:11:57,213 INFO c.z.h.HikariDataSource {getConnection} [main] HikariPool-1 - Starting...
+2025-04-09 02:11:57,474 INFO c.z.h.HikariDataSource {getConnection} [main] HikariPool-1 - Start completed.
+2025-04-09 02:11:57,486 INFO o.s.b.a.h.H2ConsoleAutoConfiguration {logDataSources} [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:C:/Users/34618/bikes.db'
+2025-04-09 02:11:57,553 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration {openEntityManagerInViewInterceptor} [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-09 02:11:57,644 INFO o.h.j.i.u.LogHelper {logPersistenceUnitInformation} [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-09 02:11:57,714 INFO o.h.Version {logVersion} [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-04-09 02:11:57,879 INFO o.h.a.c.r.j.JavaReflectionManager {<clinit>} [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-09 02:11:57,988 INFO o.h.d.Dialect {<init>} [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-04-09 02:11:58,808 INFO o.h.e.t.j.p.i.JtaPlatformInitiator {initiateService} [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-09 02:11:58,822 INFO o.s.o.j.AbstractEntityManagerFactoryBean {buildNativeEntityManagerFactory} [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09 02:12:00,478 INFO o.s.s.w.DefaultSecurityFilterChain {<init>} [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@736a8aea, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@504b4a97, org.springframework.security.web.context.SecurityContextPersistenceFilter@65f36591, org.springframework.security.web.header.HeaderWriterFilter@2f69d246, org.springframework.web.filter.CorsFilter@4964d801, org.springframework.security.web.authentication.logout.LogoutFilter@38b7004d, com.svalero.apibikes.security.AuthTokenFilter@25a2f432, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@72b6fa98, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@a1e578f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@b307030, org.springframework.security.web.session.SessionManagementFilter@6eae3730, org.springframework.security.web.access.ExceptionTranslationFilter@7e69bf78, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5f01361e]
+2025-04-09 02:12:00,954 INFO o.a.j.l.DirectJDKLog {log} [main] Starting ProtocolHandler ["http-nio-8080"]
+2025-04-09 02:12:01,027 INFO o.s.b.w.e.t.TomcatWebServer {start} [main] Tomcat started on port(s): 8080 (http) with context path ''
+2025-04-09 02:12:01,043 INFO o.s.b.StartupInfoLogger {logStarted} [main] Started HellospringApplication in 7.707 seconds (JVM running for 8.375)
+2025-04-09 02:16:07,162 INFO o.h.v.i.u.Version {<clinit>} [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2025-04-09 02:16:07,193 INFO o.s.b.StartupInfoLogger {logStarting} [main] Starting HellospringApplication using Java 21 on DESKTOP-A2Q7539 with PID 11944 (C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring\target\classes started by 34618 in C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring)
+2025-04-09 02:16:07,194 INFO o.s.b.SpringApplication {logStartupProfileInfo} [main] No active profile set, falling back to 1 default profile: "default"
+2025-04-09 02:16:08,103 INFO o.s.d.r.c.RepositoryConfigurationDelegate {registerRepositoriesIn} [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-09 02:16:08,253 INFO o.s.d.r.c.RepositoryConfigurationDelegate {registerRepositoriesIn} [main] Finished Spring Data repository scanning in 132 ms. Found 5 JPA repository interfaces.
+2025-04-09 02:16:09,633 INFO o.s.b.w.e.t.TomcatWebServer {initialize} [main] Tomcat initialized with port(s): 8080 (http)
+2025-04-09 02:16:09,654 INFO o.a.j.l.DirectJDKLog {log} [main] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-09 02:16:09,663 INFO o.a.j.l.DirectJDKLog {log} [main] Starting service [Tomcat]
+2025-04-09 02:16:09,663 INFO o.a.j.l.DirectJDKLog {log} [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-04-09 02:16:09,915 INFO o.a.j.l.DirectJDKLog {log} [main] Initializing Spring embedded WebApplicationContext
+2025-04-09 02:16:09,920 INFO o.s.b.w.s.c.ServletWebServerApplicationContext {prepareWebApplicationContext} [main] Root WebApplicationContext: initialization completed in 2657 ms
+2025-04-09 02:16:10,007 INFO c.z.h.HikariDataSource {getConnection} [main] HikariPool-1 - Starting...
+2025-04-09 02:16:10,434 INFO c.z.h.HikariDataSource {getConnection} [main] HikariPool-1 - Start completed.
+2025-04-09 02:16:10,444 INFO o.s.b.a.h.H2ConsoleAutoConfiguration {logDataSources} [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:C:/Users/34618/bikes.db'
+2025-04-09 02:16:10,528 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration {openEntityManagerInViewInterceptor} [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-09 02:16:10,603 INFO o.h.j.i.u.LogHelper {logPersistenceUnitInformation} [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-09 02:16:10,663 INFO o.h.Version {logVersion} [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-04-09 02:16:10,837 INFO o.h.a.c.r.j.JavaReflectionManager {<clinit>} [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-09 02:16:10,943 INFO o.h.d.Dialect {<init>} [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-04-09 02:16:11,718 INFO o.h.e.t.j.p.i.JtaPlatformInitiator {initiateService} [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-09 02:16:11,724 INFO o.s.o.j.AbstractEntityManagerFactoryBean {buildNativeEntityManagerFactory} [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09 02:16:12,855 INFO o.s.s.w.DefaultSecurityFilterChain {<init>} [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5003c114, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6e4bccc, org.springframework.security.web.context.SecurityContextPersistenceFilter@eaa07bb, org.springframework.security.web.header.HeaderWriterFilter@45e9db77, org.springframework.web.filter.CorsFilter@2487b621, org.springframework.security.web.authentication.logout.LogoutFilter@4202276, com.svalero.apibikes.security.AuthTokenFilter@2fe38b73, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42095996, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1832b0f6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3d2ff73a, org.springframework.security.web.session.SessionManagementFilter@24888d8b, org.springframework.security.web.access.ExceptionTranslationFilter@64cec4d0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@90c01ab]
+2025-04-09 02:16:13,093 INFO o.a.j.l.DirectJDKLog {log} [main] Starting ProtocolHandler ["http-nio-8080"]
+2025-04-09 02:16:13,124 INFO o.s.b.w.e.t.TomcatWebServer {start} [main] Tomcat started on port(s): 8080 (http) with context path ''
+2025-04-09 02:16:13,133 INFO o.s.b.StartupInfoLogger {logStarted} [main] Started HellospringApplication in 6.524 seconds (JVM running for 6.971)
+2025-04-09 23:32:48,764 INFO o.h.v.i.u.Version {<clinit>} [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2025-04-09 23:32:48,813 INFO o.s.b.StartupInfoLogger {logStarting} [main] Starting HellospringApplication using Java 21 on DESKTOP-A2Q7539 with PID 14804 (C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring\target\classes started by 34618 in C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring)
+2025-04-09 23:32:48,816 INFO o.s.b.SpringApplication {logStartupProfileInfo} [main] No active profile set, falling back to 1 default profile: "default"
+2025-04-09 23:32:50,351 INFO o.s.d.r.c.RepositoryConfigurationDelegate {registerRepositoriesIn} [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-09 23:32:50,446 INFO o.s.d.r.c.RepositoryConfigurationDelegate {registerRepositoriesIn} [main] Finished Spring Data repository scanning in 88 ms. Found 5 JPA repository interfaces.
+2025-04-09 23:32:51,287 INFO o.s.b.w.e.t.TomcatWebServer {initialize} [main] Tomcat initialized with port(s): 8080 (http)
+2025-04-09 23:32:51,303 INFO o.a.j.l.DirectJDKLog {log} [main] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-09 23:32:51,307 INFO o.a.j.l.DirectJDKLog {log} [main] Starting service [Tomcat]
+2025-04-09 23:32:51,307 INFO o.a.j.l.DirectJDKLog {log} [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-04-09 23:32:51,494 INFO o.a.j.l.DirectJDKLog {log} [main] Initializing Spring embedded WebApplicationContext
+2025-04-09 23:32:51,494 INFO o.s.b.w.s.c.ServletWebServerApplicationContext {prepareWebApplicationContext} [main] Root WebApplicationContext: initialization completed in 2583 ms
+2025-04-09 23:32:51,558 INFO c.z.h.HikariDataSource {getConnection} [main] HikariPool-1 - Starting...
+2025-04-09 23:32:52,021 INFO c.z.h.HikariDataSource {getConnection} [main] HikariPool-1 - Start completed.
+2025-04-09 23:32:52,026 INFO o.s.b.a.h.H2ConsoleAutoConfiguration {logDataSources} [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:C:/Users/34618/bikes.db'
+2025-04-09 23:32:52,131 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration {openEntityManagerInViewInterceptor} [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-09 23:32:52,546 INFO o.h.j.i.u.LogHelper {logPersistenceUnitInformation} [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-09 23:32:53,207 INFO o.h.Version {logVersion} [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-04-09 23:32:54,793 INFO o.h.a.c.r.j.JavaReflectionManager {<clinit>} [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-09 23:32:55,442 INFO o.h.d.Dialect {<init>} [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-04-09 23:32:56,557 INFO o.h.e.t.j.p.i.JtaPlatformInitiator {initiateService} [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-09 23:32:56,578 INFO o.s.o.j.AbstractEntityManagerFactoryBean {buildNativeEntityManagerFactory} [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09 23:33:01,166 INFO o.s.s.w.DefaultSecurityFilterChain {<init>} [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7878459f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4f6a5cc9, org.springframework.security.web.context.SecurityContextPersistenceFilter@72b6fa98, org.springframework.security.web.header.HeaderWriterFilter@68dc2f53, org.springframework.web.filter.CorsFilter@5d24703e, org.springframework.security.web.authentication.logout.LogoutFilter@45b2d17b, com.svalero.apibikes.security.AuthTokenFilter@2fd8b081, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@726e29d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@77fecd2c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4ef10d3b, org.springframework.security.web.session.SessionManagementFilter@3b3a3a92, org.springframework.security.web.access.ExceptionTranslationFilter@2f69d246, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2d568cff]
+2025-04-09 23:33:02,433 INFO o.a.j.l.DirectJDKLog {log} [main] Starting ProtocolHandler ["http-nio-8080"]
+2025-04-09 23:33:02,516 INFO o.s.b.w.e.t.TomcatWebServer {start} [main] Tomcat started on port(s): 8080 (http) with context path ''
+2025-04-09 23:33:02,549 INFO o.s.b.StartupInfoLogger {logStarted} [main] Started HellospringApplication in 14.565 seconds (JVM running for 15.211)
+2025-04-09 23:33:32,168 INFO o.a.j.l.DirectJDKLog {log} [http-nio-8080-exec-6] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-09 23:33:32,172 INFO o.s.w.s.FrameworkServlet {initServletBean} [http-nio-8080-exec-6] Initializing Servlet 'dispatcherServlet'
+2025-04-09 23:33:32,179 INFO o.s.w.s.FrameworkServlet {initServletBean} [http-nio-8080-exec-6] Completed initialization in 3 ms
+2025-04-09 23:33:32,188 ERROR c.s.a.s.AuthEntryPointJwt {commence} [http-nio-8080-exec-6] Unauthorized error: Full authentication is required to access this resource
+2025-04-09 23:33:38,598 ERROR c.s.a.s.AuthEntryPointJwt {commence} [http-nio-8080-exec-4] Unauthorized error: Full authentication is required to access this resource
+2025-04-09 23:34:24,163 INFO c.s.a.c.UserController {getUser} [http-nio-8080-exec-9] BEGIN getUser
+2025-04-09 23:34:24,219 INFO c.s.a.c.UserController {getUser} [http-nio-8080-exec-9] END getUser

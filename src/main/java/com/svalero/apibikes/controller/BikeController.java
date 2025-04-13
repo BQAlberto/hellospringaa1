@@ -8,7 +8,6 @@ import com.svalero.apibikes.domain.dto.ErrorResponse;
 import com.svalero.apibikes.exception.BikeNotFoundException;
 import com.svalero.apibikes.exception.UserNotFoundException;
 import com.svalero.apibikes.service.BikeService;
-import jakarta.validation.Valid;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,6 +17,7 @@ import org.springframework.validation.FieldError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
