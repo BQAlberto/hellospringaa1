@@ -49,7 +49,7 @@ public class UserController {
     }
 
     @PostMapping("/users")
-    public ResponseEntity<UserOutDto> addUser(@RequestBody UserInDto userInDto) {
+    public ResponseEntity<UserOutDto> addUser(@Valid @RequestBody UserInDto userInDto) {
         UserOutDto userOutDto = userService.add(userInDto);
         return new ResponseEntity<>(userOutDto, HttpStatus.CREATED);
     }
@@ -70,6 +70,7 @@ public class UserController {
         return ResponseEntity.noContent().build();
     }
 
+    /*
     @ExceptionHandler
     public ResponseEntity<Void> handleUserNotFoundException(UserNotFoundException exception) {
         return new ResponseEntity<>(HttpStatus.NOT_FOUND);
@@ -93,4 +94,5 @@ public class UserController {
         logger.error(exception.getMessage(), exception);
         return new ResponseEntity<>(error, HttpStatus.INTERNAL_SERVER_ERROR);
     }
+    */
 }

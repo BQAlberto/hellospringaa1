@@ -44,7 +44,7 @@ public class BikeServiceTests {
     private UserRepository userRepository;
 
     @Test
-    public void testFilterBikes() {
+    public void testFilterBikesWithoutFilters() {
         List<Bike> mockBikeList = List.of(
             new Bike(1, "Orbea", "Alma", LocalDate.now(), LocalDate.now(), "green", 0.5, 0.34, null),
             new Bike(2, "BH", "Lynx", LocalDate.now(), LocalDate.now(), "red", 0.5, 0.44, null),
@@ -69,6 +69,117 @@ public class BikeServiceTests {
         assertEquals("Spark", bikeList.getLast().getModel());
 
         verify(bikeRepository, times(1)).findByBrandContainingAndModelContainingAndColorContaining("", "", "");
+    }
+
+    @Test
+    public void testFilterBikesByBrand() {
+        String brand = "Orbea";
+        List<Bike> mockBikeList = List.of(
+                new Bike(1, brand, "Alma", LocalDate.now(), LocalDate.now(), "green", 0.5, 0.34, null)
+        );
+        List<BikeOutDto> mockBikeOutDtoList = List.of(
+                new BikeOutDto(1, brand, "Alma", 1, 0.5, 0.34, "green")
+        );
+
+        when(bikeRepository.findByBrandContainingAndModelContainingAndColorContaining(brand, "", "")).thenReturn(mockBikeList);
+        when(modelMapper.map(mockBikeList, new TypeToken<List<BikeOutDto>>() {}.getType())).thenReturn(mockBikeOutDtoList);
+
+        List<BikeOutDto> result = bikeService.filterBikes(brand, "", "");
+
+        assertEquals(1, result.size());
+        assertEquals(brand, result.getFirst().getBrand());
+        verify(bikeRepository, times(1)).findByBrandContainingAndModelContainingAndColorContaining(brand, "", "");
+    }
+
+    @Test
+    public void testFilterBikesByModel() {
+        List<Bike> mockBikeList = List.of(
+                new Bike(1, "Orbea", "Alma", LocalDate.now(), LocalDate.now(), "green", 0.5, 0.34, null)
+        );
+        List<BikeOutDto> mockBikeOutDtoList = List.of(
+                new BikeOutDto(1, "Orbea", "Alma", 1, 0.5, 0.34, "green")
+        );
+
+        when(bikeRepository.findByBrandContainingAndModelContainingAndColorContaining("", "Alma", "")).thenReturn(mockBikeList);
+        when(modelMapper.map(mockBikeList, new TypeToken<List<BikeOutDto>>() {}.getType())).thenReturn(mockBikeOutDtoList);
+
+        List<BikeOutDto> bikeList = bikeService.filterBikes("", "Alma", "");
+
+        assertEquals(1, bikeList.size());
+        assertEquals("Alma", bikeList.getFirst().getModel());
+
+        verify(bikeRepository, times(1)).findByBrandContainingAndModelContainingAndColorContaining("", "Alma", "");
+    }
+
+    @Test
+    public void testFilterBikesByColor() {
+        List<Bike> mockBikeList = List.of(
+                new Bike(1, "Orbea", "Alma", LocalDate.now(), LocalDate.now(), "green", 0.5, 0.34, null)
+        );
+        List<BikeOutDto> mockBikeOutDtoList = List.of(
+                new BikeOutDto(1, "Orbea", "Alma", 1, 0.5, 0.34, "green")
+        );
+
+        when(bikeRepository.findByBrandContainingAndModelContainingAndColorContaining("", "", "green")).thenReturn(mockBikeList);
+        when(modelMapper.map(mockBikeList, new TypeToken<List<BikeOutDto>>() {}.getType())).thenReturn(mockBikeOutDtoList);
+
+        List<BikeOutDto> bikeList = bikeService.filterBikes("", "", "green");
+
+        assertEquals(1, bikeList.size());
+        assertEquals("green", bikeList.getFirst().getColor());
+
+        verify(bikeRepository, times(1)).findByBrandContainingAndModelContainingAndColorContaining("", "", "green");
+    }
+
+    @Test
+    public void testFilterBikesByAllFilters() {
+        List<Bike> mockBikeList = List.of(
+                new Bike(1, "Orbea", "Alma", LocalDate.now(), LocalDate.now(), "green", 0.5, 0.34, null)
+        );
+        List<BikeOutDto> mockBikeOutDtoList = List.of(
+                new BikeOutDto(1, "Orbea", "Alma", 1, 0.5, 0.34, "green")
+        );
+
+        when(bikeRepository.findByBrandContainingAndModelContainingAndColorContaining("Orbea", "Alma", "green")).thenReturn(mockBikeList);
+        when(modelMapper.map(mockBikeList, new TypeToken<List<BikeOutDto>>() {}.getType())).thenReturn(mockBikeOutDtoList);
+
+        List<BikeOutDto> bikeList = bikeService.filterBikes("Orbea", "Alma", "green");
+
+        assertEquals(1, bikeList.size());
+        assertEquals("Orbea", bikeList.getFirst().getBrand());
+        assertEquals("Alma", bikeList.getFirst().getModel());
+        assertEquals("green", bikeList.getFirst().getColor());
+
+        verify(bikeRepository, times(1)).findByBrandContainingAndModelContainingAndColorContaining("Orbea", "Alma", "green");
+    }
+
+    @Test
+    public void testGetBikeOk() throws Exception {
+        long bikeId = 1L;
+        Bike mockBike = new Bike(bikeId, "Orbea", "Alma", LocalDate.now(), LocalDate.now(), "green", 0.5, 0.34, null);
+
+        when(bikeRepository.findById(bikeId)).thenReturn(Optional.of(mockBike));
+
+        Bike result = bikeService.get(bikeId);
+
+        assertEquals("Orbea", result.getBrand());
+        assertEquals("Alma", result.getModel());
+
+        verify(bikeRepository, times(1)).findById(bikeId);
+    }
+
+    @Test
+    public void testGetBikeNotFound() {
+        long bikeId = 99L;
+
+        when(bikeRepository.findById(bikeId)).thenReturn(Optional.empty());
+
+        assertThrows(
+                com.svalero.apibikes.exception.BikeNotFoundException.class,
+                () -> bikeService.get(bikeId)
+        );
+
+        verify(bikeRepository, times(1)).findById(bikeId);
     }
 
     @Test
@@ -113,4 +224,68 @@ public class BikeServiceTests {
 
         assertThrows(UserNotFoundException.class, () -> bikeService.add(userId, bikeRegistrationDto));
     }
+
+    @Test
+    public void testModifyBikeOk() throws Exception {
+        long bikeId = 1L;
+        BikeInDto bikeInDto = new BikeInDto("Orbea", "Oiz", LocalDate.now(), LocalDate.now(), "blue");
+        Bike mockBike = new Bike(bikeId, "Orbea", "Alma", LocalDate.now(), LocalDate.now(), "green", 0.5, 0.34, null);
+        BikeOutDto mockBikeOutDto = new BikeOutDto(bikeId, "Orbea", "Oiz", 1, 0.5, 0.34, "blue");
+
+        when(bikeRepository.findById(bikeId)).thenReturn(Optional.of(mockBike));
+        doNothing().when(modelMapper).map(bikeInDto, mockBike);
+        when(modelMapper.map(mockBike, BikeOutDto.class)).thenReturn(mockBikeOutDto);
+
+        BikeOutDto result = bikeService.modify(bikeId, bikeInDto);
+
+        assertEquals("Orbea", result.getBrand());
+        assertEquals("Oiz", result.getModel());
+        assertEquals("blue", result.getColor());
+
+        verify(bikeRepository, times(1)).findById(bikeId);
+        verify(bikeRepository, times(1)).save(mockBike);
+    }
+
+    @Test
+    public void testModifyBikeNotFound() {
+        long bikeId = 99L;
+        BikeInDto bikeInDto = new BikeInDto("Orbea", "Oiz", LocalDate.now(), LocalDate.now(), "blue");
+
+        when(bikeRepository.findById(bikeId)).thenReturn(Optional.empty());
+
+        assertThrows(
+                com.svalero.apibikes.exception.BikeNotFoundException.class,
+                () -> bikeService.modify(bikeId, bikeInDto)
+        );
+
+        verify(bikeRepository, times(1)).findById(bikeId);
+    }
+
+    @Test
+    public void testRemoveBikeOk() throws Exception {
+        long bikeId = 1L;
+        Bike mockBike = new Bike(bikeId, "Orbea", "Alma", LocalDate.now(), LocalDate.now(), "green", 0.5, 0.34, null);
+
+        when(bikeRepository.findById(bikeId)).thenReturn(Optional.of(mockBike));
+
+        bikeService.remove(bikeId);
+
+        verify(bikeRepository, times(1)).findById(bikeId);
+        verify(bikeRepository, times(1)).deleteById(bikeId);
+    }
+
+    @Test
+    public void testRemoveBikeNotFound() {
+        long bikeId = 99L;
+
+        when(bikeRepository.findById(bikeId)).thenReturn(Optional.empty());
+
+        assertThrows(
+                com.svalero.apibikes.exception.BikeNotFoundException.class,
+                () -> bikeService.remove(bikeId)
+        );
+
+        verify(bikeRepository, times(1)).findById(bikeId);
+    }
+
 }

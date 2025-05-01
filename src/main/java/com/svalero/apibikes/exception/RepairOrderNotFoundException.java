@@ -1,6 +1,6 @@
 package com.svalero.apibikes.exception;
 
-public class RepairOrderNotFoundException extends Exception{
+public class RepairOrderNotFoundException extends Exception {
     public RepairOrderNotFoundException(){
         super("The order does not exist");
     }

@@ -77,6 +77,7 @@ public class BikeController {
         return ResponseEntity.noContent().build();
     }
 
+    /*
     @ExceptionHandler
     public ResponseEntity<ErrorResponse> handleBikeNotFoundException(BikeNotFoundException exception) {
         ErrorResponse error = ErrorResponse.generalError(404, exception.getMessage());
@@ -109,4 +110,5 @@ public class BikeController {
         logger.error(exception.getMessage(), exception);
         return new ResponseEntity<>(error, HttpStatus.INTERNAL_SERVER_ERROR);
     }
+    */
 }

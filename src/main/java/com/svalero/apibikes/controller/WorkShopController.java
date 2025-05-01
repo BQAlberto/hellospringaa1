@@ -52,7 +52,7 @@ public class WorkShopController {
     }
 
     @PostMapping("/workshops")
-    public ResponseEntity<WorkShopOutDto> addWorkShop(@RequestBody WorkShopInDto workShopInDto) {
+    public ResponseEntity<WorkShopOutDto> addWorkShop(@Valid @RequestBody WorkShopInDto workShopInDto ) throws WorkShopNotFoundException {
         logger.info("BEGIN addWorkShop");
         WorkShopOutDto newWorkShop = workShopService.add(workShopInDto);
         logger.info("END addWorkShop");
@@ -76,6 +76,7 @@ public class WorkShopController {
         return ResponseEntity.noContent().build();
     }
 
+    /*
     @ExceptionHandler
     public ResponseEntity<ErrorResponse> handleWorkShopNotFoundException(WorkShopNotFoundException exception) {
         ErrorResponse error = ErrorResponse.generalError(404, exception.getMessage());
@@ -102,4 +103,5 @@ public class WorkShopController {
         logger.error(exception.getMessage(), exception);
         return new ResponseEntity<>(error, HttpStatus.INTERNAL_SERVER_ERROR);
     }
+    */
 }

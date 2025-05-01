@@ -1,0 +1,400 @@
+2025-04-26 00:38:04,647 INFO o.s.b.StartupInfoLogger {logStarting} [main] Starting BikeControllerTests using Java 21 on DESKTOP-A2Q7539 with PID 3200 (started by 34618 in C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring)
+2025-04-26 00:38:04,647 INFO o.h.v.i.u.Version {<clinit>} [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2025-04-26 00:38:04,655 INFO o.s.b.SpringApplication {logStartupProfileInfo} [main] The following 1 profile is active: "test"
+2025-04-26 00:38:08,002 INFO o.s.s.w.DefaultSecurityFilterChain {<init>} [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@551be9f6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@269222ae, org.springframework.security.web.context.SecurityContextPersistenceFilter@7e3236d, org.springframework.security.web.header.HeaderWriterFilter@6a55594b, org.springframework.security.web.authentication.logout.LogoutFilter@380ce5a3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@266e9dda, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@38883a31, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@13250132, org.springframework.security.web.session.SessionManagementFilter@5aa781f2, org.springframework.security.web.access.ExceptionTranslationFilter@5b5f9003, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7ab2a07e]
+2025-04-26 00:38:09,150 INFO o.s.m.w.MockServletContext {log} [main] Initializing Spring TestDispatcherServlet ''
+2025-04-26 00:38:09,151 INFO o.s.w.s.FrameworkServlet {initServletBean} [main] Initializing Servlet ''
+2025-04-26 00:38:09,153 INFO o.s.w.s.FrameworkServlet {initServletBean} [main] Completed initialization in 2 ms
+2025-04-26 00:38:09,196 INFO o.s.b.StartupInfoLogger {logStarted} [main] Started BikeControllerTests in 5.661 seconds (JVM running for 7.13)
+2025-04-26 00:38:09,578 INFO c.s.a.c.BikeController {addBike} [main] BEGIN addBike
+2025-04-26 00:38:09,684 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=Orbea, model=, color=
+2025-04-26 00:38:09,694 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 2 bicicletas filtradas
+2025-04-26 00:38:09,729 INFO c.s.a.c.BikeController {addBike} [main] BEGIN addBike
+2025-04-26 00:38:09,732 INFO c.s.a.c.BikeController {addBike} [main] END addBike
+2025-04-26 00:38:09,810 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=, model=, color=
+2025-04-26 00:38:09,812 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 0 bicicletas filtradas
+2025-04-26 00:38:09,832 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=, model=, color=
+2025-04-26 00:38:09,833 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 3 bicicletas filtradas
+2025-04-26 00:38:09,851 INFO c.s.a.c.BikeController {getBike} [main] BEGIN getBike
+2025-04-26 00:38:09,852 INFO c.s.a.c.BikeController {getBike} [main] END getBike
+2025-04-26 00:38:09,928 INFO c.s.a.c.BikeController {getBike} [main] BEGIN getBike
+2025-04-26 00:38:32,304 INFO o.h.v.i.u.Version {<clinit>} [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2025-04-26 00:38:32,339 INFO o.s.b.StartupInfoLogger {logStarting} [main] Starting HellospringApplication using Java 21 on DESKTOP-A2Q7539 with PID 15732 (C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring\target\classes started by 34618 in C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring)
+2025-04-26 00:38:32,341 INFO o.s.b.SpringApplication {logStartupProfileInfo} [main] No active profile set, falling back to 1 default profile: "default"
+2025-04-26 00:38:33,240 INFO o.s.d.r.c.RepositoryConfigurationDelegate {registerRepositoriesIn} [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-26 00:38:33,317 INFO o.s.d.r.c.RepositoryConfigurationDelegate {registerRepositoriesIn} [main] Finished Spring Data repository scanning in 67 ms. Found 5 JPA repository interfaces.
+2025-04-26 00:38:34,416 INFO o.s.b.w.e.t.TomcatWebServer {initialize} [main] Tomcat initialized with port(s): 8080 (http)
+2025-04-26 00:38:34,435 INFO o.a.j.l.DirectJDKLog {log} [main] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-26 00:38:34,442 INFO o.a.j.l.DirectJDKLog {log} [main] Starting service [Tomcat]
+2025-04-26 00:38:34,444 INFO o.a.j.l.DirectJDKLog {log} [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-04-26 00:38:34,753 INFO o.a.j.l.DirectJDKLog {log} [main] Initializing Spring embedded WebApplicationContext
+2025-04-26 00:38:34,754 INFO o.s.b.w.s.c.ServletWebServerApplicationContext {prepareWebApplicationContext} [main] Root WebApplicationContext: initialization completed in 2332 ms
+2025-04-26 00:38:34,824 INFO c.z.h.HikariDataSource {getConnection} [main] HikariPool-1 - Starting...
+2025-04-26 00:38:35,418 INFO c.z.h.HikariDataSource {getConnection} [main] HikariPool-1 - Start completed.
+2025-04-26 00:38:35,440 INFO o.s.b.a.h.H2ConsoleAutoConfiguration {logDataSources} [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:C:/Users/34618/bikes.db'
+2025-04-26 00:38:35,570 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration {openEntityManagerInViewInterceptor} [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-26 00:38:35,745 INFO o.h.j.i.u.LogHelper {logPersistenceUnitInformation} [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-26 00:38:35,911 INFO o.h.Version {logVersion} [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-04-26 00:38:36,077 INFO o.h.a.c.r.j.JavaReflectionManager {<clinit>} [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-26 00:38:36,214 INFO o.h.d.Dialect {<init>} [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-04-26 00:38:37,046 INFO o.h.e.t.j.p.i.JtaPlatformInitiator {initiateService} [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-26 00:38:37,057 INFO o.s.o.j.AbstractEntityManagerFactoryBean {buildNativeEntityManagerFactory} [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-26 00:38:38,149 INFO o.s.s.w.DefaultSecurityFilterChain {<init>} [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2305aad0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1c15a6aa, org.springframework.security.web.context.SecurityContextPersistenceFilter@391b03b, org.springframework.security.web.header.HeaderWriterFilter@6f26e775, org.springframework.web.filter.CorsFilter@7dc963be, org.springframework.security.web.authentication.logout.LogoutFilter@68fc1e7f, com.svalero.apibikes.security.AuthTokenFilter@7ce760af, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@41dc34c8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3d00e981, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@61c4fc34, org.springframework.security.web.session.SessionManagementFilter@11fb1691, org.springframework.security.web.access.ExceptionTranslationFilter@672f69f7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6ac0fd1d]
+2025-04-26 00:38:38,375 INFO o.a.j.l.DirectJDKLog {log} [main] Starting ProtocolHandler ["http-nio-8080"]
+2025-04-26 00:38:38,411 INFO o.s.b.w.e.t.TomcatWebServer {start} [main] Tomcat started on port(s): 8080 (http) with context path ''
+2025-04-26 00:38:38,418 INFO o.s.b.StartupInfoLogger {logStarted} [main] Started HellospringApplication in 6.628 seconds (JVM running for 7.106)
+2025-04-26 00:39:24,107 INFO o.a.j.l.DirectJDKLog {log} [http-nio-8080-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-26 00:39:24,108 INFO o.s.w.s.FrameworkServlet {initServletBean} [http-nio-8080-exec-3] Initializing Servlet 'dispatcherServlet'
+2025-04-26 00:39:24,110 INFO o.s.w.s.FrameworkServlet {initServletBean} [http-nio-8080-exec-3] Completed initialization in 1 ms
+2025-04-26 00:43:05,229 INFO c.s.a.c.BikeController {filterBikes} [http-nio-8080-exec-5] Filtrando bicicletas con parámetros: brand=, model=, color=
+2025-04-26 00:43:05,286 INFO c.s.a.c.BikeController {filterBikes} [http-nio-8080-exec-5] Operación completada: Se obtuvieron 6 bicicletas filtradas
+2025-04-26 00:43:37,312 INFO c.s.a.c.BikeController {addBike} [http-nio-8080-exec-6] BEGIN addBike
+2025-04-26 00:43:44,903 INFO c.s.a.c.BikeController {addBike} [http-nio-8080-exec-7] BEGIN addBike
+2025-04-26 00:43:44,934 INFO c.s.a.c.BikeController {addBike} [http-nio-8080-exec-7] END addBike
+2025-04-26 00:49:49,010 INFO o.s.b.StartupInfoLogger {logStarting} [main] Starting BikeControllerTests using Java 21 on DESKTOP-A2Q7539 with PID 16636 (started by 34618 in C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring)
+2025-04-26 00:49:49,010 INFO o.h.v.i.u.Version {<clinit>} [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2025-04-26 00:49:49,010 INFO o.s.b.SpringApplication {logStartupProfileInfo} [main] The following 1 profile is active: "test"
+2025-04-26 00:49:51,507 INFO o.s.s.w.DefaultSecurityFilterChain {<init>} [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7d3691e1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@46a123e4, org.springframework.security.web.context.SecurityContextPersistenceFilter@27a6fef2, org.springframework.security.web.header.HeaderWriterFilter@2db15f70, org.springframework.security.web.authentication.logout.LogoutFilter@423ed3b5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@541afb85, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@445bce9a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@44bc2449, org.springframework.security.web.session.SessionManagementFilter@739831a4, org.springframework.security.web.access.ExceptionTranslationFilter@707865bd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1653b84e]
+2025-04-26 00:49:53,348 INFO o.s.m.w.MockServletContext {log} [main] Initializing Spring TestDispatcherServlet ''
+2025-04-26 00:49:53,348 INFO o.s.w.s.FrameworkServlet {initServletBean} [main] Initializing Servlet ''
+2025-04-26 00:49:53,360 INFO o.s.w.s.FrameworkServlet {initServletBean} [main] Completed initialization in 12 ms
+2025-04-26 00:49:53,448 INFO o.s.b.StartupInfoLogger {logStarted} [main] Started BikeControllerTests in 5.788 seconds (JVM running for 7.344)
+2025-04-26 00:49:54,077 INFO c.s.a.c.BikeController {addBike} [main] BEGIN addBike
+2025-04-26 00:49:54,173 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=Orbea, model=, color=
+2025-04-26 00:49:54,188 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 2 bicicletas filtradas
+2025-04-26 00:49:54,212 INFO c.s.a.c.BikeController {addBike} [main] BEGIN addBike
+2025-04-26 00:49:54,212 INFO c.s.a.c.BikeController {addBike} [main] END addBike
+2025-04-26 00:49:54,268 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=, model=, color=
+2025-04-26 00:49:54,268 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 0 bicicletas filtradas
+2025-04-26 00:49:54,292 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=, model=, color=
+2025-04-26 00:49:54,295 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 3 bicicletas filtradas
+2025-04-26 00:49:54,311 INFO c.s.a.c.BikeController {getBike} [main] BEGIN getBike
+2025-04-26 00:49:54,311 INFO c.s.a.c.BikeController {getBike} [main] END getBike
+2025-04-26 00:49:54,340 INFO c.s.a.c.BikeController {getBike} [main] BEGIN getBike
+2025-04-26 00:55:31,200 INFO o.h.v.i.u.Version {<clinit>} [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2025-04-26 00:55:31,532 INFO o.s.b.StartupInfoLogger {logStarting} [main] Starting BikeControllerTests using Java 21 on DESKTOP-A2Q7539 with PID 10816 (started by 34618 in C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring)
+2025-04-26 00:55:31,564 INFO o.s.b.SpringApplication {logStartupProfileInfo} [main] The following 1 profile is active: "test"
+2025-04-26 00:55:38,806 INFO o.s.s.w.DefaultSecurityFilterChain {<init>} [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6f85ee02, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@679d0be8, org.springframework.security.web.context.SecurityContextPersistenceFilter@6a55594b, org.springframework.security.web.header.HeaderWriterFilter@4962b41e, org.springframework.security.web.authentication.logout.LogoutFilter@9fe720a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@57fdb8a4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@17222c11, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6c075e9d, org.springframework.security.web.session.SessionManagementFilter@6d293993, org.springframework.security.web.access.ExceptionTranslationFilter@62d40e31, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@77524ca7]
+2025-04-26 00:55:40,832 INFO o.s.m.w.MockServletContext {log} [main] Initializing Spring TestDispatcherServlet ''
+2025-04-26 00:55:40,834 INFO o.s.w.s.FrameworkServlet {initServletBean} [main] Initializing Servlet ''
+2025-04-26 00:55:40,840 INFO o.s.w.s.FrameworkServlet {initServletBean} [main] Completed initialization in 4 ms
+2025-04-26 00:55:40,987 INFO o.s.b.StartupInfoLogger {logStarted} [main] Started BikeControllerTests in 11.826 seconds (JVM running for 13.712)
+2025-04-26 00:55:42,021 INFO c.s.a.c.BikeController {addBike} [main] BEGIN addBike
+2025-04-26 00:55:42,184 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=Orbea, model=, color=
+2025-04-26 00:55:42,191 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 2 bicicletas filtradas
+2025-04-26 00:55:42,235 INFO c.s.a.c.BikeController {addBike} [main] BEGIN addBike
+2025-04-26 00:55:42,238 INFO c.s.a.c.BikeController {addBike} [main] END addBike
+2025-04-26 00:55:42,376 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=, model=, color=
+2025-04-26 00:55:42,380 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 0 bicicletas filtradas
+2025-04-26 00:55:42,421 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=, model=, color=
+2025-04-26 00:55:42,426 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 3 bicicletas filtradas
+2025-04-26 00:55:42,450 INFO c.s.a.c.BikeController {getBike} [main] BEGIN getBike
+2025-04-26 00:55:42,451 INFO c.s.a.c.BikeController {getBike} [main] END getBike
+2025-04-26 00:55:42,566 INFO c.s.a.c.BikeController {getBike} [main] BEGIN getBike
+2025-04-26 00:56:03,176 INFO o.h.v.i.u.Version {<clinit>} [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2025-04-26 00:56:03,226 INFO o.s.b.StartupInfoLogger {logStarting} [main] Starting HellospringApplication using Java 21 on DESKTOP-A2Q7539 with PID 5720 (C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring\target\classes started by 34618 in C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring)
+2025-04-26 00:56:03,228 INFO o.s.b.SpringApplication {logStartupProfileInfo} [main] No active profile set, falling back to 1 default profile: "default"
+2025-04-26 00:56:04,625 INFO o.s.d.r.c.RepositoryConfigurationDelegate {registerRepositoriesIn} [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-26 00:56:04,699 INFO o.s.d.r.c.RepositoryConfigurationDelegate {registerRepositoriesIn} [main] Finished Spring Data repository scanning in 65 ms. Found 5 JPA repository interfaces.
+2025-04-26 00:56:05,366 INFO o.s.b.w.e.t.TomcatWebServer {initialize} [main] Tomcat initialized with port(s): 8080 (http)
+2025-04-26 00:56:05,375 INFO o.a.j.l.DirectJDKLog {log} [main] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-26 00:56:05,378 INFO o.a.j.l.DirectJDKLog {log} [main] Starting service [Tomcat]
+2025-04-26 00:56:05,379 INFO o.a.j.l.DirectJDKLog {log} [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-04-26 00:56:05,509 INFO o.a.j.l.DirectJDKLog {log} [main] Initializing Spring embedded WebApplicationContext
+2025-04-26 00:56:05,510 INFO o.s.b.w.s.c.ServletWebServerApplicationContext {prepareWebApplicationContext} [main] Root WebApplicationContext: initialization completed in 2137 ms
+2025-04-26 00:56:05,542 INFO c.z.h.HikariDataSource {getConnection} [main] HikariPool-1 - Starting...
+2025-04-26 00:56:05,800 INFO c.z.h.HikariDataSource {getConnection} [main] HikariPool-1 - Start completed.
+2025-04-26 00:56:05,812 INFO o.s.b.a.h.H2ConsoleAutoConfiguration {logDataSources} [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:C:/Users/34618/bikes.db'
+2025-04-26 00:56:05,881 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration {openEntityManagerInViewInterceptor} [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-26 00:56:05,958 INFO o.h.j.i.u.LogHelper {logPersistenceUnitInformation} [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-26 00:56:06,019 INFO o.h.Version {logVersion} [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-04-26 00:56:06,175 INFO o.h.a.c.r.j.JavaReflectionManager {<clinit>} [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-26 00:56:06,287 INFO o.h.d.Dialect {<init>} [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-04-26 00:56:07,053 INFO o.h.e.t.j.p.i.JtaPlatformInitiator {initiateService} [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-26 00:56:07,072 INFO o.s.o.j.AbstractEntityManagerFactoryBean {buildNativeEntityManagerFactory} [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-26 00:56:08,487 INFO o.s.s.w.DefaultSecurityFilterChain {<init>} [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@206e5183, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@325236f5, org.springframework.security.web.context.SecurityContextPersistenceFilter@1d7d968c, org.springframework.security.web.header.HeaderWriterFilter@64d1f549, org.springframework.web.filter.CorsFilter@32eb38e5, org.springframework.security.web.authentication.logout.LogoutFilter@3ca9d3b2, com.svalero.apibikes.security.AuthTokenFilter@2d1f3639, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6fe77a97, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1f229c40, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@73633230, org.springframework.security.web.session.SessionManagementFilter@3c862522, org.springframework.security.web.access.ExceptionTranslationFilter@77aeba9b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@702432cc]
+2025-04-26 00:56:08,913 INFO o.a.j.l.DirectJDKLog {log} [main] Starting ProtocolHandler ["http-nio-8080"]
+2025-04-26 00:56:08,973 INFO o.s.b.w.e.t.TomcatWebServer {start} [main] Tomcat started on port(s): 8080 (http) with context path ''
+2025-04-26 00:56:08,996 INFO o.s.b.StartupInfoLogger {logStarted} [main] Started HellospringApplication in 6.884 seconds (JVM running for 7.875)
+2025-04-26 00:56:13,744 INFO o.a.j.l.DirectJDKLog {log} [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-26 00:56:13,745 INFO o.s.w.s.FrameworkServlet {initServletBean} [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-04-26 00:56:13,746 INFO o.s.w.s.FrameworkServlet {initServletBean} [http-nio-8080-exec-1] Completed initialization in 1 ms
+2025-04-26 00:56:30,053 INFO c.s.a.c.BikeController {filterBikes} [http-nio-8080-exec-3] Filtrando bicicletas con parámetros: brand=, model=, color=
+2025-04-26 00:56:30,104 INFO c.s.a.c.BikeController {filterBikes} [http-nio-8080-exec-3] Operación completada: Se obtuvieron 7 bicicletas filtradas
+2025-04-26 00:56:38,013 INFO c.s.a.c.UserController {filterusers} [http-nio-8080-exec-4] BEGIN getAll
+2025-04-26 00:56:38,024 INFO c.s.a.c.UserController {filterusers} [http-nio-8080-exec-4] END getAll
+2025-04-26 00:56:44,568 INFO c.s.a.c.BikeController {addBike} [http-nio-8080-exec-5] BEGIN addBike
+2025-04-26 00:56:44,605 INFO c.s.a.c.BikeController {addBike} [http-nio-8080-exec-5] END addBike
+2025-04-26 00:56:51,763 INFO c.s.a.c.BikeController {addBike} [http-nio-8080-exec-6] BEGIN addBike
+2025-04-26 12:41:22,372 INFO o.h.v.i.u.Version {<clinit>} [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2025-04-26 12:41:22,407 INFO o.s.b.StartupInfoLogger {logStarting} [main] Starting BikeControllerTests using Java 21 on DESKTOP-A2Q7539 with PID 11256 (started by 34618 in C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring)
+2025-04-26 12:41:22,407 INFO o.s.b.SpringApplication {logStartupProfileInfo} [main] The following 1 profile is active: "test"
+2025-04-26 12:41:24,992 INFO o.s.s.w.DefaultSecurityFilterChain {<init>} [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@13250132, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@40d848f9, org.springframework.security.web.context.SecurityContextPersistenceFilter@14c99bf6, org.springframework.security.web.header.HeaderWriterFilter@44598ef7, org.springframework.security.web.authentication.logout.LogoutFilter@7d9c45ee, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@27a6fef2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7fe8c7db, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a864d4d, org.springframework.security.web.session.SessionManagementFilter@66d25ba9, org.springframework.security.web.access.ExceptionTranslationFilter@2f9dda71, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5ec6fede]
+2025-04-26 12:41:27,210 INFO o.s.m.w.MockServletContext {log} [main] Initializing Spring TestDispatcherServlet ''
+2025-04-26 12:41:27,212 INFO o.s.w.s.FrameworkServlet {initServletBean} [main] Initializing Servlet ''
+2025-04-26 12:41:27,218 INFO o.s.w.s.FrameworkServlet {initServletBean} [main] Completed initialization in 6 ms
+2025-04-26 12:41:27,298 INFO o.s.b.StartupInfoLogger {logStarted} [main] Started BikeControllerTests in 5.63 seconds (JVM running for 8.224)
+2025-04-26 12:41:27,712 INFO c.s.a.c.BikeController {addBike} [main] BEGIN addBike
+2025-04-26 12:41:27,840 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=Orbea, model=, color=
+2025-04-26 12:41:27,844 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 2 bicicletas filtradas
+2025-04-26 12:41:27,870 INFO c.s.a.c.BikeController {addBike} [main] BEGIN addBike
+2025-04-26 12:41:27,870 INFO c.s.a.c.BikeController {addBike} [main] END addBike
+2025-04-26 12:41:27,981 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=, model=, color=
+2025-04-26 12:41:27,983 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 0 bicicletas filtradas
+2025-04-26 12:41:28,006 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=, model=, color=
+2025-04-26 12:41:28,006 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 3 bicicletas filtradas
+2025-04-26 12:41:28,027 INFO c.s.a.c.BikeController {getBike} [main] BEGIN getBike
+2025-04-26 12:41:28,029 INFO c.s.a.c.BikeController {getBike} [main] END getBike
+2025-04-26 12:41:28,075 INFO c.s.a.c.BikeController {getBike} [main] BEGIN getBike
+2025-04-26 12:51:47,651 INFO o.h.v.i.u.Version {<clinit>} [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2025-04-26 12:51:47,677 INFO o.s.b.StartupInfoLogger {logStarting} [main] Starting BikeControllerTests using Java 21 on DESKTOP-A2Q7539 with PID 1380 (started by 34618 in C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring)
+2025-04-26 12:51:47,677 INFO o.s.b.SpringApplication {logStartupProfileInfo} [main] The following 1 profile is active: "test"
+2025-04-26 12:51:51,096 INFO o.s.s.w.DefaultSecurityFilterChain {<init>} [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@13250132, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@40d848f9, org.springframework.security.web.context.SecurityContextPersistenceFilter@14c99bf6, org.springframework.security.web.header.HeaderWriterFilter@44598ef7, org.springframework.security.web.authentication.logout.LogoutFilter@7d9c45ee, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@27a6fef2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7fe8c7db, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a864d4d, org.springframework.security.web.session.SessionManagementFilter@66d25ba9, org.springframework.security.web.access.ExceptionTranslationFilter@2f9dda71, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5ec6fede]
+2025-04-26 12:51:52,658 INFO o.s.m.w.MockServletContext {log} [main] Initializing Spring TestDispatcherServlet ''
+2025-04-26 12:51:52,659 INFO o.s.w.s.FrameworkServlet {initServletBean} [main] Initializing Servlet ''
+2025-04-26 12:51:52,662 INFO o.s.w.s.FrameworkServlet {initServletBean} [main] Completed initialization in 2 ms
+2025-04-26 12:51:52,701 INFO o.s.b.StartupInfoLogger {logStarted} [main] Started BikeControllerTests in 6.215 seconds (JVM running for 8.921)
+2025-04-26 12:51:53,153 INFO c.s.a.c.BikeController {addBike} [main] BEGIN addBike
+2025-04-26 12:51:53,248 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=Orbea, model=, color=
+2025-04-26 12:51:53,265 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 2 bicicletas filtradas
+2025-04-26 12:51:53,284 INFO c.s.a.c.BikeController {addBike} [main] BEGIN addBike
+2025-04-26 12:51:53,284 INFO c.s.a.c.BikeController {addBike} [main] END addBike
+2025-04-26 12:51:53,399 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=, model=, color=
+2025-04-26 12:51:53,407 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 0 bicicletas filtradas
+2025-04-26 12:51:53,431 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=, model=, color=
+2025-04-26 12:51:53,433 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 3 bicicletas filtradas
+2025-04-26 12:51:53,460 INFO c.s.a.c.BikeController {getBike} [main] BEGIN getBike
+2025-04-26 12:51:53,460 INFO c.s.a.c.BikeController {getBike} [main] END getBike
+2025-04-26 12:51:53,534 INFO c.s.a.c.BikeController {getBike} [main] BEGIN getBike
+2025-04-26 12:58:36,689 INFO o.h.v.i.u.Version {<clinit>} [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2025-04-26 12:58:36,689 INFO o.s.b.StartupInfoLogger {logStarting} [main] Starting BikeControllerTests using Java 21 on DESKTOP-A2Q7539 with PID 14560 (started by 34618 in C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring)
+2025-04-26 12:58:36,696 INFO o.s.b.SpringApplication {logStartupProfileInfo} [main] The following 1 profile is active: "test"
+2025-04-26 12:58:40,285 INFO o.s.s.w.DefaultSecurityFilterChain {<init>} [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@395f52ed, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7a84788f, org.springframework.security.web.context.SecurityContextPersistenceFilter@11f23203, org.springframework.security.web.header.HeaderWriterFilter@7fe8c7db, org.springframework.security.web.authentication.logout.LogoutFilter@3b41e1bf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6221b13b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@62c3f556, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@102c18e, org.springframework.security.web.session.SessionManagementFilter@149274cb, org.springframework.security.web.access.ExceptionTranslationFilter@3ebc955b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5600a5da]
+2025-04-26 12:58:42,399 INFO o.s.m.w.MockServletContext {log} [main] Initializing Spring TestDispatcherServlet ''
+2025-04-26 12:58:42,406 INFO o.s.w.s.FrameworkServlet {initServletBean} [main] Initializing Servlet ''
+2025-04-26 12:58:42,411 INFO o.s.w.s.FrameworkServlet {initServletBean} [main] Completed initialization in 5 ms
+2025-04-26 12:58:42,501 INFO o.s.b.StartupInfoLogger {logStarted} [main] Started BikeControllerTests in 6.83 seconds (JVM running for 8.143)
+2025-04-26 12:58:43,213 INFO c.s.a.c.BikeController {addBike} [main] BEGIN addBike
+2025-04-26 12:58:43,349 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=Orbea, model=, color=
+2025-04-26 12:58:43,355 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 2 bicicletas filtradas
+2025-04-26 12:58:43,379 INFO c.s.a.c.BikeController {addBike} [main] BEGIN addBike
+2025-04-26 12:58:43,379 INFO c.s.a.c.BikeController {addBike} [main] END addBike
+2025-04-26 12:58:43,459 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=, model=, color=
+2025-04-26 12:58:43,459 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 0 bicicletas filtradas
+2025-04-26 12:58:43,479 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=, model=, color=
+2025-04-26 12:58:43,479 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 3 bicicletas filtradas
+2025-04-26 12:58:43,504 INFO c.s.a.c.BikeController {getBike} [main] BEGIN getBike
+2025-04-26 12:58:43,504 INFO c.s.a.c.BikeController {getBike} [main] END getBike
+2025-04-26 12:58:43,570 INFO c.s.a.c.BikeController {getBike} [main] BEGIN getBike
+2025-04-26 13:02:02,824 INFO o.h.v.i.u.Version {<clinit>} [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2025-04-26 13:02:02,838 INFO o.s.b.StartupInfoLogger {logStarting} [main] Starting BikeControllerTests using Java 21 on DESKTOP-A2Q7539 with PID 9732 (started by 34618 in C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring)
+2025-04-26 13:02:02,842 INFO o.s.b.SpringApplication {logStartupProfileInfo} [main] The following 1 profile is active: "test"
+2025-04-26 13:02:05,024 INFO o.s.s.w.DefaultSecurityFilterChain {<init>} [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@57151b3a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@26457986, org.springframework.security.web.context.SecurityContextPersistenceFilter@19ae2ee5, org.springframework.security.web.header.HeaderWriterFilter@5aa781f2, org.springframework.security.web.authentication.logout.LogoutFilter@7926352f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6ffd4c0d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@74c9e11, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2dff7085, org.springframework.security.web.session.SessionManagementFilter@2dba05b1, org.springframework.security.web.access.ExceptionTranslationFilter@42297bdf, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5e599100]
+2025-04-26 13:02:06,164 INFO o.s.m.w.MockServletContext {log} [main] Initializing Spring TestDispatcherServlet ''
+2025-04-26 13:02:06,164 INFO o.s.w.s.FrameworkServlet {initServletBean} [main] Initializing Servlet ''
+2025-04-26 13:02:06,168 INFO o.s.w.s.FrameworkServlet {initServletBean} [main] Completed initialization in 0 ms
+2025-04-26 13:02:06,226 INFO o.s.b.StartupInfoLogger {logStarted} [main] Started BikeControllerTests in 4.67 seconds (JVM running for 6.478)
+2025-04-26 13:02:07,074 INFO c.s.a.c.BikeController {addBike} [main] BEGIN addBike
+2025-04-26 13:02:07,314 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=Orbea, model=, color=
+2025-04-26 13:02:07,324 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 2 bicicletas filtradas
+2025-04-26 13:02:07,378 INFO c.s.a.c.BikeController {addBike} [main] BEGIN addBike
+2025-04-26 13:02:07,384 INFO c.s.a.c.BikeController {addBike} [main] END addBike
+2025-04-26 13:02:07,489 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=, model=, color=
+2025-04-26 13:02:07,494 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 0 bicicletas filtradas
+2025-04-26 13:02:07,532 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=, model=, color=
+2025-04-26 13:02:07,536 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 3 bicicletas filtradas
+2025-04-26 13:02:07,568 INFO c.s.a.c.BikeController {getBike} [main] BEGIN getBike
+2025-04-26 13:02:07,570 INFO c.s.a.c.BikeController {getBike} [main] END getBike
+2025-04-26 13:02:07,694 INFO c.s.a.c.BikeController {getBike} [main] BEGIN getBike
+2025-04-26 13:02:46,206 INFO o.s.b.StartupInfoLogger {logStarting} [main] Starting BikeControllerTests using Java 21 on DESKTOP-A2Q7539 with PID 16216 (started by 34618 in C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring)
+2025-04-26 13:02:46,211 INFO o.s.b.SpringApplication {logStartupProfileInfo} [main] The following 1 profile is active: "test"
+2025-04-26 13:02:46,213 INFO o.h.v.i.u.Version {<clinit>} [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2025-04-26 13:02:50,111 INFO o.s.s.w.DefaultSecurityFilterChain {<init>} [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@53a50b0a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@74ba6ff5, org.springframework.security.web.context.SecurityContextPersistenceFilter@f723cdb, org.springframework.security.web.header.HeaderWriterFilter@38883a31, org.springframework.security.web.authentication.logout.LogoutFilter@1cd6b1bd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@101bdd1c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@e91af20, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@395f52ed, org.springframework.security.web.session.SessionManagementFilter@74c9e11, org.springframework.security.web.access.ExceptionTranslationFilter@1f15e689, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@56a4abd0]
+2025-04-26 13:02:51,269 INFO o.s.m.w.MockServletContext {log} [main] Initializing Spring TestDispatcherServlet ''
+2025-04-26 13:02:51,270 INFO o.s.w.s.FrameworkServlet {initServletBean} [main] Initializing Servlet ''
+2025-04-26 13:02:51,273 INFO o.s.w.s.FrameworkServlet {initServletBean} [main] Completed initialization in 2 ms
+2025-04-26 13:02:51,321 INFO o.s.b.StartupInfoLogger {logStarted} [main] Started BikeControllerTests in 6.155 seconds (JVM running for 9.232)
+2025-04-26 13:02:51,689 INFO c.s.a.c.BikeController {addBike} [main] BEGIN addBike
+2025-04-26 13:02:51,836 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=Orbea, model=, color=
+2025-04-26 13:02:51,845 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 2 bicicletas filtradas
+2025-04-26 13:02:51,881 INFO c.s.a.c.BikeController {addBike} [main] BEGIN addBike
+2025-04-26 13:02:51,881 INFO c.s.a.c.BikeController {addBike} [main] END addBike
+2025-04-26 13:02:51,959 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=, model=, color=
+2025-04-26 13:02:51,959 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 0 bicicletas filtradas
+2025-04-26 13:02:51,974 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=, model=, color=
+2025-04-26 13:02:51,981 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 3 bicicletas filtradas
+2025-04-26 13:02:52,001 INFO c.s.a.c.BikeController {getBike} [main] BEGIN getBike
+2025-04-26 13:02:52,001 INFO c.s.a.c.BikeController {getBike} [main] END getBike
+2025-04-26 13:02:52,041 INFO c.s.a.c.BikeController {getBike} [main] BEGIN getBike
+2025-04-26 13:04:20,454 INFO o.h.v.i.u.Version {<clinit>} [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2025-04-26 13:04:20,481 INFO o.s.b.StartupInfoLogger {logStarting} [main] Starting HellospringApplication using Java 21 on DESKTOP-A2Q7539 with PID 11644 (C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring\target\classes started by 34618 in C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring)
+2025-04-26 13:04:20,481 INFO o.s.b.SpringApplication {logStartupProfileInfo} [main] No active profile set, falling back to 1 default profile: "default"
+2025-04-26 13:04:21,949 INFO o.s.d.r.c.RepositoryConfigurationDelegate {registerRepositoriesIn} [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-26 13:04:22,170 INFO o.s.d.r.c.RepositoryConfigurationDelegate {registerRepositoriesIn} [main] Finished Spring Data repository scanning in 195 ms. Found 5 JPA repository interfaces.
+2025-04-26 13:04:23,700 INFO o.s.b.w.e.t.TomcatWebServer {initialize} [main] Tomcat initialized with port(s): 8080 (http)
+2025-04-26 13:04:23,718 INFO o.a.j.l.DirectJDKLog {log} [main] Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-26 13:04:23,724 INFO o.a.j.l.DirectJDKLog {log} [main] Starting service [Tomcat]
+2025-04-26 13:04:23,726 INFO o.a.j.l.DirectJDKLog {log} [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-04-26 13:04:24,174 INFO o.a.j.l.DirectJDKLog {log} [main] Initializing Spring embedded WebApplicationContext
+2025-04-26 13:04:24,174 INFO o.s.b.w.s.c.ServletWebServerApplicationContext {prepareWebApplicationContext} [main] Root WebApplicationContext: initialization completed in 3621 ms
+2025-04-26 13:04:24,217 INFO c.z.h.HikariDataSource {getConnection} [main] HikariPool-1 - Starting...
+2025-04-26 13:04:24,704 INFO c.z.h.HikariDataSource {getConnection} [main] HikariPool-1 - Start completed.
+2025-04-26 13:04:24,724 INFO o.s.b.a.h.H2ConsoleAutoConfiguration {logDataSources} [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:C:/Users/34618/bikes.db'
+2025-04-26 13:04:24,824 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration {openEntityManagerInViewInterceptor} [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-26 13:04:24,964 INFO o.h.j.i.u.LogHelper {logPersistenceUnitInformation} [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-26 13:04:25,099 INFO o.h.Version {logVersion} [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-04-26 13:04:25,424 INFO o.h.a.c.r.j.JavaReflectionManager {<clinit>} [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-26 13:04:25,771 INFO o.h.d.Dialect {<init>} [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-04-26 13:04:27,991 INFO o.h.e.t.j.p.i.JtaPlatformInitiator {initiateService} [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-26 13:04:28,021 INFO o.s.o.j.AbstractEntityManagerFactoryBean {buildNativeEntityManagerFactory} [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-26 13:04:30,893 INFO o.s.s.w.DefaultSecurityFilterChain {<init>} [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@11fa11b2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@29ddaa8e, org.springframework.security.web.context.SecurityContextPersistenceFilter@4a977146, org.springframework.security.web.header.HeaderWriterFilter@3220833f, org.springframework.web.filter.CorsFilter@4c678a1f, org.springframework.security.web.authentication.logout.LogoutFilter@99af41d, com.svalero.apibikes.security.AuthTokenFilter@7ce760af, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@402c415e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6265a548, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@217009bd, org.springframework.security.web.session.SessionManagementFilter@1f229c40, org.springframework.security.web.access.ExceptionTranslationFilter@6aaf1ce8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7dc963be]
+2025-04-26 13:04:31,476 INFO o.a.j.l.DirectJDKLog {log} [main] Starting ProtocolHandler ["http-nio-8080"]
+2025-04-26 13:04:31,601 INFO o.s.b.w.e.t.TomcatWebServer {start} [main] Tomcat started on port(s): 8080 (http) with context path ''
+2025-04-26 13:04:31,643 INFO o.s.b.StartupInfoLogger {logStarted} [main] Started HellospringApplication in 11.773 seconds (JVM running for 12.346)
+2025-04-26 13:04:42,475 INFO o.a.j.l.DirectJDKLog {log} [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-26 13:04:42,476 INFO o.s.w.s.FrameworkServlet {initServletBean} [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-04-26 13:04:42,479 INFO o.s.w.s.FrameworkServlet {initServletBean} [http-nio-8080-exec-1] Completed initialization in 2 ms
+2025-04-26 13:05:16,723 INFO c.s.a.c.BikeController {filterBikes} [http-nio-8080-exec-2] Filtrando bicicletas con parámetros: brand=, model=, color=
+2025-04-26 13:05:16,788 INFO c.s.a.c.BikeController {filterBikes} [http-nio-8080-exec-2] Operación completada: Se obtuvieron 8 bicicletas filtradas
+2025-04-26 13:06:04,244 ERROR c.s.a.s.AuthEntryPointJwt {commence} [http-nio-8080-exec-4] Unauthorized error: Full authentication is required to access this resource
+2025-04-26 13:06:15,436 INFO c.s.a.c.BikeController {modifyBike} [http-nio-8080-exec-5] BEGIN modifyBike
+2025-04-26 13:06:15,493 INFO c.s.a.c.BikeController {modifyBike} [http-nio-8080-exec-5] END modifyBike
+2025-04-26 13:06:21,628 INFO c.s.a.c.BikeController {filterBikes} [http-nio-8080-exec-8] Filtrando bicicletas con parámetros: brand=, model=, color=
+2025-04-26 13:06:21,637 INFO c.s.a.c.BikeController {filterBikes} [http-nio-8080-exec-8] Operación completada: Se obtuvieron 8 bicicletas filtradas
+2025-04-26 13:08:49,848 INFO o.s.b.StartupInfoLogger {logStarting} [main] Starting BikeControllerTests using Java 21 on DESKTOP-A2Q7539 with PID 12156 (started by 34618 in C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring)
+2025-04-26 13:08:49,858 INFO o.s.b.SpringApplication {logStartupProfileInfo} [main] The following 1 profile is active: "test"
+2025-04-26 13:08:49,864 INFO o.h.v.i.u.Version {<clinit>} [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2025-04-26 13:08:54,038 INFO o.s.s.w.DefaultSecurityFilterChain {<init>} [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6c742b84, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5db3d57c, org.springframework.security.web.context.SecurityContextPersistenceFilter@72557746, org.springframework.security.web.header.HeaderWriterFilter@14c99bf6, org.springframework.security.web.authentication.logout.LogoutFilter@14fc9bd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4844930a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@11f23203, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@53a50b0a, org.springframework.security.web.session.SessionManagementFilter@34c53688, org.springframework.security.web.access.ExceptionTranslationFilter@2db15f70, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@33d7765a]
+2025-04-26 13:08:55,194 INFO o.s.m.w.MockServletContext {log} [main] Initializing Spring TestDispatcherServlet ''
+2025-04-26 13:08:55,194 INFO o.s.w.s.FrameworkServlet {initServletBean} [main] Initializing Servlet ''
+2025-04-26 13:08:55,198 INFO o.s.w.s.FrameworkServlet {initServletBean} [main] Completed initialization in 4 ms
+2025-04-26 13:08:55,250 INFO o.s.b.StartupInfoLogger {logStarted} [main] Started BikeControllerTests in 6.173 seconds (JVM running for 8.184)
+2025-04-26 13:08:55,648 INFO c.s.a.c.BikeController {addBike} [main] BEGIN addBike
+2025-04-26 13:08:55,738 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=Orbea, model=, color=
+2025-04-26 13:08:55,738 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 2 bicicletas filtradas
+2025-04-26 13:08:55,768 INFO c.s.a.c.BikeController {addBike} [main] BEGIN addBike
+2025-04-26 13:08:55,770 INFO c.s.a.c.BikeController {addBike} [main] END addBike
+2025-04-26 13:08:55,838 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=, model=, color=
+2025-04-26 13:08:55,838 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 0 bicicletas filtradas
+2025-04-26 13:08:55,866 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=, model=, color=
+2025-04-26 13:08:55,869 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 3 bicicletas filtradas
+2025-04-26 13:08:55,885 INFO c.s.a.c.BikeController {getBike} [main] BEGIN getBike
+2025-04-26 13:08:55,887 INFO c.s.a.c.BikeController {getBike} [main] END getBike
+2025-04-26 13:08:55,939 INFO c.s.a.c.BikeController {getBike} [main] BEGIN getBike
+2025-04-26 13:10:19,953 INFO o.h.v.i.u.Version {<clinit>} [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2025-04-26 13:10:19,961 INFO o.s.b.StartupInfoLogger {logStarting} [main] Starting BikeControllerTests using Java 21 on DESKTOP-A2Q7539 with PID 6416 (started by 34618 in C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring)
+2025-04-26 13:10:19,965 INFO o.s.b.SpringApplication {logStartupProfileInfo} [main] The following 1 profile is active: "test"
+2025-04-26 13:10:22,816 INFO o.s.s.w.DefaultSecurityFilterChain {<init>} [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6c742b84, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5db3d57c, org.springframework.security.web.context.SecurityContextPersistenceFilter@72557746, org.springframework.security.web.header.HeaderWriterFilter@14c99bf6, org.springframework.security.web.authentication.logout.LogoutFilter@14fc9bd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4844930a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@11f23203, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@53a50b0a, org.springframework.security.web.session.SessionManagementFilter@34c53688, org.springframework.security.web.access.ExceptionTranslationFilter@2db15f70, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@33d7765a]
+2025-04-26 13:10:24,483 INFO o.s.m.w.MockServletContext {log} [main] Initializing Spring TestDispatcherServlet ''
+2025-04-26 13:10:24,487 INFO o.s.w.s.FrameworkServlet {initServletBean} [main] Initializing Servlet ''
+2025-04-26 13:10:24,492 INFO o.s.w.s.FrameworkServlet {initServletBean} [main] Completed initialization in 3 ms
+2025-04-26 13:10:24,596 INFO o.s.b.StartupInfoLogger {logStarted} [main] Started BikeControllerTests in 5.912 seconds (JVM running for 7.214)
+2025-04-26 13:10:25,213 INFO c.s.a.c.BikeController {addBike} [main] BEGIN addBike
+2025-04-26 13:10:25,418 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=Orbea, model=, color=
+2025-04-26 13:10:25,426 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 2 bicicletas filtradas
+2025-04-26 13:10:25,473 INFO c.s.a.c.BikeController {addBike} [main] BEGIN addBike
+2025-04-26 13:10:25,473 INFO c.s.a.c.BikeController {addBike} [main] END addBike
+2025-04-26 13:10:25,577 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=, model=, color=
+2025-04-26 13:10:25,579 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 0 bicicletas filtradas
+2025-04-26 13:10:25,619 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=, model=, color=
+2025-04-26 13:10:25,619 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 3 bicicletas filtradas
+2025-04-26 13:10:25,643 INFO c.s.a.c.BikeController {getBike} [main] BEGIN getBike
+2025-04-26 13:10:25,653 INFO c.s.a.c.BikeController {getBike} [main] END getBike
+2025-04-26 13:10:25,725 INFO c.s.a.c.BikeController {getBike} [main] BEGIN getBike
+2025-04-26 14:40:02,313 INFO o.h.v.i.u.Version {<clinit>} [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2025-04-26 14:40:02,360 INFO o.s.b.StartupInfoLogger {logStarting} [main] Starting BikeControllerTests using Java 21 on DESKTOP-A2Q7539 with PID 17420 (started by 34618 in C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring)
+2025-04-26 14:40:02,362 INFO o.s.b.SpringApplication {logStartupProfileInfo} [main] The following 1 profile is active: "test"
+2025-04-26 14:40:08,104 INFO o.s.s.w.DefaultSecurityFilterChain {<init>} [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@65eb3597, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3c7279a5, org.springframework.security.web.context.SecurityContextPersistenceFilter@62c3f556, org.springframework.security.web.header.HeaderWriterFilter@7db40fd5, org.springframework.security.web.authentication.logout.LogoutFilter@5e5ddfbc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4052b19f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3dc68586, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2bebd114, org.springframework.security.web.session.SessionManagementFilter@f723cdb, org.springframework.security.web.access.ExceptionTranslationFilter@5aa781f2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@40d848f9]
+2025-04-26 14:40:10,802 INFO o.s.m.w.MockServletContext {log} [main] Initializing Spring TestDispatcherServlet ''
+2025-04-26 14:40:10,807 INFO o.s.w.s.FrameworkServlet {initServletBean} [main] Initializing Servlet ''
+2025-04-26 14:40:10,815 INFO o.s.w.s.FrameworkServlet {initServletBean} [main] Completed initialization in 5 ms
+2025-04-26 14:40:11,001 INFO o.s.b.StartupInfoLogger {logStarted} [main] Started BikeControllerTests in 10.486 seconds (JVM running for 13.79)
+2025-04-26 14:40:12,020 INFO c.s.a.c.BikeController {addBike} [main] BEGIN addBike
+2025-04-26 14:40:12,270 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=Orbea, model=, color=
+2025-04-26 14:40:12,286 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 2 bicicletas filtradas
+2025-04-26 14:40:12,355 INFO c.s.a.c.BikeController {addBike} [main] BEGIN addBike
+2025-04-26 14:40:12,360 INFO c.s.a.c.BikeController {addBike} [main] END addBike
+2025-04-26 14:40:12,510 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=, model=, color=
+2025-04-26 14:40:12,527 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 0 bicicletas filtradas
+2025-04-26 14:40:12,560 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=, model=, color=
+2025-04-26 14:40:12,564 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 3 bicicletas filtradas
+2025-04-26 14:40:12,590 INFO c.s.a.c.BikeController {getBike} [main] BEGIN getBike
+2025-04-26 14:40:12,590 INFO c.s.a.c.BikeController {getBike} [main] END getBike
+2025-04-26 14:40:12,730 INFO c.s.a.c.BikeController {modifyBike} [main] BEGIN modifyBike
+2025-04-26 14:40:12,817 INFO c.s.a.c.BikeController {modifyBike} [main] BEGIN modifyBike
+2025-04-26 14:40:12,820 INFO c.s.a.c.BikeController {modifyBike} [main] END modifyBike
+2025-04-26 14:40:12,844 INFO c.s.a.c.BikeController {getBike} [main] BEGIN getBike
+2025-04-26 14:43:23,704 INFO o.h.v.i.u.Version {<clinit>} [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2025-04-26 14:43:23,722 INFO o.s.b.StartupInfoLogger {logStarting} [main] Starting BikeControllerTests using Java 21 on DESKTOP-A2Q7539 with PID 11056 (started by 34618 in C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring)
+2025-04-26 14:43:23,726 INFO o.s.b.SpringApplication {logStartupProfileInfo} [main] The following 1 profile is active: "test"
+2025-04-26 14:43:29,170 INFO o.s.s.w.DefaultSecurityFilterChain {<init>} [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3c7279a5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2bebd114, org.springframework.security.web.context.SecurityContextPersistenceFilter@2cfe272f, org.springframework.security.web.header.HeaderWriterFilter@5e1a5f, org.springframework.security.web.authentication.logout.LogoutFilter@5bda157e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3dc68586, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@60dc1a4e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@b379bc6, org.springframework.security.web.session.SessionManagementFilter@4844930a, org.springframework.security.web.access.ExceptionTranslationFilter@58feb6b0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4a864d4d]
+2025-04-26 14:43:31,804 INFO o.s.m.w.MockServletContext {log} [main] Initializing Spring TestDispatcherServlet ''
+2025-04-26 14:43:31,806 INFO o.s.w.s.FrameworkServlet {initServletBean} [main] Initializing Servlet ''
+2025-04-26 14:43:31,813 INFO o.s.w.s.FrameworkServlet {initServletBean} [main] Completed initialization in 5 ms
+2025-04-26 14:43:31,918 INFO o.s.b.StartupInfoLogger {logStarted} [main] Started BikeControllerTests in 10.09 seconds (JVM running for 15.788)
+2025-04-26 14:43:33,625 INFO c.s.a.c.BikeController {addBike} [main] BEGIN addBike
+2025-04-26 14:43:33,978 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=Orbea, model=, color=
+2025-04-26 14:43:33,986 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 2 bicicletas filtradas
+2025-04-26 14:43:34,068 INFO c.s.a.c.BikeController {addBike} [main] BEGIN addBike
+2025-04-26 14:43:34,073 INFO c.s.a.c.BikeController {addBike} [main] END addBike
+2025-04-26 14:43:34,342 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=, model=, color=
+2025-04-26 14:43:34,346 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 0 bicicletas filtradas
+2025-04-26 14:43:34,458 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=, model=, color=
+2025-04-26 14:43:34,460 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 3 bicicletas filtradas
+2025-04-26 14:43:34,554 INFO c.s.a.c.BikeController {getBike} [main] BEGIN getBike
+2025-04-26 14:43:34,558 INFO c.s.a.c.BikeController {getBike} [main] END getBike
+2025-04-26 14:43:34,807 INFO c.s.a.c.BikeController {removeBike} [main] BEGIN removeBike
+2025-04-26 14:43:34,814 INFO c.s.a.c.BikeController {removeBike} [main] END removeBike
+2025-04-26 14:43:34,912 INFO c.s.a.c.BikeController {modifyBike} [main] BEGIN modifyBike
+2025-04-26 14:43:35,041 INFO c.s.a.c.BikeController {modifyBike} [main] BEGIN modifyBike
+2025-04-26 14:43:35,045 INFO c.s.a.c.BikeController {modifyBike} [main] END modifyBike
+2025-04-26 14:43:35,101 INFO c.s.a.c.BikeController {removeBike} [main] BEGIN removeBike
+2025-04-26 14:43:35,128 INFO c.s.a.c.BikeController {getBike} [main] BEGIN getBike
+2025-04-26 14:48:09,426 INFO o.h.v.i.u.Version {<clinit>} [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2025-04-26 14:48:09,453 INFO o.s.b.StartupInfoLogger {logStarting} [main] Starting BikeControllerTests using Java 21 on DESKTOP-A2Q7539 with PID 17164 (started by 34618 in C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring)
+2025-04-26 14:48:09,453 INFO o.s.b.SpringApplication {logStartupProfileInfo} [main] The following 1 profile is active: "test"
+2025-04-26 14:48:15,292 INFO o.s.s.w.DefaultSecurityFilterChain {<init>} [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2bebd114, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b379bc6, org.springframework.security.web.context.SecurityContextPersistenceFilter@2f95653f, org.springframework.security.web.header.HeaderWriterFilter@31b0f02, org.springframework.security.web.authentication.logout.LogoutFilter@67e0fd6d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@60dc1a4e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@646427f7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@374c40ba, org.springframework.security.web.session.SessionManagementFilter@11f23203, org.springframework.security.web.access.ExceptionTranslationFilter@66d25ba9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7d3691e1]
+2025-04-26 14:48:17,836 INFO o.s.m.w.MockServletContext {log} [main] Initializing Spring TestDispatcherServlet ''
+2025-04-26 14:48:17,836 INFO o.s.w.s.FrameworkServlet {initServletBean} [main] Initializing Servlet ''
+2025-04-26 14:48:17,846 INFO o.s.w.s.FrameworkServlet {initServletBean} [main] Completed initialization in 4 ms
+2025-04-26 14:48:17,955 INFO o.s.b.StartupInfoLogger {logStarted} [main] Started BikeControllerTests in 10.152 seconds (JVM running for 13.232)
+2025-04-26 14:48:19,190 INFO c.s.a.c.BikeController {addBike} [main] BEGIN addBike
+2025-04-26 14:48:19,392 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=Orbea, model=, color=
+2025-04-26 14:48:19,396 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 2 bicicletas filtradas
+2025-04-26 14:48:19,459 INFO c.s.a.c.BikeController {addBike} [main] BEGIN addBike
+2025-04-26 14:48:19,459 INFO c.s.a.c.BikeController {addBike} [main] END addBike
+2025-04-26 14:48:19,665 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=, model=, color=
+2025-04-26 14:48:19,681 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 3 bicicletas filtradas
+2025-04-26 14:48:19,697 INFO c.s.a.c.BikeController {getBike} [main] BEGIN getBike
+2025-04-26 14:48:19,713 INFO c.s.a.c.BikeController {getBike} [main] END getBike
+2025-04-26 14:48:19,840 INFO c.s.a.c.BikeController {removeBike} [main] BEGIN removeBike
+2025-04-26 14:48:19,844 INFO c.s.a.c.BikeController {removeBike} [main] END removeBike
+2025-04-26 14:48:19,893 INFO c.s.a.c.BikeController {modifyBike} [main] BEGIN modifyBike
+2025-04-26 14:48:19,985 INFO c.s.a.c.BikeController {modifyBike} [main] BEGIN modifyBike
+2025-04-26 14:48:19,985 INFO c.s.a.c.BikeController {modifyBike} [main] END modifyBike
+2025-04-26 14:48:20,022 INFO c.s.a.c.BikeController {removeBike} [main] BEGIN removeBike
+2025-04-26 14:48:20,046 INFO c.s.a.c.BikeController {getBike} [main] BEGIN getBike
+2025-04-26 17:55:28,135 INFO o.h.v.i.u.Version {<clinit>} [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2025-04-26 17:55:28,161 INFO o.s.b.StartupInfoLogger {logStarting} [main] Starting BikeControllerTests using Java 21 on DESKTOP-A2Q7539 with PID 11692 (started by 34618 in C:\Users\34618\Documents\2DAM Gdo. Superior\Acceso a datos 2DAM\hellospring)
+2025-04-26 17:55:28,164 INFO o.s.b.SpringApplication {logStartupProfileInfo} [main] The following 1 profile is active: "test"
+2025-04-26 17:55:34,276 INFO o.s.s.w.DefaultSecurityFilterChain {<init>} [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6af310c7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4aed311e, org.springframework.security.web.context.SecurityContextPersistenceFilter@30a9e3db, org.springframework.security.web.header.HeaderWriterFilter@51ff3c4b, org.springframework.security.web.authentication.logout.LogoutFilter@339f3a55, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@16a3cc88, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@696b52bc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c38cd16, org.springframework.security.web.session.SessionManagementFilter@517704, org.springframework.security.web.access.ExceptionTranslationFilter@2e56b4d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@76cdafa3]
+2025-04-26 17:55:37,034 INFO o.s.m.w.MockServletContext {log} [main] Initializing Spring TestDispatcherServlet ''
+2025-04-26 17:55:37,042 INFO o.s.w.s.FrameworkServlet {initServletBean} [main] Initializing Servlet ''
+2025-04-26 17:55:37,048 INFO o.s.w.s.FrameworkServlet {initServletBean} [main] Completed initialization in 4 ms
+2025-04-26 17:55:37,204 INFO o.s.b.StartupInfoLogger {logStarted} [main] Started BikeControllerTests in 10.78 seconds (JVM running for 14.302)
+2025-04-26 17:55:38,254 INFO c.s.a.c.BikeController {addBike} [main] BEGIN addBike
+2025-04-26 17:55:38,451 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=Orbea, model=, color=
+2025-04-26 17:55:38,471 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 2 bicicletas filtradas
+2025-04-26 17:55:38,554 INFO c.s.a.c.BikeController {addBike} [main] BEGIN addBike
+2025-04-26 17:55:38,557 INFO c.s.a.c.BikeController {addBike} [main] END addBike
+2025-04-26 17:55:38,818 INFO c.s.a.c.BikeController {filterBikes} [main] Filtrando bicicletas con parámetros: brand=, model=, color=
+2025-04-26 17:55:38,821 INFO c.s.a.c.BikeController {filterBikes} [main] Operación completada: Se obtuvieron 3 bicicletas filtradas
+2025-04-26 17:55:38,856 INFO c.s.a.c.BikeController {getBike} [main] BEGIN getBike
+2025-04-26 17:55:38,864 INFO c.s.a.c.BikeController {getBike} [main] END getBike
+2025-04-26 17:55:38,985 INFO c.s.a.c.BikeController {removeBike} [main] BEGIN removeBike
+2025-04-26 17:55:38,986 INFO c.s.a.c.BikeController {removeBike} [main] END removeBike
+2025-04-26 17:55:39,048 INFO c.s.a.c.BikeController {modifyBike} [main] BEGIN modifyBike
+2025-04-26 17:55:39,168 INFO c.s.a.c.BikeController {modifyBike} [main] BEGIN modifyBike
+2025-04-26 17:55:39,168 INFO c.s.a.c.BikeController {modifyBike} [main] END modifyBike
+2025-04-26 17:55:39,200 INFO c.s.a.c.BikeController {removeBike} [main] BEGIN removeBike
+2025-04-26 17:55:39,234 INFO c.s.a.c.BikeController {getBike} [main] BEGIN getBike

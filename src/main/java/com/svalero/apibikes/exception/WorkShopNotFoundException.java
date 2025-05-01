@@ -1,6 +1,6 @@
 package com.svalero.apibikes.exception;
 
-public class WorkShopNotFoundException extends Exception{
+public class WorkShopNotFoundException extends Exception {
     public WorkShopNotFoundException(){
         super("The workshop does not exist");
     }

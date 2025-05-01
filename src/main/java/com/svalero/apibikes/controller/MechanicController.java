@@ -53,7 +53,7 @@ public class MechanicController {
     }
 
     @PostMapping("/mechanics")
-    public ResponseEntity<MechanicOutDto> addMechanic(@RequestBody MechanicInDto mechanicInDto) {
+    public ResponseEntity<MechanicOutDto> addMechanic(@Valid @RequestBody MechanicInDto mechanicInDto) {
         logger.info("BEGIN addMechanic");
         MechanicOutDto newMechanic = mechanicService.add(mechanicInDto);
         logger.info("END addMechanic");
@@ -77,6 +77,7 @@ public class MechanicController {
         return ResponseEntity.noContent().build();
     }
 
+    /*
     @ExceptionHandler
     public ResponseEntity<ErrorResponse> handleMechanicNotFoundException(MechanicNotFoundException exception) {
         ErrorResponse error = ErrorResponse.generalError(404, exception.getMessage());
@@ -103,5 +104,6 @@ public class MechanicController {
         logger.error(exception.getMessage(), exception);
         return new ResponseEntity<>(error, HttpStatus.INTERNAL_SERVER_ERROR);
     }
+    */
 }
 

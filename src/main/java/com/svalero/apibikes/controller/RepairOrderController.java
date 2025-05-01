@@ -49,7 +49,7 @@ public class RepairOrderController {
     }
 
     @PostMapping("/repair-orders")
-    public ResponseEntity<RepairOrderOutDto> addRepairOrder(@RequestBody RepairOrderInDto repairOrderInDto) {
+    public ResponseEntity<RepairOrderOutDto> addRepairOrder(@Valid @RequestBody RepairOrderInDto repairOrderInDto) {
         logger.info("BEGIN addRepairOrder");
         RepairOrderOutDto newRepairOrder = repairOrderService.add(repairOrderInDto);
         logger.info("END addRepairOrder");
@@ -73,6 +73,7 @@ public class RepairOrderController {
         return ResponseEntity.noContent().build();
     }
 
+    /*
     @ExceptionHandler
     public ResponseEntity<ErrorResponse> handleRepairOrderNotFoundException(RepairOrderNotFoundException exception) {
         ErrorResponse error = ErrorResponse.generalError(404, exception.getMessage());
@@ -99,4 +100,5 @@ public class RepairOrderController {
         logger.error(exception.getMessage(), exception);
         return new ResponseEntity<>(error, HttpStatus.INTERNAL_SERVER_ERROR);
     }
+    */
 }

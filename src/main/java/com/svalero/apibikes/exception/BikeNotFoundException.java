@@ -1,6 +1,6 @@
 package com.svalero.apibikes.exception;
 
-public class BikeNotFoundException extends Exception{
+public class BikeNotFoundException extends Exception {
     public BikeNotFoundException(){
         super("The bike does not exist");
     }
